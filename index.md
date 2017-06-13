@@ -1,15 +1,14 @@
+%Ninad Khargonkar	
 
-## Ninad Khargonkar	
-
-I am a Masters student in Computer Science at the University of Massachusetts, Amherst.
+I am a Masters student in Computer Science at the University of Massachusetts, Amherst and 
 I graduated from IIT-Kanpur with a bachelors degree from the department of Mathematics and Statistics.
-You can find my CV [here](link to CV)
+You can find my CV [here](link to CV).
 
-![](ninad02.jpg)
+![](ninad.jpg)
 
 ---
 
-My contact information:
+**Contact information:**
 
  * ninad.khargonkar at gmail.com
  
@@ -20,12 +19,12 @@ My contact information:
 ---
 
 My primary passtime is playing and watching football (soccer). Here are
-some interesting football related websites:
+some nice football related websites:
 
  * [Fantasy premier league](http://fantasy.premierleague.com/)
  * [Squawka](http://www.squawka.com/home/)
  * [Spielverlagerung](http://spielverlagerung.com/)
 
----
 
+ 
 ###### This site was created using [pandoc](http://pandoc.org/)
