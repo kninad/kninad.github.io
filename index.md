@@ -1,8 +1,9 @@
 %Ninad Khargonkar	
 
-I am a Masters student in Computer Science at the University of Massachusetts, Amherst and 
-I graduated from IIT-Kanpur with a bachelors degree from the department of Mathematics and Statistics.
-You can find my CV [here](link to CV).
+I graduated from IIT-Kanpur with a bachelors degree from the department of
+Mathematics and Statistics and I will be joining the Masters program in Computer
+ Science at the University of Massachusetts, Amherst. 
+You can find my CV [here](link to CV / Not Available!!).
 
 ![](ninad.jpg)
 
@@ -28,3 +29,8 @@ some nice football related websites:
 
  
 ###### This site was created using [pandoc](http://pandoc.org/)
+
+
+[comment]: # (This actually is the most platform independent comment)
+
+[comment]: # (pandoc -c ./github-pandoc.css --to=html5 index.md -o index.html)
