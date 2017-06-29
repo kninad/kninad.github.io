@@ -1,6 +1,4 @@
-% vim tmux
-
-## Vim
+% vim and tmux
 
 A very good resource for taking up vim is vimtutor (which comes with vim).
 For customizing vim, edit the .vimrc file in the home directory. 
@@ -72,6 +70,8 @@ U -- fix the whole line as it was
 <Ctrl-R\> -- undo the undos
 
 ---
+
+### tmux
 
 Since vim is terminal based a terminal multiplexer like [tmux](https://github.com/tmux/tmux/wiki)
 helps a lot while programming with vim since tabs can be cumbersome. I found this

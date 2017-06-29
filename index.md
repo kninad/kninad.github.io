@@ -26,11 +26,16 @@ some nice football related websites:
  * [Squawka](http://www.squawka.com/home/)
  * [Spielverlagerung](http://spielverlagerung.com/)
 
+---
 
+**Some posts:**
+
+- [vim and tmux](vimtmux.html)
+
+- [gre](gre.html)
  
 ###### This site was created using [pandoc](http://pandoc.org/)
 
-
-[comment]: # (This actually is the most platform independent comment)
-
-[comment]: # (pandoc -c ./github-pandoc.css --to=html5 index.md -o index.html)
+~~~
+pandoc -c ./github-pandoc.css --to=html5 index.md -o index.html
+~~~
