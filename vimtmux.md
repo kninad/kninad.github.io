@@ -5,15 +5,18 @@ terminal and comes with vim.
 For customizing vim, edit the .vimrc file in the home directory. Some useful
 links for vim:
 
-[Vim cheatsheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
+- [Vim cheatsheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
 
-[vimrc guide](https://dougblack.io/words/a-good-vimrc.html)
+- [vimrc guide](https://dougblack.io/words/a-good-vimrc.html)
 
-Since vim is terminal based a terminal multiplexer like [tmux](https://github.com/tmux/tmux/wiki)
-helps a lot while programming with vim since tabs can be cumbersome. I found this
-[guide](http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) to tmux 
+Since vim is terminal based, a terminal multiplexer like 
+[tmux](https://github.com/tmux/tmux/wiki)
+helps a lot while programming with vim since multiple terminal tabs can be problematic. 
+I found this
+[guide](http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) 
+to tmux 
 quite good. There is also a [book](https://leanpub.com/the-tao-of-tmux/read) for
- tmux!!
+ tmux!
 
 
 Noting down some useful vim keystrokes:
