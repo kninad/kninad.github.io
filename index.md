@@ -34,7 +34,10 @@ some nice football related websites:
 
 - [gre](gre.html)
  
-###### This site was created using [pandoc](http://pandoc.org/)
+---
+
+###### This site was created using [pandoc](http://pandoc.org/). [Link](https://gist.github.com/dashed/6714393) for css file.
+		
 
 ~~~
 pandoc -c ./github-pandoc.css --to=html5 index.md -o index.html

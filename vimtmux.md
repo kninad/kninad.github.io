@@ -1,15 +1,26 @@
 % vim and tmux
 
-A very good resource for taking up vim is vimtutor (which comes with vim).
-For customizing vim, edit the .vimrc file in the home directory. 
+A very good resource for taking up vim is vimtutor which can accessed in a
+terminal and comes with vim.
+For customizing vim, edit the .vimrc file in the home directory. Some useful
+links for vim:
 
 [Vim cheatsheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
 
 [vimrc guide](https://dougblack.io/words/a-good-vimrc.html)
 
+Since vim is terminal based a terminal multiplexer like [tmux](https://github.com/tmux/tmux/wiki)
+helps a lot while programming with vim since tabs can be cumbersome. I found this
+[guide](http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) to tmux 
+quite good. There is also a [book](https://leanpub.com/the-tao-of-tmux/read) for
+ tmux!!
+
+
+Noting down some useful vim keystrokes:
+
 ---
 
-### Navigation
+#### Navigation
 
 h -- go left
 
@@ -21,7 +32,7 @@ l -- go right
 
 ---
 
-### Saving files
+#### Saving files
 
 :w -- write (save) the file
 
@@ -35,7 +46,7 @@ ESC -- Will exit inset mode (and go back to normal mode)
 
 ---
 
-### Operators
+#### Operators
 
 Operators can be combined with the motion keys to produce different kinds of 
 commands. You can guess what the motion keys are from the commands below.
@@ -61,7 +72,7 @@ p -- put prev deleted text after cursor
 
 ---
 
-### Undo
+#### Undo
 
 u -- undo the previous command
 
@@ -71,10 +82,4 @@ U -- fix the whole line as it was
 
 ---
 
-### tmux
-
-Since vim is terminal based a terminal multiplexer like [tmux](https://github.com/tmux/tmux/wiki)
-helps a lot while programming with vim since tabs can be cumbersome. I found this
-[guide](http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) to tmux 
-quite good. There is also a [book](https://leanpub.com/the-tao-of-tmux/read) for
- tmux!!
+#### [home](index.html)
