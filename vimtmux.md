@@ -1,4 +1,8 @@
-% vim and tmux
+---
+title: vim & tmux
+---
+
+## Vim and tmux
 
 A very good resource for taking up vim is vimtutor which can accessed in a
 terminal and comes with vim.
@@ -85,4 +89,4 @@ U -- fix the whole line as it was
 
 ---
 
-#### [home](index.html)
+##### [Home](index.html)
