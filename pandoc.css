@@ -26,7 +26,7 @@ figure {
 }
 a {
     text-decoration: none;
-    color: #0097c4;
+    /*color: #0097c4;*/
 }
 a:hover {
     text-decoration: underline;
@@ -37,21 +37,8 @@ p {
 }
 
 ul {
-    list-style: disc;
+    list-style: '- ';
 }
 
 
-nav ul, footer ul {
-	padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
 
