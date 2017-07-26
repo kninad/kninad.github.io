@@ -1,0 +1,79 @@
+/* 
+ * Basic css file for use with pandoc 
+ */
+
+/* Modifications to bootstrap css */
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:8px !important; padding-bottom:0 !important;
+    height: 35px;
+}
+.navbar {min-height:30px !important;}
+
+
+body {
+    width: 45em;
+    max-width: 99%;
+    margin: 0 auto;
+    margin-top:1em;
+    margin-bottom:1em;
+    padding: 1.5em;
+	font-family: 'Droid Sans', 'Helvetica', sans-serif ; 
+	font-size:16px;
+    line-height: 1.6em;
+    background-color: #fefefe	;
+}
+/*
+
+h1,h2,h3,h4,h5,h6{
+margin-left:0.5em;
+}
+figure{ 
+padding-left:0.5em;
+}
+
+p {margin-left:0.5em;}
+*/
+figure {
+    display: block;
+    margin:0;   
+    page-break-inside:avoid; 
+}
+img {
+	max-width: 200px;
+	max-height: 150px;
+	border: solid 1px black;
+}
+
+
+a {
+    text-decoration: none;
+    color: #0057b4;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a::-moz-selection {
+  background: #8dcafc;
+  color: #0645ad;
+}
+
+a::selection {
+  background: #8dcafc;
+  color: #0645ad;
+}
+
+ul {
+    list-style: '- ';
+}
+
+h4, h5, h6 {
+  font-weight: bold;
+}
+
+footer {
+    font-size: 70%;
+    color: gray;
+}
+
+

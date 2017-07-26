@@ -1,0 +1,18 @@
+#!/bin/bash
+
+AUTHOR="Ninad"
+HEADER="./helpers/header.html"
+BEFORE="./helpers/before-body.html"
+AFTER="./helpers/after-body.html"
+
+for mf in ./*.md
+do
+	filename="${mf%.*}"
+	echo "Converting $mf to $filename.html" #Pandoc command for conversion to html:	
+	pandoc	-H "$HEADER"  -B "$BEFORE" -A "$AFTER" -V author-meta="$AUTHOR" -f markdown -t html5 -o $filename.html  $mf	
+done
+
+# Some old commands for reference
+# --template standalone.html --css template.css --toc --toc-depth=2`		 
+#	`pandoc		-c "$CSS"  	-H "$HEADER"  -B "$BEFORE" -A "$AFTER" -V pagetitle="$TITLE" -V author-meta="$AUTHOR" 	-f markdown -t html5 -o $filename.html  $f `
+

@@ -4,21 +4,43 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="author" content="Ninad">
   <title>vim &amp; tmux</title>
   <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="./pandoc.css">
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
+  <!-- Bootstrap core CSS -->
+  <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom css file for main content and modifications to bootstrap css -->
+  <link href="./css/pandoc.css" rel="stylesheet">
+  
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 </head>
 <body>
 <header>
-<h1 class="title">vim &amp; tmux</h1>
+  <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">          
+          <a class="navbar-brand">Ninad Khargonkar</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="./misc.html">Misc</a></li>
+            <li><a href="#cv">CV</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 </header>
-<h2 id="vim-and-tmux">Vim and tmux</h2>
+<h3 id="vim-and-tmux">Vim and tmux</h3>
 <p>A very good resource for taking up vim is vimtutor which can accessed in a terminal and comes with vim. For customizing vim, edit the .vimrc file in the home directory. Some useful links for vim:</p>
 <ul>
-<li><p><a href="http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html">Vim cheatsheet</a></p></li>
+<li><p><a href="http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html">vim cheatsheet</a></p></li>
 <li><p><a href="https://dougblack.io/words/a-good-vimrc.html">vimrc guide</a></p></li>
 </ul>
 <p>Since vim is terminal based, a terminal multiplexer like <a href="https://github.com/tmux/tmux/wiki">tmux</a> helps a lot while programming with vim since multiple terminal tabs can be problematic. I found this <a href="http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/">guide</a> to tmux quite good. There is also a <a href="https://leanpub.com/the-tao-of-tmux/read">book</a> for tmux!</p>
@@ -54,6 +76,8 @@
 <p>U -- fix the whole line as it was</p>
 <p><Ctrl-R\> -- undo the undos</p>
 <hr />
-<h5 id="home"><a href="index.html">Home</a></h5>
+<footer>
+	Created with <a href="https://pandoc.org/">pandoc</a> and <a href="http://getbootstrap.com/">bootstrap.</a>
+</footer>
 </body>
 </html>

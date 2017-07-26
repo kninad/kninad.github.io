@@ -1,15 +1,15 @@
 ---
-title: vim & tmux
+pagetitle: vim & tmux
 ---
 
-## Vim and tmux
+### Vim and tmux
 
 A very good resource for taking up vim is vimtutor which can accessed in a
 terminal and comes with vim.
 For customizing vim, edit the .vimrc file in the home directory. Some useful
 links for vim:
 
-- [Vim cheatsheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
+- [vim cheatsheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
 
 - [vimrc guide](https://dougblack.io/words/a-good-vimrc.html)
 
@@ -88,5 +88,3 @@ U -- fix the whole line as it was
 <Ctrl-R\> -- undo the undos
 
 ---
-
-##### [Home](index.html)
