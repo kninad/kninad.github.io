@@ -12,7 +12,7 @@ Mathematics and Statistics and I will be joining the Masters program in Computer
 ![kolkata](./images/ninad_home.jpg){#kolkatapic}
 
 
-phone: (+91) 775-289-4436
+phone:(+91) 775-289-4436
 
 ninad.khargonkar@gmail.com  
 

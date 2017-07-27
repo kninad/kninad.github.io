@@ -18,10 +18,17 @@ body {
 	font-family: 'Helvetica', sans-serif ; font-size:16px;
     line-height: 1.4em; 
 }
+
 h5, h6 {  font-weight: bold;}
+
 h1,h2,h3,h4,h5,h6,p,figure,img,pre,footer {margin-left:15px;}
 
+ul {list-style: '- ';}
+
+footer {font-size: 70%;color: gray;}
+
 figure { display: block; margin:0; page-break-inside:avoid; }
+
 img { 
 	max-width: 200px;max-height: 2000px;
 	border: solid 1px black; margin-right: 20px;
@@ -33,5 +40,3 @@ a {text-decoration: none;color: #0057b4; }
 a:hover {text-decoration: underline; }
 a::-moz-selection {  background: #8dcafc;  color: #0645ad;}
 a::selection {  background: #8dcafc;  color: #0645ad;}
-ul {list-style: '- ';}
-footer {font-size: 70%;color: gray;}
