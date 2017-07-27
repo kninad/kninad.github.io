@@ -31,7 +31,7 @@ figure { display: block; margin:0; page-break-inside:avoid; }
 
 img { 
 	max-width: 200px;max-height: 2000px;
-	border: solid 1px black; margin-right: 20px;
+	margin-right: 20px;
 }
 figcaption{display:none;}
 #kolkatapic{float:left;max-height:170px;}
