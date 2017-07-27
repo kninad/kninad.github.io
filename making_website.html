@@ -10,23 +10,30 @@
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
-  <!-- Bootstrap core CSS -->
+  <!-- Addtional links to included in the head section -->
+  
+  <!-- Bootstrap -->
   <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
   
   <!-- Custom css file for main content and modifications to bootstrap css -->
   <link href="./css/pandoc.css" rel="stylesheet">
-  
-  <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 </head>
 <body>
-<header>
+<!-- Navbar code that comes before the main content of the page -->
+<!-- Note that this part is included in the body section (see source) -->
+<!-- Default navbar -->
   <nav class="navbar navbar-default">
       <div class="container-fluid">
-        <div class="navbar-header">          
+        <div class="navbar-header"> 
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>                        
+		  </button>         
           <a class="navbar-brand">Ninad Khargonkar</a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
+        <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="./index.html">Home</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -36,11 +43,11 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-</header>
 <h3 id="building-this-website">Building this website</h3>
-<p>I wrote this page to document the process of creating this website. I took the help of two main tools to simplify the entire process: <a href="https://pandoc.org/">pandoc</a>and <a href="http://getbootstrap.com/">bootstrap</a>. Pandoc is a very useful document converter which is handy tool for creating the html code for the website and Bootstrap is useful for styling the website. After locally creating the necessary files, I used <a href="https://pages.github.com/">Github pages</a> for hosting the website.</p>
-<p>Each page of this website was written in <a href="http://pandoc.org/MANUAL.html#pandocs-markdown">markdown</a> and hence it was very easy to write or modify the content and also to track the changes using git. The basic pandoc command for converting the markdown file to html will only output a plain html file. Although pandoc supports writing raw html code in the markdown file itself, but its not highly recommended as its better to keep the markdown file clean.</p>
-<p>For further modifications, pandoc supports passing html files which can be added to three positions (header, before-body and after-body) in the final html code for the page and one even play around with the default html template. I added the simple navigation bar(navbar) at the top using bootstrap and made some modifications to it using a custom css file. Finally I wrote a bash script to run the pandoc command on all the markdown files in a loop which made re-publishing the website very convinient.</p>
+<h6 id="july-2017">26-July-2017</h6>
+<p>I wrote this page to document the process of creating this website. I took the help of two main tools to simplify the entire process: <a href="https://pandoc.org/">pandoc</a> and <a href="http://getbootstrap.com/">bootstrap</a>. Pandoc is a very useful document converter and a handy tool for creating the html code of the website and bootstrap is used for styling the website. After creating the necessary files (locally), I used <a href="https://pages.github.com/">Github pages</a> for hosting the website.</p>
+<p>Each page of this website was written in <a href="http://pandoc.org/MANUAL.html#pandocs-markdown">markdown</a> and hence it was very easy to write or modify the content and track the changes using git. The basic pandoc command for converting the markdown file to html will only output a plain html file. Although pandoc supports writing raw html code in the markdown file, but its not recommended as its better to keep the markdown file clean.</p>
+<p>For further modifications, pandoc supports passing html files which can be added to three positions (header, before-body and after-body) in the final html code for the page. (additionally, one even play around with the default html template) I added the simple navigation bar (navbar) at the top using bootstrap and made some modifications to it using a custom css file. Finally I wrote a bash script to run the pandoc command on all the markdown files in a loop which made re-publishing / modifying the website very convinient.</p>
 <pre><code>#!/bin/bash
 
 AUTHOR=&quot;Ninad&quot;
@@ -59,6 +66,7 @@ do
 done</code></pre>
 <p>You can check out my files at the <a href="https://github.com/ninception/ninception.github.io">github repo</a> for this website.</p>
 <hr />
+<!-- Footer code that comes AFTER the main body content --> 
 <footer>
 	Created with <a href="https://pandoc.org/">pandoc</a> and <a href="http://getbootstrap.com/">bootstrap.</a>
 </footer>

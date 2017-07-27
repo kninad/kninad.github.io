@@ -10,23 +10,30 @@
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
-  <!-- Bootstrap core CSS -->
+  <!-- Addtional links to included in the head section -->
+  
+  <!-- Bootstrap -->
   <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
   
   <!-- Custom css file for main content and modifications to bootstrap css -->
   <link href="./css/pandoc.css" rel="stylesheet">
-  
-  <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 </head>
 <body>
-<header>
+<!-- Navbar code that comes before the main content of the page -->
+<!-- Note that this part is included in the body section (see source) -->
+<!-- Default navbar -->
   <nav class="navbar navbar-default">
       <div class="container-fluid">
-        <div class="navbar-header">          
+        <div class="navbar-header"> 
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>                        
+		  </button>         
           <a class="navbar-brand">Ninad Khargonkar</a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
+        <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="./index.html">Home</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -36,8 +43,8 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-</header>
 <h3 id="vim-and-tmux">Vim and tmux</h3>
+<h6 id="july-2017">15-July-2017</h6>
 <p>A very good resource for taking up vim is vimtutor which can accessed in a terminal and comes with vim. For customizing vim, edit the .vimrc file in the home directory. Some useful links for vim:</p>
 <ul>
 <li><p><a href="http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html">vim cheatsheet</a></p></li>
@@ -76,6 +83,7 @@
 <p>U -- fix the whole line as it was</p>
 <p><Ctrl-R\> -- undo the undos</p>
 <hr />
+<!-- Footer code that comes AFTER the main body content --> 
 <footer>
 	Created with <a href="https://pandoc.org/">pandoc</a> and <a href="http://getbootstrap.com/">bootstrap.</a>
 </footer>

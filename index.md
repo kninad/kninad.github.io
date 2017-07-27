@@ -9,23 +9,19 @@ Mathematics and Statistics and I will be joining the Masters program in Computer
  Science at the University of Massachusetts, Amherst. 
 
 
-![](./images/ninad_home.jpg)
+![kolkata](./images/ninad_home.jpg){#kolkatapic}
+
+
+phone: (+91) 775-289-4436
+
+ninad.khargonkar@gmail.com  
+
+nkhargonkar@cs.umass.edu
+
+[LinkedIn](https://www.linkedin.com/in/ninadkhargonkar/)
+
+[Github](https://github.com/ninception)
 
 ---
-
-**Contact information:**
-
-gmail: ninad.khargonkar at gmail.com
- 
-umass: nkhargonkar at cs.umass.edu	
-
-phone: (+91) 775-289-4436-00OOII11	
-
----
-
-
-
-
-
 
 
