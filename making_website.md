@@ -15,7 +15,7 @@ html code of the website and bootstrap is used for styling the website.
 After creating the necessary files (locally), I used 
 [Github pages](https://pages.github.com/) for hosting the website.
 
-Each page of this website was written in [markdown](http://pandoc.org/MANUAL.html#pandocs-markdown)
+Each page of this website was written in pandoc's [markdown](http://pandoc.org/MANUAL.html#pandocs-markdown)
 and hence it was very easy to
 write or modify the content and track the changes using git. 
 The basic pandoc command for converting the markdown 
@@ -29,7 +29,8 @@ for the page. (additionally, one even play around with the default html template
 I added the simple navigation bar (navbar) at the top using bootstrap and made some 
 modifications to it using a custom css file. Finally I wrote a bash script to run 
 the pandoc command on all the markdown files in a loop which made re-publishing / 
-modifying the website very convinient.
+modifying the website very convinient. You can check out my files at the github
+[repo](https://github.com/ninception/ninception.github.io) for this website. 
 
 ~~~
 #!/bin/bash
@@ -42,17 +43,19 @@ AFTER="./helpers/after-body.html"
 for mf in ./*.md
 do
 	filename="${mf%.*}"
-	echo "Converting $mf to $filename.html" #Pandoc command for conversion to html:	
-	pandoc	
-	-H "$HEADER"  -B "$BEFORE" -A "$AFTER" \
-	-V author-meta="$AUTHOR" \
-	-f markdown -t html5 -o $filename.html  $mf	
+	echo "Converting $mf to $filename.html" #Pandoc command for conversion to html:		
+	pandoc \
+		-H "$HEADER" \
+		-B "$BEFORE" \
+		-A "$AFTER" \
+		-V author-meta="$AUTHOR" \
+		-s -f markdown -t html5 $mf -o $filename.html		
 done
+
+# Can even use a custom template with:
+# --template default_mod.html 
+# -s stands for standalone
+# --css template.css (css linking already done in HEADER 
 ~~~
-
-
-You can check out my files at the [github repo](https://github.com/ninception/ninception.github.io) 
-for this website. 
-
 
 ---

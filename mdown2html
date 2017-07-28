@@ -1,9 +1,9 @@
 #!/bin/bash
 
 AUTHOR="Ninad"
-HEADER="./helpers/header.html"
-BEFORE="./helpers/before-body.html"
-AFTER="./helpers/after-body.html"
+HEADER="./_includes/head.html"
+BEFORE="./_includes/before-body.html"
+AFTER="./_includes/after-body.html"
 
 for mf in ./*.md
 do
