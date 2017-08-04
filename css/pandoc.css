@@ -8,16 +8,19 @@
 
 .navbar {
 	min-height:30px !important;
-	margin-top:-20px; 
+	margin-top:-15px; /*Pushing the navbar little bit up*/
+	font-family: 'Droid Sans'; 
 }
-/*Pushing the navbar little bit up*/
+
 
 body {
     width: 46em;    max-width: 99%;  background-color: #fefefe	;
     margin: 0 auto;    margin-top:1em;    margin-bottom:1em;    padding: 1.5em;
-	font-family: 'Helvetica', sans-serif ; font-size:16px;
+	font-family: 'Droid Serif' ,'Times', serif ; font-size:16px;
     line-height: 1.4em; 
 }
+
+h1,h2,h3,h4,h5,h6,footer{ font-family: 'Droid Sans'}
 
 h5, h6 {  font-weight: bold;}
 
