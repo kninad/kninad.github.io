@@ -1,34 +1,15 @@
 /* Basic css file for use with pandoc */
 
-/* Modifications to bootstrap css */
-.navbar-nav > li > a, .navbar-brand {
-	padding-top:8px !important; padding-bottom:0 !important;
-	height: 35px;    
+body, footer {    
+    background-color: #fefefe; line-height: 1.5em; width:70%;
+    font-family: 'Droid Serif' ,'Times', serif ; font-size:16px;
 }
 
-.navbar {
-	min-height:30px !important;
-	margin-top:-15px; /*Pushing the navbar little bit up*/
-	font-family: 'Droid Sans'; 
-}
-
-
-body {
-    width: 46em;    max-width: 99%;  background-color: #fefefe	;
-    margin: 0 auto;    margin-top:1em;    margin-bottom:1em;    padding: 1.5em;
-	font-family: 'Droid Serif' ,'Times', serif ; font-size:16px;
-    line-height: 1.4em; 
-}
-
-h1,h2,h3,h4,h5,h6,footer{ font-family: 'Droid Sans'}
-
-h5, h6 {  font-weight: bold;}
-
-h1,h2,h3,h4,h5,h6,p,figure,img,pre,footer {margin-left:15px;}
+h1,h2,h3,h4,h5,h6,footer{ font-family: 'Droid Sans', 'Helvetica', sans-serif;}
 
 ul {list-style: '- ';}
 
-footer {font-size: 70%;color: gray;}
+footer {font-size: 70%;	color: gray; margin-left:2px; }
 
 figure { display: block; margin:0; page-break-inside:avoid; }
 

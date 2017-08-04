@@ -4,6 +4,7 @@ AUTHOR="Ninad"
 HEADER="./_includes/head.html"
 BEFORE="./_includes/before-body.html"
 AFTER="./_includes/after-body.html"
+TEMPL="./_includes/my_template.html"
 
 for mf in ./*.md
 do
@@ -14,10 +15,11 @@ do
 		-B "$BEFORE" \
 		-A "$AFTER" \
 		-V author-meta="$AUTHOR" \
-		-s -f markdown -t html5 $mf -o $filename.html		
+		-s --template "$TEMPL" \
+		-f markdown -t html5 $mf -o $filename.html		
 done
 
 # Can even use a custom template with:
 # --template default_mod.html 
 # -s stands for standalone
-# --css template.css (css linking already done in HEADER 
+# --css mycssfile.css (css linking already done in HEADER 
