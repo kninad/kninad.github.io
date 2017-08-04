@@ -1,7 +1,7 @@
 /* Basic css file for use with pandoc */
 
 body{    
-    background-color: #fefefe; line-height: 1.5em; width:80%;
+    background-color: #fefefe; line-height: 1.4em; width:80%;
     font-family: 'Droid Serif' ,'Times', serif ; font-size:16px;
 }
 
