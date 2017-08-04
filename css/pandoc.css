@@ -1,15 +1,15 @@
 /* Basic css file for use with pandoc */
 
-body, footer {    
-    background-color: #fefefe; line-height: 1.5em; width:70%;
+body{    
+    background-color: #fefefe; line-height: 1.5em; width:80%;
     font-family: 'Droid Serif' ,'Times', serif ; font-size:16px;
 }
 
 h1,h2,h3,h4,h5,h6,footer{ font-family: 'Droid Sans', 'Helvetica', sans-serif;}
-
+h5,h6{font-weight:bold;}
 ul {list-style: '- ';}
 
-footer {font-size: 70%;	color: gray; margin-left:2px; }
+#myfooter {font-size: 70%;	color: gray;}
 
 figure { display: block; margin:0; page-break-inside:avoid; }
 

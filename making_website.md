@@ -11,7 +11,8 @@ I wrote this page to document the process of creating this website.
 I took the help of two main tools to simplify the entire process:
 [pandoc](https://pandoc.org/) and [bootstrap](http://getbootstrap.com/). 
 Pandoc is a very useful document converter and a handy tool for creating the 
-html code of the website and bootstrap is used for styling the website. 
+html code of the website and bootstrap is used for styling the website, especially
+the side navigation bar. 
 After creating the necessary files (locally), I used 
 [Github pages](https://pages.github.com/) for hosting the website.
 
@@ -25,20 +26,22 @@ its not recommended as its better to keep the markdown file clean.
 
 For further modifications, pandoc supports passing html files which can be added
 to three positions (header, before-body and after-body) in the final html code 
-for the page. (additionally, one even play around with the default html template)
-I added the simple navigation bar (navbar) at the top using bootstrap and made some 
+for the page. Additionally, one even play around with the default html template 
+for gaining control over the placement of certain elements in the html code.
+I added the simple navigation sidebar at the top using bootstrap and made some 
 modifications to it using a custom css file. Finally I wrote a bash script to run 
-the pandoc command on all the markdown files in a loop which made re-publishing / 
-modifying the website very convinient. You can check out my files at the github
+the pandoc command on all the markdown files which made re-publishing / 
+modifying the website very convinient. You can check out the files at my github
 [repo](https://github.com/ninception/ninception.github.io) for this website. 
 
 ~~~
 #!/bin/bash
 
 AUTHOR="Ninad"
-HEADER="./helpers/header.html"
-BEFORE="./helpers/before-body.html"
-AFTER="./helpers/after-body.html"
+HEADER="./_includes/head.html"
+BEFORE="./_includes/before-body.html"
+AFTER="./_includes/after-body.html"
+TEMPL="./_includes/my_template.html"
 
 for mf in ./*.md
 do
@@ -49,13 +52,14 @@ do
 		-B "$BEFORE" \
 		-A "$AFTER" \
 		-V author-meta="$AUTHOR" \
-		-s -f markdown -t html5 $mf -o $filename.html		
+		-s --template "$TEMPL" \
+		-f markdown -t html5 $mf -o $filename.html		
 done
 
 # Can even use a custom template with:
 # --template default_mod.html 
 # -s stands for standalone
-# --css template.css (css linking already done in HEADER 
+# --css mycssfile.css (css linking already done in HEADER 
 ~~~
 
 ---
