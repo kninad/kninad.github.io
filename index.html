@@ -57,7 +57,7 @@
 	
 <div id="page-content-wrapper">
 <div class="container-fluid">
-<h3 id="welcome-to-my-homepage">Welcome to my homepage!</h3>
+<h2 id="welcome-to-my-homepage">Welcome to my homepage!</h2>
 <p>I graduated from IIT-Kanpur with a bachelors degree from the department of Mathematics and Statistics and I will be joining the Masters program in Computer Science at the University of Massachusetts, Amherst.</p>
 <figure>
 <img src="./images/ninad_home.jpg" alt="kolkata" id="kolkatapic" /><figcaption>kolkata</figcaption>
@@ -68,8 +68,10 @@
 <p><a href="https://www.linkedin.com/in/ninadkhargonkar/">LinkedIn</a></p>
 <p><a href="https://github.com/ninception">Github</a></p>
 <hr />
-</div>
 <p id="myfooter">Created with <a href="https://pandoc.org/">pandoc</a>.</p>
+<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+
+</div>
 </div>
 </div> <!-- wrapper div ends here -->
 
@@ -79,5 +81,13 @@
 <script src="js/jquery.js"></script>
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
+
+<!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
 </body>
 </html>

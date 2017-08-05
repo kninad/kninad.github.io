@@ -3,7 +3,7 @@ pagetitle: Misc
 ---
 
 
-### Some posts:
+## Some posts:
 
 [Vim & tmux](vimtmux.html)
 
@@ -14,8 +14,9 @@ pagetitle: Misc
 
 ### Football
 
-My primary passtime is playing and watching football (soccer). Here are
-some football related websites that I like:
+My primary passtime is playing and watching football (soccer). 
+
+Here are some football related websites that I like:
 
  * [Fantasy premier league](http://fantasy.premierleague.com/)
  * [Squawka](http://www.squawka.com/home/)

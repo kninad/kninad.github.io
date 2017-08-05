@@ -1,18 +1,16 @@
 /* Basic css file for use with pandoc */
+body{ background-color: #fcfcfc; line-height: 1.4em; width:80%;
+font-family: 'Droid Serif' ,'Times', serif ; font-size:16px; }
 
-body{    
-    background-color: #fefefe; line-height: 1.4em; width:80%;
-    font-family: 'Droid Serif' ,'Times', serif ; font-size:16px;
+h1,h2,h3,h4,h5,h6,footer,#menu-toggle,.sidebar-nav li a,.sidebar-nav > .sidebar-brand{ 
+font-family: 'Droid Sans', 'Helvetica', sans-serif;
 }
-
-h1,h2,h3,h4,h5,h6,footer{ font-family: 'Droid Sans', 'Helvetica', sans-serif;}
 h5,h6{font-weight:bold;}
 ul {list-style: '- ';}
-
 #myfooter {font-size: 70%;	color: gray;}
+#menu-toggle {font-size: 70%;}
 
 figure { display: block; margin:0; page-break-inside:avoid; }
-
 img { 
 	max-width: 200px;max-height: 2000px;
 	margin-right: 20px;
@@ -24,3 +22,4 @@ a {text-decoration: none;color: #0057b4; }
 a:hover {text-decoration: underline; }
 a::-moz-selection {  background: #8dcafc;  color: #0645ad;}
 a::selection {  background: #8dcafc;  color: #0645ad;}
+

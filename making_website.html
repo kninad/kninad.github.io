@@ -59,9 +59,9 @@
 <div class="container-fluid">
 <h3 id="building-this-website">Building this website</h3>
 <h6 id="july-2017">26-July-2017</h6>
-<p>I wrote this page to document the process of creating this website. I took the help of two main tools to simplify the entire process: <a href="https://pandoc.org/">pandoc</a> and <a href="http://getbootstrap.com/">bootstrap</a>. Pandoc is a very useful document converter and a handy tool for creating the html code of the website and bootstrap is used for styling the website, especially the side navigation bar. After creating the necessary files (locally), I used <a href="https://pages.github.com/">Github pages</a> for hosting the website.</p>
+<p>I wrote this page to document the process of creating this website. I took the help of two main tools to simplify the entire process: <a href="https://pandoc.org/">pandoc</a> and <a href="https://startbootstrap.com/">start-bootstrap</a>. Pandoc is a very useful document converter and a handy tool for creating the html code of the website and bootstrap is used for styling the website, especially the side navigation bar with the menu toggle button. After creating the necessary files (locally), I used <a href="https://pages.github.com/">Github pages</a> for hosting the website.</p>
 <p>Each page of this website was written in pandoc's <a href="http://pandoc.org/MANUAL.html#pandocs-markdown">markdown</a> and hence it was very easy to write or modify the content and track the changes using git. The basic pandoc command for converting the markdown file to html will only output a plain html file. Although pandoc supports writing raw html code in the markdown file, but its not recommended as its better to keep the markdown file clean.</p>
-<p>For further modifications, pandoc supports passing html files which can be added to three positions (header, before-body and after-body) in the final html code for the page. Additionally, one even play around with the default html template for gaining control over the placement of certain elements in the html code. I added the simple navigation sidebar at the top using bootstrap and made some modifications to it using a custom css file. Finally I wrote a bash script to run the pandoc command on all the markdown files which made re-publishing / modifying the website very convinient. You can check out the files at my github <a href="https://github.com/ninception/ninception.github.io">repo</a> for this website.</p>
+<p>For further modifications, pandoc supports passing html files which can be added to three positions (header, before-body and after-body) in the final html code for the page. Additionally, one even play around with the default html template for gaining control over the placement of certain elements in the html code. I added the simple navigation sidebar using the template from this <a href="https://startbootstrap.com/template-overviews/simple-sidebar/">page</a> and made some modifications to the overall content using a custom css file. Finally I wrote a bash script to run the pandoc command on all the markdown files which made re-publishing / modifying the website very convinient. You can check out the files at my github <a href="https://github.com/ninception/ninception.github.io">repo</a> for this website.</p>
 <pre><code>#!/bin/bash
 
 AUTHOR=&quot;Ninad&quot;
@@ -88,8 +88,10 @@ done
 # -s stands for standalone
 # --css mycssfile.css (css linking already done in HEADER </code></pre>
 <hr />
-</div>
 <p id="myfooter">Created with <a href="https://pandoc.org/">pandoc</a>.</p>
+<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+
+</div>
 </div>
 </div> <!-- wrapper div ends here -->
 
@@ -99,5 +101,13 @@ done
 <script src="js/jquery.js"></script>
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
+
+<!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
 </body>
 </html>

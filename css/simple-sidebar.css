@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-body {
+ body {
     overflow-x: hidden;
  }
 
@@ -71,8 +71,7 @@ body {
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999999;
-    font-family: "Droid Sans";	
+    color: #b2b2b2;
 }
 
 .sidebar-nav li a:hover {
@@ -90,10 +89,11 @@ body {
     height: 65px;
     font-size: 20px;
     line-height: 60px;
+    
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999999;
+    color: #bbbbbb;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -107,7 +107,7 @@ body {
     }
 
     #wrapper.toggled {
-        padding-left:0 ;
+        padding-left: 0;
     }
 
     #sidebar-wrapper {

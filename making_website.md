@@ -9,10 +9,10 @@ date: 26-July-2017
 
 I wrote this page to document the process of creating this website.
 I took the help of two main tools to simplify the entire process:
-[pandoc](https://pandoc.org/) and [bootstrap](http://getbootstrap.com/). 
+[pandoc](https://pandoc.org/) and [start-bootstrap](https://startbootstrap.com/). 
 Pandoc is a very useful document converter and a handy tool for creating the 
 html code of the website and bootstrap is used for styling the website, especially
-the side navigation bar. 
+the side navigation bar with the menu toggle button.
 After creating the necessary files (locally), I used 
 [Github pages](https://pages.github.com/) for hosting the website.
 
@@ -28,8 +28,9 @@ For further modifications, pandoc supports passing html files which can be added
 to three positions (header, before-body and after-body) in the final html code 
 for the page. Additionally, one even play around with the default html template 
 for gaining control over the placement of certain elements in the html code.
-I added the simple navigation sidebar at the top using bootstrap and made some 
-modifications to it using a custom css file. Finally I wrote a bash script to run 
+I added the simple navigation sidebar using the template from this [page](https://startbootstrap.com/template-overviews/simple-sidebar/)
+and made some 
+modifications to the overall content using a custom css file. Finally I wrote a bash script to run 
 the pandoc command on all the markdown files which made re-publishing / 
 modifying the website very convinient. You can check out the files at my github
 [repo](https://github.com/ninception/ninception.github.io) for this website. 
