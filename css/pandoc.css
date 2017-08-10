@@ -1,11 +1,17 @@
 /* CSS file for use with pandoc */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:300');
+
 .mynavbar{	
-	background-color: #444;			
+	background-color: #f3f3f3 ;
+	border-top: 4px solid #333333 ;
+	border-bottom: 2px solid #888888 ;	
+	margin-bottom: 1em ;		
 }
 .mynavbar .brand {
-	font-size:1.2em;
-	padding-right:1em;			
+	font-size:1.3em;
+	padding-right:3em;	
+	padding-left:19%;		
 }
 .mynavbar ul {
     list-style: none;    
@@ -19,34 +25,48 @@
 }
 .mynavbar li a {    
     display: inline-block;
-    color: white;
-    font-size:0.85em;
+    color: black;
+    font-size:1em;
+    font-family:  'Roboto Slab', FreeSerif, serif;
     text-align: center;
     text-decoration: none;
     padding: 8px 16px 8px 16px;
     
 }
-.mynavbar li a:hover {
-    background-color: #222;
+.mynavbar li a:hover {    
+    text-decoration: underline;
 }
-
 
 body{
 	width:100%; 	 
 	margin: 0 auto;
-	font-family:'Helvetica', 'FreeSans', sans-serif; 
-	font-size:16px;
+	background:white ;		
+	font-family:  'Roboto Slab', FreeSerif, serif;
+	font-size:16px;	
 }
 #content{	
-	width:50%;
-	margin:0 auto;
-	background:#ffffff;		
+	width:58%;
+	margin:0 auto;	
 }
 
 #myfooter{
-	font-size: 70%; 
-	color: gray; 
-	margin-top:10px;
+	font-size: 70% ; 
+	color: gray ; 
+	margin-top: 2em ;
+	padding-top: 5px ;
+	text-align: center ;
+	border-top: 1px solid #bbbbbb ;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', 'FreeSans', sans-serif; 
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
 }
 
 pre{

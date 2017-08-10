@@ -3,7 +3,7 @@ pagetitle: vim & tmux
 date: 15-July-2017
 ---
 
-### Vim and tmux
+## Vim and tmux
 
 A very good resource for taking up vim is vimtutor which can accessed in a
 terminal and comes with vim.
@@ -28,7 +28,7 @@ Noting down some useful vim keystrokes:
 
 ---
 
-#### Navigation
+### Navigation
 
 h -- go left
 
@@ -40,7 +40,7 @@ l -- go right
 
 ---
 
-#### Saving files
+### Saving files
 
 :w -- write (save) the file
 
@@ -54,7 +54,7 @@ ESC -- Will exit inset mode (and go back to normal mode)
 
 ---
 
-#### Operators
+### Operators
 
 Operators can be combined with the motion keys to produce different kinds of 
 commands. You can guess what the motion keys are from the commands below.
@@ -80,7 +80,7 @@ p -- put prev deleted text after cursor
 
 ---
 
-#### Undo
+### Undo
 
 u -- undo the previous command
 
@@ -88,4 +88,4 @@ U -- fix the whole line as it was
 
 <Ctrl-R\> -- undo the undos
 
----
+

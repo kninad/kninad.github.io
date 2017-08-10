@@ -19,10 +19,10 @@ My primary passtime is playing and watching football (soccer).
 Here are some football related websites that I like:
 
  * [Fantasy premier league](http://fantasy.premierleague.com/)
- * [Umaxit (videos and podcasts)](https://www.umaxit.com/)
- * [Spielverlagerung (articles)](http://spielverlagerung.com/)
+ * [Umaxit](https://www.umaxit.com/) (videos and podcasts)
+ * [Spielverlagerung](http://spielverlagerung.com/) (articles)
 
 ![beachfooty](./images/ninad_footy.jpg){#beachfooty}
 
 
----
+

@@ -4,7 +4,7 @@ date: 26-July-2017
 ---
 
 
-### Building this website 
+## Building this website 
 
 I wrote this page to document the process of creating this website.
 I mainly took the help of [pandoc](https://pandoc.org/) to simplify the entire process:
@@ -45,4 +45,4 @@ pandoc \
 	-f markdown -t html5 $mf -o $filename.html		
 ~~~
 
----
+
