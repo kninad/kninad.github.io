@@ -12,7 +12,7 @@ pagetitle: Misc
 
 ---
 
-### Football
+## Football
 
 My primary passtime is playing and watching football (soccer). 
 

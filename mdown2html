@@ -1,12 +1,14 @@
 #!/bin/bash
 
-AUTHOR="Ninad"
-HEADER="./_includes/head.html"
-BEFORE="./_includes/before-body.html"
-AFTER="./_includes/after-body.html"
-TEMPL="./_includes/my_template.html"
+Rootdir="/home/ninad/Desktop/osite2"
 
-for mf in ./*.md
+AUTHOR="Ninad"
+HEADER="${Rootdir}/includes/head.html"
+BEFORE="${Rootdir}/includes/before-body.html"
+AFTER="${Rootdir}/includes/after-body.html"
+TEMPL="${Rootdir}/includes/my_template.html"
+
+for mf in $Rootdir/*.md
 do
 	filename="${mf%.*}"
 	echo "Converting $mf to $filename.html" #Pandoc command for conversion to html:		

@@ -1,25 +1,78 @@
-/* Basic css file for use with pandoc */
-body{ background-color: #fcfcfc; line-height: 1.4em; width:80%;
-font-family: 'Droid Serif' ,'Times', serif ; font-size:16px; }
+/* CSS file for use with pandoc */
 
-h1,h2,h3,h4,h5,h6,footer,#menu-toggle,.sidebar-nav li a,.sidebar-nav > .sidebar-brand{ 
-font-family: 'Droid Sans', 'Helvetica', sans-serif;
+.mynavbar{	
+	background-color: #444;			
 }
-h5,h6{font-weight:bold;}
-ul {list-style: '- ';}
-#myfooter {font-size: 70%;	color: gray;}
-#menu-toggle {font-size: 70%;}
+.mynavbar .brand {
+	font-size:1.2em;
+	padding-right:1em;			
+}
+.mynavbar ul {
+    list-style: none;    
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    margin-left:20px;
+}
+.mynavbar li {
+    float: left;            
+}
+.mynavbar li a {    
+    display: inline-block;
+    color: white;
+    font-size:0.85em;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 16px 8px 16px;
+    
+}
+.mynavbar li a:hover {
+    background-color: #222;
+}
 
-figure { display: block; margin:0; page-break-inside:avoid; }
+
+body{
+	width:100%; 	 
+	margin: 0 auto;
+	font-family:'Helvetica', 'FreeSans', sans-serif; 
+	font-size:16px;
+}
+#content{	
+	width:50%;
+	margin:0 auto;
+	background:#ffffff;		
+}
+
+#myfooter{
+	font-size: 70%; 
+	color: gray; 
+	margin-top:10px;
+}
+
+pre{
+	overflow-x: scroll;
+	padding:10px;
+	background:#f5f5f5;
+}
+code{ 
+	font-family: monospace;
+	line-height: 1.4; 
+}
+
+figcaption{
+	display:none;
+}
+figure { 
+	display: block; 
+	margin:0;
+	page-break-inside:avoid; 
+}
 img { 
-	max-width: 200px;max-height: 2000px;
+	max-height: 200px;
 	margin-right: 20px;
 }
-figcaption{display:none;}
-#kolkatapic{float:left;max-height:170px;}
-
-a {text-decoration: none;color: #0057b4; }
-a:hover {text-decoration: underline; }
-a::-moz-selection {  background: #8dcafc;  color: #0645ad;}
-a::selection {  background: #8dcafc;  color: #0645ad;}
+#homepic{
+	float:left;
+	max-height:180px;
+}
 

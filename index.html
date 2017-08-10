@@ -10,84 +10,38 @@
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
-  
-  <!-- Addtional links to included in the head tag section -->
-  
-  <!-- Bootstrap core CSS -->
-  <link href="./css/bootstrap.min.css" rel="stylesheet">
-  <!-- SideBar CSS -->
-  <link href="./css/simple-sidebar.css" rel="stylesheet">
   <!-- Custom CSS file for my page content -->
   <link href="./css/pandoc.css" rel="stylesheet">
-  
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 </head>
+
 <body>
-<!-- Sidebar code that comes before the main content of the page -->
-<!-- Note that this part is included in the body section (see source) -->
-<div id="wrapper">
-<!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        Ninad Khargonkar
-                    </a>
-                </li>
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">Projects</a>
-                </li>
-                <li>
-                    <a href="./misc.html">Misc</a>
-                </li>
-                <li>
-                    <a href="#">CV</a>
-                </li>
 
-            </ul>
-        </div>
-        <!-- /#sidebar-wrapper -->
+<!-- Navbar -->
+<div class="mynavbar">
+	<ul>
+	  <li class="brand"><a href="#home">Ninad Khargonkar</a></li>
+	  <li><a href="./index.html">Home</a></li>
+	  <li><a href="#projects">Projects</a></li>
+	  <li><a href="#cv">CV</a></li>
+	  <li><a href="./misc.html">Misc</a></li>	  
+	</ul>
+</div>
 
-
-	
-<div id="page-content-wrapper">
-<div class="container-fluid">
+<div id="content">
 <h2 id="welcome-to-my-homepage">Welcome to my homepage!</h2>
-<p>I graduated from IIT-Kanpur with a bachelors degree from the department of Mathematics and Statistics and I will be joining the Masters program in Computer Science at the University of Massachusetts, Amherst.</p>
+<p>I graduated from IIT-Kanpur with a bachelors degree from the department of Mathematics and Statistics and I will be joining the Master's program in Computer Science at the University of Massachusetts, Amherst.</p>
 <figure>
-<img src="./images/ninad_home.jpg" alt="kolkata" id="kolkatapic" /><figcaption>kolkata</figcaption>
+<img src="./images/ninad_home.jpg" alt="home" id="homepic" /><figcaption>home</figcaption>
 </figure>
-<p>phone:(+91) 775-289-4436</p>
 <p>ninad.khargonkar@gmail.com</p>
 <p>nkhargonkar@cs.umass.edu</p>
+<p>phone: (+91) 775-289-4436</p>
 <p><a href="https://www.linkedin.com/in/ninadkhargonkar/">LinkedIn</a></p>
 <p><a href="https://github.com/ninception">Github</a></p>
 <hr />
-<p id="myfooter">Created with <a href="https://pandoc.org/">pandoc</a>.</p>
-<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
 
-</div>
-</div>
-</div> <!-- wrapper div ends here -->
+<p id="myfooter">Created with <a href="https://pandoc.org/">pandoc</a></p>
+</div> 
 
-
-<!-- Placed at the end of the document so the pages load faster -->
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-
-<!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
 </body>
 </html>

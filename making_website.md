@@ -4,63 +4,45 @@ date: 26-July-2017
 ---
 
 
-### Building this website
-###### 26-July-2017
+### Building this website 
 
 I wrote this page to document the process of creating this website.
-I took the help of two main tools to simplify the entire process:
-[pandoc](https://pandoc.org/) and [start-bootstrap](https://startbootstrap.com/). 
+I mainly took the help of [pandoc](https://pandoc.org/) to simplify the entire process:
 Pandoc is a very useful document converter and a handy tool for creating the 
-html code of the website and bootstrap is used for styling the website, especially
-the side navigation bar with the menu toggle button.
+html syntax of the website. 
 After creating the necessary files (locally), I used 
 [Github pages](https://pages.github.com/) for hosting the website.
 
-Each page of this website was written in pandoc's [markdown](http://pandoc.org/MANUAL.html#pandocs-markdown)
+Each page of this website was written in [markdown](http://pandoc.org/MANUAL.html#pandocs-markdown)
 and hence it was very easy to
 write or modify the content and track the changes using git. 
 The basic pandoc command for converting the markdown 
 file to html will only output a plain html file. 
-Although pandoc supports writing raw html code in the markdown file, but 
-its not recommended as its better to keep the markdown file clean.
+Although pandoc supports writing html syntax in the markdown file,
+its usually not recommended as its better to keep the markdown file clean.
 
-For further modifications, pandoc supports passing html files which can be added
+For further modifications, pandoc supports passing 
+custom html files which can be added
 to three positions (header, before-body and after-body) in the final html code 
-for the page. Additionally, one even play around with the default html template 
-for gaining control over the placement of certain elements in the html code.
-I added the simple navigation sidebar using the template from this [page](https://startbootstrap.com/template-overviews/simple-sidebar/)
-and made some 
-modifications to the overall content using a custom css file. Finally I wrote a bash script to run 
-the pandoc command on all the markdown files which made re-publishing / 
-modifying the website very convinient. You can check out the files at my github
-[repo](https://github.com/ninception/ninception.github.io) for this website. 
+for the page. Additionally, one can play around with the pandoc's default html 
+template 
+for gaining control over the placement of certain elements (like div) in the 
+overall code. Finally the css file was created for styling the navigation bar 
+and the page content.
+
+To avoid writing the long pandoc command for each file, I wrote a simple bash 
+script to run the command on all the markdown files which made
+modifying the website content very convinient. You can check out the files at the
+[github repository](https://github.com/ninception/ninception.github.io) for this website. 
 
 ~~~
-#!/bin/bash
-
-AUTHOR="Ninad"
-HEADER="./_includes/head.html"
-BEFORE="./_includes/before-body.html"
-AFTER="./_includes/after-body.html"
-TEMPL="./_includes/my_template.html"
-
-for mf in ./*.md
-do
-	filename="${mf%.*}"
-	echo "Converting $mf to $filename.html" #Pandoc command for conversion to html:		
-	pandoc \
-		-H "$HEADER" \
-		-B "$BEFORE" \
-		-A "$AFTER" \
-		-V author-meta="$AUTHOR" \
-		-s --template "$TEMPL" \
-		-f markdown -t html5 $mf -o $filename.html		
-done
-
-# Can even use a custom template with:
-# --template default_mod.html 
-# -s stands for standalone
-# --css mycssfile.css (css linking already done in HEADER 
+pandoc \
+	-H "$HEADER" \
+	-B "$BEFORE" \
+	-A "$AFTER" \
+	-V author-meta="$AUTHOR" \
+	-s --template "$TEMPL" \
+	-f markdown -t html5 $mf -o $filename.html		
 ~~~
 
 ---
