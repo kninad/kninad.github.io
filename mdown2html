@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Rootdir="/home/ninad/Desktop/osite2"
+Rootdir="/home/ninad/Desktop/prog/homepage_website/ninception.github.io"
 
 AUTHOR="Ninad"
 HEADER="${Rootdir}/includes/head.html"
