@@ -1,10 +1,8 @@
-/* CSS file for use with pandoc */
-
-
+/* Custom CSS file for use with pandoc */
 
 .mynavbar{	
 	background-color: #f3f3f3 ;
-	border-top: 3px solid #555555 ;
+	border-top: 4px solid #555555 ;
 	border-bottom: 2px solid #888888 ;	
 	margin-bottom: 1em ;		
 }
