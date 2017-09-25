@@ -22,7 +22,7 @@ Here are some football related websites that I like:
  * [Umaxit](https://www.umaxit.com/) (videos and podcasts)
  * [Spielverlagerung](http://spielverlagerung.com/) (articles)
 
-![beachfooty](./images/ninad_footy.jpg){#beachfooty}
+![beachfooty](./media/ninad_footy.jpg){#beachfooty}
 
 
 
