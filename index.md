@@ -2,12 +2,13 @@
 pagetitle: Home
 ---
 
-## Welcome to my homepage!
+### Welcome to my homepage!
 
-I graduated from IIT-Kanpur with a bachelors degree from the department of
-Mathematics and Statistics. I am currently a graduate student in the Master's program 
-in Computer Science at the University of Massachusetts, Amherst. 
-
+I am currently a Master's student in Computer Science at the University of 
+Massachusetts, Amherst. I graduated from IIT - Kanpur in June 2017 
+with a bachelors degree from the department of Mathematics and Statistics. 
+I am interested in the field of Machine Learning with its applications in 
+Computer Vision.
 
 ![home](./media/ninad_home.jpg){#homepic}
 
@@ -18,8 +19,8 @@ nkhargonkar@cs.umass.edu
 
 [LinkedIn](https://www.linkedin.com/in/ninadkhargonkar/)
 
-[Github](https://github.com/ninception)
+[GitHub](https://github.com/ninception)
 
-Current Address: Amherst, MA - 01002
+Current address: Amherst, MA - 01002
 
 

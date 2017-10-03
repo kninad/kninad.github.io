@@ -1,5 +1,24 @@
 /* Custom CSS file for use with pandoc */
 
+/* FONTS */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto/Roboto-Regular-webfont.woff') format('woff'),
+         url('./fonts/Roboto/Roboto-Regular-webfont.ttf') format('truetype');    
+    font-weight: normal;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family: 'NotoSerif';
+    src: url('./fonts/NotoSerif/NotoSerif-Regular-webfont.woff') format('woff'),
+         url('./fonts/NotoSerif/NotoSerif-webfont.ttf') format('truetype');    
+    font-weight: normal;
+    font-style: normal;    
+}
+
+
 .mynavbar{	
 	background-color: #f3f3f3 ;
 	border-top: 4px solid #555555 ;
@@ -7,9 +26,9 @@
 	margin-bottom: 1em ;		
 }
 .mynavbar .brand {
-	font-size:1.2em;
+	font-size:1.1em;
 	padding-right:3em;	
-	padding-left:19%;		
+	padding-left:23%;		
 }
 .mynavbar ul {
     list-style: none;    
@@ -38,11 +57,11 @@ body{
 	width:100%; 	 
 	margin: 0 auto;
 	background:white ;		
-	font-family: Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; 
-	font-size:16px;	line-height: 1.4;
+	font-family: 'Roboto', Arial, FreeSans, sans-serif; 
+	font-size:15.5px;	
 }
 #content{	
-	width:58%;
+	width:50%;
 	margin:0 auto;	
 }
 
@@ -54,15 +73,15 @@ body{
 	border-top: 1px solid #bbbbbb ;
 }
 
-h1,h2,h3,h4,h5,h6{
-	font-family: Times, FreeSerif, serif;
-}
-
 a {
 	text-decoration: none;
+	color:#255db8;
 }
 a:hover {
 	text-decoration: underline;
+}
+a:visited{
+	color:#255db8;
 }
 
 pre{

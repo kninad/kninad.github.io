@@ -3,7 +3,7 @@ pagetitle: vim & tmux
 date: 15-July-2017
 ---
 
-## Vim and tmux
+### Vim and tmux
 
 A very good resource for taking up vim is vimtutor which can accessed in a
 terminal and comes with vim.

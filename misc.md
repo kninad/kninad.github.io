@@ -3,7 +3,7 @@ pagetitle: Misc
 ---
 
 
-## Some posts:
+### Some posts:
 
 [Vim & tmux](vimtmux.html)
 
@@ -12,9 +12,9 @@ pagetitle: Misc
 
 ---
 
-## Football
+### Football
 
-My primary passtime is playing and watching football (soccer). 
+My primary passtime is playing and watching football. 
 
 Here are some football related websites that I like:
 
