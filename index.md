@@ -1,5 +1,5 @@
 ---
-pagetitle: Home
+pagetitle: Ninad Khargonkar
 ---
 
 ### Welcome to my homepage!
