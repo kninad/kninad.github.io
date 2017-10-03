@@ -108,6 +108,7 @@ img {
 }
 #homepic{
 	float:left;
-	max-height:180px;
+	max-height:160px;
+    display: inline;
 }
 

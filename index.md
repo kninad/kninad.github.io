@@ -4,23 +4,24 @@ pagetitle: Ninad Khargonkar
 
 ### Welcome to my homepage!
 
+![home](./media/ninad_home.jpg){#homepic}
+
 I am currently a Master's student in Computer Science at the University of 
 Massachusetts, Amherst. I graduated from IIT - Kanpur in June 2017 
 with a bachelors degree from the department of Mathematics and Statistics. 
 I am interested in the field of Machine Learning with its applications in 
-Computer Vision.
+Computer Vision. 
 
-![home](./media/ninad_home.jpg){#homepic}
+Link to my one page [cv (pdf)](./media/ninad_cv_1page.pdf)
 
 
-ninad.khargonkar@gmail.com  
+<br>
 
-nkhargonkar@cs.umass.edu
+### Contact 
 
-[LinkedIn](https://www.linkedin.com/in/ninadkhargonkar/)
+Email: ninad.khargonkar@gmail.com  | nkhargonkar@cs.umass.edu
 
+Online: [LinkedIn](https://www.linkedin.com/in/ninadkhargonkar/) | 
 [GitHub](https://github.com/ninception)
 
-Current address: Amherst, MA - 01002
-
-
+Address: Amherst, MA - 01002
