@@ -13,7 +13,7 @@ Department of Mathematics and Statistics.
 My primary interest area is Machine Learning with its applications in 
 Computer Vision. 
 
-Link to my one-page [cv (pdf)](./media/ninad_cv_1page.pdf).
+Link to my one-page [cv (pdf)](./media/ninad_resume.pdf).
 
 <br>
 
