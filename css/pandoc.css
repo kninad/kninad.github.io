@@ -27,11 +27,16 @@
 	
 }
 .mynavbar .brand {	
-	font-size:1.1em;
+	font-size:1.25em;
 	padding-right:1em;	
 	padding-left:2em;	
 	color:white;	
 }
+
+.mynavbar .brand a:hover{
+    text-decoration:none;
+}
+
 .mynavbar ul {
     list-style: none;    
     margin: 0 auto;
