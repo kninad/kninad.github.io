@@ -11,9 +11,11 @@
 }
 
 @font-face {
-    font-family: 'NotoSerif';
-    src: url('./fonts/NotoSerif/NotoSerif-Regular-webfont.woff') format('woff'),
-         url('./fonts/NotoSerif/NotoSerif-webfont.ttf') format('truetype');    
+    font-family: 'RobotoSlab';
+    src: url('./fonts/Roboto/RobotoSlab-Regular-webfont.woff') format('woff'),
+         url('./fonts/Roboto/RobotoSlab-Regular-webfont.eog') format('eog'),
+         url('./fonts/Roboto/RobotoSlab-Regular-webfont.svg') format('svg'),
+         url('./fonts/Roboto/RobotoSlab-Regular-webfont.ttf') format('truetype');    
     font-weight: normal;
     font-style: normal;    
 }
@@ -75,8 +77,8 @@ body {
       margin-bottom: 10px;      
       background-color:#fafafa;
       border: 1px solid #c5c5c5;
-      font-family:'Roboto', Arial, Verdana, FreeSans, sans;
-      font-size:15.5px;	 }
+      font-family:'RobotoSlab', Arial, Verdana, FreeSans, sans;
+      font-size:15px;	 }
 
 #content {
       margin: 0 auto;
