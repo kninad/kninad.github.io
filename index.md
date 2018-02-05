@@ -12,6 +12,8 @@ Email: ninad.khargonkar@gmail.com  | nkhargonkar@cs.umass.edu
 
 Current address: Amherst, MA - 01002
 
+<br>
+
 [LinkedIn](https://www.linkedin.com/in/ninadkhargonkar/) | 
 [GitHub](https://github.com/ninception)
 

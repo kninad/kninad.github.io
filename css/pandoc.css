@@ -60,9 +60,9 @@ body {
 
 #wrap {
       width: 800px;
-	  position: relative; 
+      position: relative; 
       margin: 0 auto;
-      margin-top: 1px;      
+      margin-top: 0px;      
       margin-bottom: 10px;      
       background-color:#fafafa;
       border: 1px solid #c5c5c5;
