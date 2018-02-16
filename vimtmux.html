@@ -7,29 +7,15 @@
   <meta name="author" content="Ninad">
   <title>vim &amp; tmux</title>
   <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="./css/pandoc.css">
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
-  <!-- Custom CSS file for my page content -->
-  <link rel="stylesheet" href="./css/pandoc.css" type="text/css" charset="utf-8">
 </head>
-
 <body>
-<div id="wrap">
-
-<!-- Navbar -->
-<div class="mynavbar">
-	
-	<ul>
-	  <li class="brand"><a href="./index.html">Ninad Khargonkar</a></li>
-	  <li><a href="./index.html">Home</a></li>
-	  <li><a href="./projects.html">Projects</a></li>	  
-	  <li><a href="./misc.html">Misc</a></li>	  
-	</ul>
-</div>
-
-<div id="content">
 <h3 id="vim-and-tmux">Vim and tmux</h3>
+<h5 id="home-articles-misc"><a href="index.html">Home</a> | <a href="articles.html">Articles</a> | <a href="misc.html">Misc</a></h5>
+<hr />
 <p>A very good resource for taking up vim is vimtutor which can accessed in a terminal and comes with vim. For customizing vim, edit the .vimrc file in the home directory. Some useful links for vim:</p>
 <ul>
 <li><p><a href="http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html">vim cheatsheet</a></p></li>
@@ -37,20 +23,17 @@
 </ul>
 <p>Since vim is terminal based, a terminal multiplexer like <a href="https://github.com/tmux/tmux/wiki">tmux</a> helps a lot while programming with vim since multiple terminal tabs can be problematic. I found this <a href="http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/">guide</a> to tmux quite good. There is also a <a href="https://leanpub.com/the-tao-of-tmux/read">book</a> for tmux!</p>
 <p>Noting down some useful vim keystrokes:</p>
-<hr />
 <h3 id="navigation">Navigation</h3>
 <p>h -- go left</p>
 <p>j -- go down</p>
 <p>k -- go up</p>
 <p>l -- go right</p>
-<hr />
 <h3 id="saving-files">Saving files</h3>
 <p>:w -- write (save) the file</p>
 <p>:wq -- write and quit</p>
 <p>:q! -- force quit</p>
 <p>i -- Will enable the insert mode for editing files</p>
 <p>ESC -- Will exit inset mode (and go back to normal mode)</p>
-<hr />
 <h3 id="operators">Operators</h3>
 <p>Operators can be combined with the motion keys to produce different kinds of commands. You can guess what the motion keys are from the commands below. Add a number in between to repeat the command.</p>
 <p>de -- delete upto end of word (d stands for delete)</p>
@@ -62,17 +45,9 @@
 <p>x -- acts as a delete key in insert mode</p>
 <p>r -- replace key</p>
 <p>p -- put prev deleted text after cursor</p>
-<hr />
 <h3 id="undo">Undo</h3>
 <p>u -- undo the previous command</p>
 <p>U -- fix the whole line as it was</p>
 <p><Ctrl-R\> -- undo the undos</p>
-</div>
-<div id="myfooter">
-<p>Created with <a href="https://pandoc.org/">pandoc</a></p>
-</div>
-
-
-</div>
 </body>
 </html>

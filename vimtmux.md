@@ -1,9 +1,12 @@
 ---
 pagetitle: vim & tmux
-date: 15-July-2017
 ---
 
 ### Vim and tmux
+
+##### [Home](index.html) |  [Articles](articles.html) | [Misc](misc.html) 
+
+---
 
 A very good resource for taking up vim is vimtutor which can accessed in a
 terminal and comes with vim.
@@ -26,7 +29,6 @@ quite good. There is also a [book](https://leanpub.com/the-tao-of-tmux/read) for
 
 Noting down some useful vim keystrokes:
 
----
 
 ### Navigation
 
@@ -38,7 +40,7 @@ k -- go up
 
 l -- go right
 
----
+
 
 ### Saving files
 
@@ -52,7 +54,7 @@ i -- Will enable the insert mode for editing files
 
 ESC -- Will exit inset mode (and go back to normal mode)
 
----
+
 
 ### Operators
 
@@ -78,7 +80,7 @@ r -- replace key
 
 p -- put prev deleted text after cursor
 
----
+
 
 ### Undo
 

@@ -1,17 +1,25 @@
 ---
 pagetitle: Building this website
-date: 26-July-2017
 ---
 
-
 ### Building this website 
+
+##### [Home](index.html) |  [Articles](articles.html) | [Misc](misc.html) 
+
+---
 
 I wrote this page to document the process of creating this website.
 I mainly took the help of [pandoc](https://pandoc.org/) to simplify the entire process:
 Pandoc is a very useful document converter and a handy tool for creating the 
 html syntax of the website. 
 After creating the necessary files (locally), I used 
-[Github pages](https://pages.github.com/) for hosting the website.
+[Github pages](https://pages.github.com/) for hosting the website. 
+Primary references for design: 
+[this](http://bettermotherfuckingwebsite.com/), 
+[this](https://bestmotherfucking.website/) and 
+[this](https://thebestmotherfucking.website/) (although I take
+liberty to break 
+some of the commandments described in them).
 
 Each page of this website was written in [markdown](http://pandoc.org/MANUAL.html#pandocs-markdown)
 and hence it was very easy to
@@ -27,22 +35,30 @@ to three positions (header, before-body and after-body) in the final html code
 for the page. Additionally, one can play around with the pandoc's default html 
 template 
 for gaining control over the placement of certain elements (like div) in the 
-overall code. Finally the css file was created for styling the navigation bar 
-and the page content.
+overall code. Finally a slightly modified version of [this](https://gist.github.com/killercup/5917178) 
+css file was used for styling the website. It took care of making the 
+website look a bit nice and tidy.
 
 To avoid writing the long pandoc command for each file, I wrote a simple bash 
 script to run the command on all the markdown files which made
-modifying the website content very convinient. You can check out the files at the
-[github repository](https://github.com/ninception/ninception.github.io) for this website. 
+modifying the website content very convinient.
 
 ~~~
-pandoc \
-	-H "$HEADER" \
-	-B "$BEFORE" \
-	-A "$AFTER" \
-	-V author-meta="$AUTHOR" \
-	-s --template "$TEMPL" \
-	-f markdown -t html5 $mf -o $filename.html		
+#!/bin/bash
+
+Rootdir="."
+AUTHOR="Ninad"
+CSS="${Rootdir}/css/pandoc.css"
+
+for mf in $Rootdir/*.md
+do
+	filename="${mf%.*}"
+	echo "Converting $mf to $filename.html" #Pandoc command for conversion to html:		
+	pandoc \
+        --css "$CSS"
+		-V author-meta="$AUTHOR" \
+		-f markdown -t html5 $mf -o $filename.html		
+done	
 ~~~
 
 
