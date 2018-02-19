@@ -8,12 +8,14 @@ pagetitle: Ninad Khargonkar
 
 ---
 
+![banner_pic](./media/banner.jpg){#banner}
+
 I am a Master's student in Computer Science at the University of Massachusetts, Amherst. 
 I graduated from IIT - Kanpur in June 2017  with a Bachelors 
-degree in Mathematics and Scientific Computing.
+degree in Mathematics and Scientific Computing. 
+I grew up in the city of Navi Mumbai in Maharashtra, India.
 
-
-Link to my one-page CV: [[pdf]](./media/cv_NinadKhargonkar.pdf)
+Here is link to my one-page cv: [[pdf]](./media/cv_NinadKhargonkar.pdf)
 
 Email: ninad.khargonkar@gmail.com  | nkhargonkar@cs.umass.edu
 
