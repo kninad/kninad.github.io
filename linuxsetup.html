@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta name="author" content="Ninad">
-  <title>vim &amp; tmux</title>
+  <title>using linux</title>
   <style type="text/css">code{white-space: pre;}</style>
   <link rel="stylesheet" href="./css/pandoc.css">
   <!--[if lt IE 9]>
@@ -16,7 +16,29 @@
 <h3 id="linux">Linux</h3>
 <h5 id="home-articles-misc"><a href="index.html">Home</a> | <a href="articles.html">Articles</a> | <a href="misc.html">Misc</a></h5>
 <hr />
-<p>also my linux/foss story. amazing story of GNU and Linux projects!</p>
-<p>My personal linux setup and some fixes for common bugs. Also a list of essential programs with their alternatives.</p>
+<h4 id="motivation-and-boring-back-story">Motivation and boring back story</h4>
+<p>My first Linux based os was Ubuntu 10.04 lts which I installed on my home computer using wubi (it basically made ubuntu an 'installed program' on windows). But this was just an exploration phase after I had come to know about Linux and the GNU project. In first semester in undergrad at iitk I often used the computer center labs (CentOS, gnome 2) and also we had to write C programming assignments on those computers.</p>
+<p>After that semester I became so comfortable and used to the way of things in a linux os that I installed ubuntu on my personal laptop (dual boot) and as soon as Windows crashed right before an end semester exam, I decided to use linux almost exclusively and henceforth only booted into windows for games (fifa/cs).</p>
+<p>I think once a person gets used to the environment a linux based os (beginner friendly eg. ubuntu) can be easily used for everyday computing tasks and I have even managed to convince my father to make the switch (ofcourse after he longer had use for ms-office)! This is especially in today's web centric world where we use our browser most of the time. Plus its FREE.</p>
+<p>Another motivation was the availability of programming tools which were present by default in any installation along with the awesome terminal. I still use the standard 'noob' distro i.e ubuntu (with Mate desktop environment) as it suits my needs perfectly! Some mental notes put down:</p>
+<h4 id="useful-non-default-programs">Useful non-default programs</h4>
+<ul>
+<li>LaTeX editor: Texmaker</li>
+<li>Calibre: ebook management</li>
+<li>Numix theme/icons for making desktop 'pretty'</li>
+<li>Tmux: terminal tabbing/windows</li>
+<li>Redshift: reduce blue intensity of screen light (during dark hours)</li>
+</ul>
+<h4 id="things-to-keep-in-mind">Things to keep in mind</h4>
+<ul>
+<li>Days of distro-hopping (same goes for DE) are over. Go with what works best and makes you productive.</li>
+<li>Preferably download os .iso file over torrent and remember to check hashes.</li>
+<li>Use the file backup utilities to prevent catastrophe!!!</li>
+<li>Suspend issue: install nvidia driver with <code>acpi_sleep=nonvs</code> in grub + kernel update</li>
+<li>Screen tearing: again drive + compositor like compiz helps</li>
+<li>Battery Life: Install TLP / switch off nvidia gpu</li>
+<li>Debian not added as sudo: You have to login as root and add your user as sudo. <code>#adduser username sudo</code></li>
+<li>Fonts: In Debian 8, fonts did not look 'pretty' by default. <a href="https://wiki.debian.org/Fonts">Fonts wiki</a> will help. Also check anti-aliasing settings, font rendering.</li>
+</ul>
 </body>
 </html>
