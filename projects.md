@@ -32,8 +32,9 @@ here.
 
 #### Simulation for Uefa Euro 16 tournament
 
-[Report](https://ninception.github.io/docs/mitacs_uefa16_simulation.pdf) | 
-[Code](https://github.com/ninception/mitacs_uefa16sim)
+[Report](https://ninception.github.io/docs/mitacs_uefa16_simulation.pdf) 
+| [Code](https://github.com/ninception/mitacs_uefa16sim)
 
-
-
+Report presented at JSM 2017, Baltimore under 
+Statistical Modeling for Sports Science and Applications — Contributed Papers
+in the Section on Statistics in Sports 
