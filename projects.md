@@ -38,3 +38,4 @@ here.
 Report presented at JSM 2017, Baltimore under 
 Statistical Modeling for Sports Science and Applications — Contributed Papers
 in the Section on Statistics in Sports 
+[Link to program](https://ww2.amstat.org/meetings/jsm/2017/onlineprogram/MainSearchResults.cfm?sponsored_by&sponsorid=24)
