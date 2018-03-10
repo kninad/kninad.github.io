@@ -4,7 +4,7 @@ pagetitle: Ninad Khargonkar
 
 ### Ninad Khargonkar 
 
-##### [Home](./index.html) |  [Articles](./articles.html) | [Misc](./misc.html) 
+##### [Home](index.html) |  [Articles](articles.html) | [Projects](projects.html) | [Misc](misc.html) 
 
 ---
 
