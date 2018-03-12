@@ -15,12 +15,12 @@ I graduated from IIT - Kanpur in June 2017  with a Bachelors
 degree in Mathematics and Scientific Computing. 
 I grew up in the city of Navi Mumbai in Maharashtra, India.
 
-Here is link to my one-page cv: [[pdf]](./media/cv_NinadKhargonkar.pdf)
+Here is link to my one-page cv: [[ pdf ]](./media/Resume_NinadK.pdf)
 
 Email: ninad.khargonkar@gmail.com  | nkhargonkar@cs.umass.edu
 
 Current address: Amherst, MA - 01002
 
-[LinkedIn](https://www.linkedin.com/in/ninadkhargonkar/) | [GitHub](https://github.com/ninception)
+[[ LinkedIn ]](https://www.linkedin.com/in/ninadkhargonkar/)  [[ GitHub ]](https://github.com/ninception)
 
-
+---

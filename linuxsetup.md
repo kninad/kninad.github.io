@@ -9,14 +9,31 @@ pagetitle: using linux
 ---
 
 #### Motivation and boring back story
-My first Linux based os was Ubuntu 10.04 lts which I installed on my home computer using wubi (it basically made ubuntu an 'installed program' on windows). 
-But this was just an exploration phase after I had come to know about Linux and the GNU project. In first semester in undergrad at iitk I often used the computer center labs (CentOS, gnome 2) and also we had to write C programming assignments on those computers. 
+My first Linux based os was Ubuntu 10.04 lts which I installed on my home computer using wubi 
+(it basically made ubuntu an 'installed program' on windows). 
+But this was just an exploration phase after I had come to know about 
+Linux and the GNU project. 
+In first semester in undergrad at iitk I used the computer center 
+labs (CentOS, gnome 2) and also we had to write C programming assignments
+on those computers. 
 
-After that semester I became so comfortable and used to the way of things in a linux os that I installed ubuntu on my personal laptop (dual boot) and as soon as Windows crashed right before an end semester exam, I decided to use linux almost exclusively and henceforth only booted into windows for games (fifa/cs). 
+After that semester I became so comfortable and used to the way of things
+in a linux os that I installed ubuntu on my personal laptop (dual boot) 
+and as soon my Windows os crashed right before an end semester exam, 
+I decided to use linux almost exclusively and henceforth only booted 
+into windows for games (fifa/cs). 
 
-I think once a person gets used to the environment a linux based os (beginner friendly eg. ubuntu) can be easily used for everyday computing tasks and I have even managed to convince my father to make the switch (ofcourse after he longer had use for ms-office)! This is especially in today's web centric world where we use our browser most of the time. Plus its FREE.
+I think once a person gets used to the environment a linux based os 
+, it can be easily used for everyday computing tasks and I have even 
+managed to convince my father to make the switch 
+(ofcourse after he longer had use for ms-office)! 
+This is especially in today's web centric world where we use our browser
+ most of the time. 
 
-Another motivation was the availability of programming tools which were present by default in any installation along with the awesome terminal. I still use the standard 'noob' distro i.e ubuntu (with Mate desktop environment) as it suits my needs perfectly! Some mental notes put down:
+Another motivation was the availability of programming tools which were
+ present by default in any installation along with the shell. 
+I still use the standard 'noob' distro i.e ubuntu (with Mate desktop environment) 
+as it suits my needs perfectly! Some mental notes put down:
 
 #### Useful non-default programs
 

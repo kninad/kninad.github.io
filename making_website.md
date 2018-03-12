@@ -9,17 +9,16 @@ pagetitle: Building this website
 ---
 
 I wrote this page to document the process of creating this website.
-I mainly took the help of [pandoc](https://pandoc.org/) to simplify the entire process:
+I took the help of [pandoc](https://pandoc.org/) to simplify the entire process.
 Pandoc is a very useful document converter and a handy tool for creating the 
-html syntax of the website. 
+html syntax of the website from a markdown file.
 After creating the necessary files (locally), I used 
 [Github pages](https://pages.github.com/) for hosting the website. 
 Primary references for design: 
 [this](http://bettermotherfuckingwebsite.com/), 
 [this](https://bestmotherfucking.website/) and 
-[this](https://thebestmotherfucking.website/) (although I take
-liberty to break 
-some of the commandments described in them).
+[this](https://thebestmotherfucking.website/) (although I take some
+liberty to break some of the commandments described in them).
 
 Each page of this website was written in [markdown](http://pandoc.org/MANUAL.html#pandocs-markdown)
 and hence it was very easy to
@@ -35,8 +34,9 @@ to three positions (header, before-body and after-body) in the final html code
 for the page. Additionally, one can play around with the pandoc's default html 
 template 
 for gaining control over the placement of certain elements (like div) in the 
-overall code. Finally a slightly modified version of [this](https://gist.github.com/killercup/5917178) 
-css file was used for styling the website. It took care of making the 
+overall code. Finally a slightly modified version of 
+[this css file](https://gist.github.com/killercup/5917178) 
+was used for styling the website. It took care of making the 
 website look a bit nice and tidy.
 
 To avoid writing the long pandoc command for each file, I wrote a simple bash 

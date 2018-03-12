@@ -27,7 +27,7 @@ why not put up some useful stuff on it!
 - [GNU/Linux setup](linuxsetup.html)
 
 
-
+---
 
 
 
