@@ -1,2 +1,2 @@
-## ninception.github.io
-github repository for my personal [webpage](https://ninception.github.io)
+## nkhargonkar.github.io
+github repository for my personal [webpage](https://nkhargonkar.github.io)
