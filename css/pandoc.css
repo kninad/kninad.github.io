@@ -2,6 +2,9 @@
  * I add this to html files generated with pandoc.
  */
 
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
+
 html {
   font-size: 100%;
   overflow-y: scroll;
@@ -11,8 +14,8 @@ html {
 
 body {
   color: #111;
-  /*font-family: Georgia, Times, 'Times New Roman', serif;*/
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Merriweather', Georgia, Times, serif;
+  /*font-family: 'Roboto', Arial, Helvetica, sans-serif;*/
   font-size: 12px;
   line-height: 1.5;
   padding: 1em;
