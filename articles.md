@@ -18,13 +18,13 @@ why not put up some useful stuff on it!
 
 #### Posts:
 
-- [Building this website with pandoc](making_website.html)
+- [Building this website with pandoc](art_making_website.html)
 
-- [Using LaTeX](latexsetup.html)
+- [Using LaTeX](art_latexsetup.html)
 
-- [Vim & tmux](vimtmux.html)
+- [Vim & tmux](art_vimtmux.html)
 
-- [GNU/Linux setup](linuxsetup.html)
+- [GNU/Linux setup](art_linuxsetup.html)
 
 
 ---
