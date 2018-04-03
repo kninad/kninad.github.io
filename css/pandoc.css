@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  color: #454545;
+  color: #444444;
   font-family: 'Merriweather', Georgia, Times, serif;
   /*font-family: 'Roboto', Arial, Helvetica, sans-serif;*/
   font-size: 12px;
@@ -22,7 +22,7 @@ body {
   padding: 1em;
   margin: auto; 
   max-width: 42em;
-  background: #fefefe;
+  background-color:#EEEEEE;
 }
 
 #banner {
