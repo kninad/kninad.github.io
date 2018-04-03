@@ -23,11 +23,11 @@ My primary passtime is playing and watching football.
 Here are some football related websites that I like:
 
  * [Fantasy premier league](http://fantasy.premierleague.com/)
- * [Umaxit](https://www.umaxit.com/) (videos and podcasts)
+ * [Tifo football](https://www.tifofootball.com/) (videos and podcasts)
  * [Spielverlagerung](http://spielverlagerung.com/) (articles)
 
 
-Photo with my football friends at iitk footy ground:
+Photo with my football friends at iitk footy ground around the time we won the Institute football league! 
 
 ![ninad_photo](./media/ifl01.jpg){#footypic}
 
