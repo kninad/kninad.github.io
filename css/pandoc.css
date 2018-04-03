@@ -8,7 +8,7 @@
 html {
   font-size: 100%;
   overflow-y: scroll;
-  background-color:#fcfcfc;
+  background-color:#fefefe;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -22,7 +22,7 @@ body {
   padding: 1em;
   margin: auto; 
   max-width: 42em;
-  background-color:#fcfcfc;
+  background-color:#fefefe;
 }
 
 #banner {
