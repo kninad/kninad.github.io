@@ -130,3 +130,5 @@ y : copy text highlighted in Visual mode
 p : paste the copied text
 
 :help : In built help for a command
+
+"+y : copy to clipboard (only works if it was complied with the clipboard functionality)
