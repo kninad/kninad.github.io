@@ -1,32 +1,28 @@
 /*
- * I add this to html files generated with pandoc.
+ * I use this for html files generated with pandoc.
  */
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
-/*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
+ @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 html {
   font-size: 100%;
   overflow-y: scroll;
-  background-color:#fefefe;
+  background-color:#fcfcfc;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
 body {
-  color: #2f2f2f;
-  font-family: 'Merriweather', Georgia, Times, serif;
-  /*font-family: 'Roboto', Arial, Helvetica, sans-serif;*/
-  font-size: 12px;
-  line-height: 1.5;
+  color: #111111;
+  line-height: 1.6;
   padding: 1em;
   margin: auto; 
-  max-width: 42em;
-  background-color:#fefefe;
+  max-width: 48em;
+  font-family: 'Merriweather', Georgia, Palatino, 'Palatino Linotype','Times New Roman', Times,  serif;
 }
 
 #banner {
-    height:100px;
+    height:80px;
     width:100%;
 }
 #footypic {
@@ -57,30 +53,6 @@ a:active {
 a:focus {
   outline: thin dotted;
 }
-
-
-/*
-*::-moz-selection {
-  background: rgba(255, 255, 0, 0.3);
-  color: #000;
-}
-
-*::selection {
-  background: rgba(255, 255, 0, 0.3);
-  color: #000;
-}
-
-a::-moz-selection {
-  background: rgba(255, 255, 0, 0.3);
-  color: #0645ad;
-}
-
-a::selection {
-  background: rgba(255, 255, 0, 0.3);
-  color: #0645ad;
-}
-*/
-
 
 p {
   margin: 1em 0;

@@ -1,3 +1,4 @@
+
 ---
 pagetitle: Misc
 ---
@@ -12,7 +13,7 @@ Some 'misc' stuff is posted here.
 
 #### My photo:
 
-![ninad_photo](./media/ninad1.jpg){#mypic}
+![ninad_photo](./media/ninad-b3.jpg){#mypic}
 
 ---
 
