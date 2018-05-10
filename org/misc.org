@@ -1,0 +1,39 @@
+#+SETUPFILE: ../org_templates/level-0.org
+
+#+TITLE: Misc
+
+** [[file:index.org][Home]] | [[file:notes.org][Notes]] | [[file:projects.org][Projects]] | [[file:misc.org][Misc]]
+
+------------------
+
+Some 'misc' stuff is posted here. 
+
+*** My photo:
+
+#+NAME: fig:mypic
+#+ATTR_HTML: :height 200px
+[[./misc/ninad-b3.jpg]]
+
+--------------------
+
+*** Football:
+
+My primary passtime is playing and watching football. 
+Here are some football related websites that I like:
+
+- [[http://fantasy.premierleague.com/][Fantasy Premier League]]
+
+- [[https://www.tifofootball.com/][Tifo Football]]
+
+- [[http://spielverlagerung.com/][Spielverlagerung]]
+
+Below is a photo with my football friends at iitk footy ground around the time we won 
+the Institute football league! 
+
+#+NAME: fig:ifl
+#+ATTR_HTML: :height 350px
+[[./misc/ifl01.jpg]]
+
+------------------
+
+ 

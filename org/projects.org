@@ -1,0 +1,26 @@
+#+SETUPFILE: ../org_templates/level-0.org
+
+#+TITLE: Projects
+
+** [[file:index.org][Home]] | [[file:notes.org][Notes]] | [[file:projects.org][Projects]] | [[file:misc.org][Misc]]
+
+------------
+
+I will post the reports and code links for some of my past projects 
+here.
+
+*** _Monocular Depth prediction_ : [[https://ninception.github.io/docs/CV670_finalReport.pdf][Report]] | [[https://github.com/ninception/cvproject][Code]]
+
+
+*** _Part of speech tagging for Hindi_ : [[https://ninception.github.io/projects/NLP585_final.pdf][Report]] | [[https://github.com/ninception/POStagging_Hindi][Code]]
+
+
+***  _Uncertainty in Deep Learning_ : [[https://ninception.github.io/projects/DL682_final.pdf][Report]] | [[https://github.com/ninception/dlproject][Code]] | [[https://youtu.be/th1Ve-9bZnQ][Short viz]]
+
+
+***  _Simulation for Uefa Euro 16 tournament_ : [[https://ninception.github.io/projects/mitacs_uefa16_simulation.pdf][Report]] | [[https://github.com/ninception/mitacs_uefa16sim][Code]] 
+
+- Report presented at JSM 2017, Baltimore under Statistical Modeling for Sports Science and Applications — Contributed Papersin the Section on Statistics in Sports [[https://ww2.amstat.org/meetings/jsm/2017/onlineprogram/MainSearchResults.cfm?sponsored_by&sponsorid%3D24][(Link to program).]]
+
+---------------------
+

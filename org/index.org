@@ -1,0 +1,25 @@
+#+SETUPFILE: ../org_templates/level-0.org
+
+#+TITLE: Ninad Khargonkar
+
+** [[file:index.org][Home]] | [[file:notes.org][Notes]] | [[file:projects.org][Projects]] | [[file:misc.org][Misc]]
+
+------------
+
+#+NAME: fig:banner
+#+ATTR_HTML: :width 100% :height 50px
+[[./banner.jpg]]
+
+I am a Masters student in Computer Science at the University of Massachusetts, Amherst. 
+I graduated from IIT - Kanpur in June 2017  with a Bachelors 
+degree in Mathematics and Scientific Computing. 
+I grew up in the city of Navi Mumbai in Maharashtra, India.
+
+Here is a link to my one-page cv: [[file:Resume_NinadK.pdf][(pdf link)]]
+
+Email: ninad.khargonkar@gmail.com  | nkhargonkar@cs.umass.edu
+
+[[https://www.linkedin.com/in/ninadkhargonkar/][LinkedIn]] | [[https://github.com/ninception/][GitHub]]
+
+---------------
+
