@@ -1,99 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <title>Notes</title>
-<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta  name="generator" content="Org-mode" />
-<link rel="stylesheet" type="text/css" href="css/org.css"/>
-<script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2013 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
-<!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
-</script>
 </head>
 <body>
-<div id="content">
-<h1 class="title">Notes</h1>
-
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><a href="index.html">Home</a> | <a href="notes.html">Notes</a> | <a href="projects.html">Projects</a> | <a href="misc.html">Misc</a></h2>
-<div class="outline-text-2" id="text-1">
-<hr  />
-
-<p>
-I usually write about stuff that I want to document for myself. It may
-include some useful bits of information that may help me later. 
-Most of the stuff posted here was scattered around my computer and hence
-I decided to write these posts to consolidate it.
-Another (rather weak) motivation was that since I have a website,
-why not put up some useful stuff on it!
-</p>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="notes.html" class="current">Notes</a></div>
+<div class="menu-item"><a href="misc.html">Misc</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Notes</h1>
 </div>
-
-
-<div id="outline-container-sec-1-1" class="outline-3">
-<h3 id="sec-1-1">Posts:</h3>
-<div class="outline-text-3" id="text-1-1">
-<ul class="org-ul">
-<li><a href="./notes/making_website.html">Building this website</a>
+<h2>Creating this website</h2>
+<p>This website was created with the help of <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+It is convinient to create the html pages through its markdown like syntax.
+<a href="https://pages.github.com/">GitHub pages</a> were used for (free) hosting the
+website. Make sure that jemdoc is in the PATH:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+sudo cp jemdoc.py /usr/bin/jemdoc
+sudo chmod +x /usr/bin/jemdoc
+</pre></div></div>
+<p>I wrote a very simple bash
+<a href="https://gist.github.com/ninception/3087f5211eb7e1ec11bd5c001e59fd24">script</a>
+for the conversion (could also be done with a
+<a href="http://jemdoc.jaboc.net/stuff.html">makefile</a>).</p>
+<h2>LaTeX help</h2>
+<p>LaTeX is a very useful language for writing professional looking documents and articles. For an online solution, I found ShareLatex to very convinient. It also has many short guides on various topics.</p>
+<ul>
+<li><p>Use charter, palatino or times font instead of the default</p>
 </li>
-
-<li><a href="./notes/latexsetup.html">Using LaTeX</a>
+<li><p><a href="http://www.latextemplates.com/">Templates</a></p>
+</li>
+<li><p><a href="https://en.wikibooks.org/wiki/LaTeX/">Latex wikibook</a></p>
 </li>
 </ul>
-
-
-<hr  />
+<h2>Some other useful sites</h2>
+<ul>
+<li><p><a href="https://www.quantamagazine.org/">Quanta magazine</a></p>
+</li>
+<li><p><a href="https://news.ycombinator.com/">'Hacker&rsquo; News</a></p>
+</li>
+<li><p><a href="https://wiby.me/">Old website search engine</a></p>
+</li>
+</ul>
+<h2>Guiding philosophy</h2>
+<p>Energy maximization</p>
+<p>Maintaining positive outlook</p>
+<p>Enjoy moments</p>
+<table class="imgtable"><tr><td>
+<img src="./docs/ninad-beach.jpg" alt="ninad aksi beach" height="200px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<div id="footer">
+<div id="footer-text">
+Page generated 2018-05-27, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
-</div>
-</div>
-<div id="postamble" class="status">
-<p class="creator"><small> Created with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</small></p>
-<p class="validation"></p>
-</div>
+</td>
+</tr>
+</table>
 </body>
 </html>

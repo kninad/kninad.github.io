@@ -1,0 +1,51 @@
+# jemdoc: menu{MENU}{notes.html}, notime
+= Notes
+
+== Creating this website
+This website was created with the help of [http://jemdoc.jaboc.net/ jemdoc].
+It is convinient to create the html pages through its markdown like syntax.
+[https://pages.github.com/ GitHub pages] were used for (free) hosting the
+website. Make sure that jemdoc is in the PATH:
+~~~
+{}{}
+sudo cp jemdoc.py /usr/bin/jemdoc
+sudo chmod +x /usr/bin/jemdoc
+~~~
+
+I wrote a very simple bash
+[https://gist.github.com/ninception/3087f5211eb7e1ec11bd5c001e59fd24 script]
+for the conversion (could also be done with a
+[http://jemdoc.jaboc.net/stuff.html makefile]).
+
+
+== LaTeX help
+LaTeX is a very useful language for writing professional looking documents and articles. For an online solution, I found ShareLatex to very convinient. It also has many short guides on various topics.
+
+- Use charter, palatino or times font instead of the default
+- [http://www.latextemplates.com/ Templates]
+- [https://en.wikibooks.org/wiki/LaTeX/ Latex wikibook]
+
+
+== Some other useful sites
+
+- [https://www.quantamagazine.org/ Quanta magazine]
+- [https://news.ycombinator.com/ 'Hacker' News]
+- [https://wiby.me/ Old website search engine]
+
+
+== Guiding philosophy
+Energy maximization
+
+Maintaining positive outlook
+
+Enjoy moments
+
+~~~
+{}{img_left}{./docs/ninad-beach.jpg}{ninad aksi beach}{}{200px}{}
+~~~
+
+
+
+
+
+
