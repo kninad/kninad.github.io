@@ -19,9 +19,11 @@ for the conversion (could also be done with a
 
 
 == LaTeX help
-LaTeX is a very useful language for writing professional looking documents and articles. For an online solution, I found ShareLatex to very convinient. It also has many short guides on various topics.
+LaTeX is a very useful language for writing professional looking documents and articles. For an online solution, I found ShareLatex to very convinient.
+It also has many short guides on various topics.
+Putting down some goto links:
 
-- Use charter, palatino or times font instead of the default
+- [https://www.sharelatex.com/learn/Learn_LaTeX_in_30_minutes ShareLaTeX tutorial]
 - [http://www.latextemplates.com/ Templates]
 - [https://en.wikibooks.org/wiki/LaTeX/ Latex wikibook]
 
@@ -41,7 +43,7 @@ Maintaining positive outlook
 Enjoy moments
 
 ~~~
-{}{img_left}{./docs/ninad-beach.jpg}{ninad aksi beach}{}{200px}{}
+{}{img_left}{./docs/ninad-beach.jpg}{ninad aksi beach}{}{250px}{}
 ~~~
 
 

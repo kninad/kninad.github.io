@@ -8,7 +8,7 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: Georgia, serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	padding-bottom: 8px;
 	margin: 0;
 	max-width:60em;
@@ -18,8 +18,8 @@ body {
 	background: #f6f6f6;
 	border: 1px solid #dddddd;
 	padding-top: 0.5em;
-	padding-left: 8px;
-	padding-right: 8px;
+	padding-left: 16px;
+	padding-right: 16px;
 	font-size: 1.0em;
 	width: auto;
 	white-space: nowrap;
@@ -43,7 +43,7 @@ body {
 }
 
 #layout-menu a {
-	line-height: 1.5em;
+	line-height: 1.6em;
 	margin-left: 0.5em;
 }
 
