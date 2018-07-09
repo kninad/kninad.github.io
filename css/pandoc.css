@@ -1,0 +1,189 @@
+/* Custom CSS file for use with pandoc */
+
+.mynavbar{	
+	background-color: #3f3f3f;
+	margin: 0;
+	padding: 0;			
+	width:100%;
+	text-align:center;
+	position:fixed; }
+
+.mynavbar .brand {	
+	padding-left: auto; }
+
+.mynavbar .brand a:hover{
+    text-decoration:none; }
+
+.mynavbar ul {
+    list-style: none;    
+    margin: 0 auto; 
+    padding: 0;
+    overflow: hidden; }
+
+.mynavbar li {
+    float: left;      
+    font-size: 1em; }
+
+.mynavbar li a {    
+    display: inline-block;
+    margin-top: 5px;
+    color: #f0f0f0;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 16px 7px 16px;
+    line-height: 0.8em; }
+
+.mynavbar li a:hover {    
+    text-decoration: underline; }
+
+
+body {      
+      width:100%;
+      margin:0px;
+      padding: 0px;
+      background-color: #fcfcfc;
+      font-size:1.2em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: #1a1a1a;
+      line-height:1.618; }
+
+#wrap {
+      width: 100%;
+      position: relative; 
+      margin: 0 auto; }
+
+#content {
+      margin: 0 auto;
+      margin-top:0px;
+      padding: 0;
+      padding-top: 50px;
+      width: 50%; }
+
+#myfooter{
+	font-size: 70% ; 
+	width: 50%;
+	color: gray; 
+    margin: 0 auto;
+    margin-top: 10px;
+	border-top:1px solid #bbbbbb;
+	text-align: center; }
+
+#homepic{
+	float:left;
+	height:150px;
+    display: inline; }
+
+
+#iflpic{
+	height:300px; }
+
+
+h1 {
+  font-size: 1.8em; }
+
+h2 {
+  font-size: 1.6em; }
+
+h3 {
+  font-size: 1.3em; }
+
+h4 {
+  font-size: 1.0em; }
+
+h5 {
+  font-size: 0.9em; }
+
+h6 {
+  font-size: 0.8em; }
+
+small, sub, sup {
+  font-size: 75%; }
+
+
+a {
+	text-decoration: none;
+	color:#255db8; }
+
+a:hover {
+	text-decoration: underline; }
+
+a:visited {
+	color:#255db8; }
+
+
+ul {
+  padding-left: 1.4em; }
+
+li {
+  margin-bottom: 0.4em; }
+
+
+figcaption {
+	display:none; }
+
+figure { 
+	display: block; 
+	margin:0;
+	page-break-inside:avoid; }
+
+img { 
+    height:200px;
+	margin-right: 20px;
+	padding-left: 0.2em; }
+
+
+blockquote {
+  font-style: italic;
+  margin-left: 1.5em;
+  padding-left: 1em;
+  border-left: 3px solid #2c8898; }
+
+
+/* Pre and Code */
+pre {
+  background-color: #f1f1f1;
+  display: block;
+  padding: 1em;
+  overflow-x: auto; }
+
+code {
+  font-size: 0.9em;
+  padding: 0 0.5em;
+  background-color: #f1f1f1;
+  white-space: pre-wrap; }
+
+pre > code {
+  padding: 0;
+  background-color: transparent;
+  white-space: pre; }
+
+
+/* Tables */
+table {
+  text-align: justify;
+  width: 100%;
+  border-collapse: collapse; 
+  margin-bottom: 10px;}
+  
+
+td, th {
+  padding: 0.5em;
+  border-bottom: 1px solid #f1f1f1; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
