@@ -68,10 +68,11 @@ body {
 	border-top:1px solid #bbbbbb;
 	text-align: center; }
 
+
 #homepic{
 	float:left;
 	height:150px;
-    display: inline; }
+	display: inline; }
 
 
 #iflpic{
