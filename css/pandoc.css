@@ -1,5 +1,7 @@
 /* Custom CSS file for use with pandoc */
 
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
 .mynavbar{	
 	background-color: #444444;
 	margin: 0;
@@ -42,8 +44,8 @@ body {
       margin:0px;
       padding: 0px;
       background-color: #fcfcfc;
-      font-size:1.2em;
-      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size:16px;
+      font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
       color: #1a1a1a;
       line-height:1.618; }
 
@@ -57,21 +59,22 @@ body {
       margin-top:0px;
       padding: 0;
       padding-top: 50px;
-      width: 50%; }
+      width: 44%; }
 
 #myfooter{
 	font-size: 70% ; 
-	width: 50%;
+	width: 46%;
 	color: gray; 
-    margin: 0 auto;
-    margin-top: 10px;
+	margin: 0 auto;
+    	margin-top: 10px;
 	border-top:1px solid #bbbbbb;
 	text-align: center; }
 
 
 #homepic{
 	float:left;
-	height:150px;
+	height:130px;
+	border-radius: 10%;
 	display: inline; }
 
 
