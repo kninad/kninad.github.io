@@ -4,7 +4,7 @@ pagetitle: Ninad Khargonkar
 
 ### Welcome to my homepage!
 
-![home](./etc/ninad-b3.jpg){#homepic}
+![home](./etc/ninad-home.jpg){#homepic}
 
 Ninad Khargonkar  
 2nd year Masters Student  
