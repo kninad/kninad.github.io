@@ -44,7 +44,7 @@ body {
       margin:0px;
       padding: 0px;
       background-color: #fcfcfc;
-      font-size:16px;
+      font-size:14px;
       font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
       color: #1a1a1a;
       line-height:1.618; }
@@ -73,8 +73,8 @@ body {
 
 #homepic{
 	float:left;
-	height:130px;
-	border-radius: 10%;
+	height:110px;
+	border-radius: 40%;
 	display: inline; }
 
 
