@@ -2,16 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
-.mynavbar{	
-	background-color: #444444;
-	margin: 0;
-	padding: 0;			
-	width:100%;
-	text-align:center;
-	position:fixed; }
+.mynavbar{  
+    background-color: #444444;
+    margin: 0;
+    padding: 0;         
+    width:100%;
+    text-align:center;
+    position:fixed; }
 
-.mynavbar .brand {	
-	padding-left: auto; }
+.mynavbar .brand {  
+    padding-left: auto; }
 
 .mynavbar .brand a:hover{
     text-decoration:none; }
@@ -44,7 +44,7 @@ body {
       margin:0px;
       padding: 0px;
       background-color: #fcfcfc;
-      font-size:14px;
+      font-size:16px;
       font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
       color: #1a1a1a;
       line-height:1.618; }
@@ -62,24 +62,24 @@ body {
       width: 44%; }
 
 #myfooter{
-	font-size: 70% ; 
-	width: 46%;
-	color: gray; 
-	margin: 0 auto;
-    	margin-top: 10px;
-	border-top:1px solid #bbbbbb;
-	text-align: center; }
+    font-size: 70% ; 
+    width: 46%;
+    color: gray; 
+    margin: 0 auto;
+        margin-top: 10px;
+    border-top:1px solid #bbbbbb;
+    text-align: center; }
 
 
 #homepic{
-	float:left;
-	height:110px;
-	border-radius: 40%;
-	display: inline; }
+    float:left;
+    height:110px;
+    border-radius: 40%;
+    display: inline; }
 
 
 #iflpic{
-	height:300px; }
+    height:300px; }
 
 
 h1 {
@@ -105,14 +105,14 @@ small, sub, sup {
 
 
 a {
-	text-decoration: none;
-	color:#255db8; }
+    text-decoration: none;
+    color:#255db8; }
 
 a:hover {
-	text-decoration: underline; }
+    text-decoration: underline; }
 
 a:visited {
-	color:#255db8; }
+    color:#255db8; }
 
 
 ul {
@@ -123,17 +123,17 @@ li {
 
 
 figcaption {
-	display:none; }
+    display:none; }
 
 figure { 
-	display: block; 
-	margin:0;
-	page-break-inside:avoid; }
+    display: block; 
+    margin:0;
+    page-break-inside:avoid; }
 
 img { 
     height:200px;
-	margin-right: 20px;
-	padding-left: 0.2em; }
+    margin-right: 20px;
+    padding-left: 0.2em; }
 
 
 blockquote {
