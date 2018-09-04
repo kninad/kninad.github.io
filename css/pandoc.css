@@ -19,6 +19,7 @@
 .mynavbar ul {
     list-style: none;    
     margin: 0 auto; 
+    margin-left: 27%;
     padding: 0;
     overflow: hidden; }
 
@@ -32,7 +33,7 @@
     color: #fdfdfd;
     text-align: center;
     text-decoration: none;
-    padding: 7px 16px 7px 16px;
+    padding: 12px 18px 12px 18px;
     line-height: 0.8em; }
 
 .mynavbar li a:hover {    
@@ -57,8 +58,9 @@ body {
 #content {
       margin: 0 auto;
       margin-top:0px;
+      margin-left:28%;
       padding: 0;
-      padding-top: 50px;
+      padding-top: 60px;
       width: 44%; }
 
 #myfooter{
@@ -66,7 +68,8 @@ body {
     width: 46%;
     color: gray; 
     margin: 0 auto;
-        margin-top: 10px;
+    margin-top: 10px;
+    margin-left: 28%;
     border-top:1px solid #bbbbbb;
     text-align: center; }
 
