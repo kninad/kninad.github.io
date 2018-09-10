@@ -23,7 +23,7 @@ intelligence in general.
 
 For a more information here are some additional links: [Resume](./etc/Resume_NinadKhargonkar.pdf) |
 [LinkedIn](https://www.linkedin.com/in/ninadkhargonkar/) |
-[GitHub](https://github.com/ninception).
+[GitHub](https://github.com/ninception)
 
-<small> This website was created using [pandoc](https://pandoc.org) and is 
-hosted on [github pages](https://pages.github.com).  </small>
+This website was created using [pandoc](https://pandoc.org) and is 
+hosted on [github pages](https://pages.github.com).
