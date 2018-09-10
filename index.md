@@ -21,7 +21,12 @@ My interests are in the problems of machine learning and  probabilistic modellin
 of language and healthcare. I am also interested in causal inference and more explainable forms of artificial 
 intelligence in general.
 
-For a more information here are some additional links: [Resume](./etc/Resume_NinadKhargonkar.pdf) |
+When I am not into some reading or sleeping, I like to play football 
+(soccer) and occasionally going on intense running sessions. In order to 
+be more "artistic" I am also trying to pick up sketching from
+the awesome website of [drawabox](https://drawabox.com/).
+
+[Resume](./etc/Resume_NinadKhargonkar.pdf) |
 [LinkedIn](https://www.linkedin.com/in/ninadkhargonkar/) |
 [GitHub](https://github.com/ninception)
 
