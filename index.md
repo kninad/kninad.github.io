@@ -26,7 +26,7 @@ When I am not into some reading or sleeping, I like to play football
 be more "artistic" I am also trying to pick up sketching from
 the awesome website of [drawabox](https://drawabox.com/).
 
-[Resume](./etc/Resume_NinadKhargonkar.pdf) |
+[Curriculum Vitae](./etc/CV_NinadKhargonkar.pdf) |
 [LinkedIn](https://www.linkedin.com/in/ninadkhargonkar/) |
 [GitHub](https://github.com/ninception)
 

@@ -2,13 +2,14 @@
 
 Rootdir="/mnt/Study/job/resume/current-cv-resume/"
 
-RESUME="${Rootdir}/Resume_NinadKhargonkar.pdf"
+# RESUME="${Rootdir}/Resume_NinadKhargonkar.pdf"
+CV="${Rootdir}/CV_NinadKhargonkar.pdf"
 
-cp $RESUME ./etc/
+cp $CV ./etc/
 
-git add ./etc/Resume_NinadKhargonkar.pdf
+git add ./etc/CV_NinadKhargonkar.pdf
 
-git commit -m 'resume update'
+git commit -m 'cv update'
 
 git push origin master
 
