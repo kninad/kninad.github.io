@@ -1,7 +1,5 @@
 /* Custom CSS file for use with pandoc */
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
-@import url('https://fonts.googleapis.com/css?family=Lato');
 .mynavbar{  
     background-color: #505050;
     margin: 0;
