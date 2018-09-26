@@ -12,8 +12,8 @@ Ninad Khargonkar
 [University of Massachusetts, Amherst](https://www.umass.edu/)  
 email: nkhargonkar [at] cs [dot] umass [dot] edu
 
-I am a final year Master's student in Computer Science at the University of Massachusetts Amherst. 
-I graduated from IIT-Kanpur in 2017  with a Bachelors degree from the Department of Mathematics and Statistics.
+I am a final year masters student in computer science at the University of Massachusetts Amherst. 
+I graduated from IIT-Kanpur in 2017  with a bachelors degree from the department of mathematics and statistics.
 My research interests lie in the problems of machine learning and  probabilistic modelling and their applications in fields
 of language and healthcare. I am also interested in causal inference and explainable forms of artificial 
 intelligence in general.
@@ -24,8 +24,8 @@ be more "artistic" I am also trying to pick up sketching from
 the awesome website of [drawabox](https://drawabox.com/).
 
 Here are a few links for more information on my "professional" activities:
-[LinkedIn](https://www.linkedin.com/in/ninadkhargonkar/) |
-[GitHub](https://github.com/ninception) |
-[Curriculum Vitae](./etc/CV_NinadKhargonkar.pdf)
+[linkedin](https://www.linkedin.com/in/ninadkhargonkar/) |
+[github](https://github.com/ninception) |
+[curriculum vitae](./etc/CV_NinadKhargonkar.pdf)
 
 
