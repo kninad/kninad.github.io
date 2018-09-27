@@ -46,8 +46,8 @@ body {
       margin:0px;
       padding: 0px;
       background-color: #fdfdfd;
-      font-size:16px;
-      font-family: Arial, sans- serif;
+      font-size:18px;
+      font-family: Arial, sans-serif;
       color: #1a1a1a;
       line-height:1.6; }
 
@@ -67,7 +67,7 @@ body {
 
 #myfooter{
     font-size: 70% ; 
-    width: 46%;
+    width: 44%;
     color: gray; 
     margin: 0 auto;
     margin-top: 10px;
@@ -78,8 +78,8 @@ body {
 
 #homepic{
     float:left;
-    height:120px;
-    border-radius: 24%;
+    height:150px;
+    border-radius: 46%;
     display: inline; }
 
 

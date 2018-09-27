@@ -4,13 +4,15 @@ pagetitle: Ninad Khargonkar
 
 ### Welcome to my homepage!
 
-![home](./etc/happy.jpg){#homepic}
+![home](./etc/ninad-home-01.jpg){#homepic}
 
 Ninad Khargonkar  
 2nd year Masters Student  
 [College of Information and Computer Sciences](https://www.cics.umass.edu/)  
 [University of Massachusetts, Amherst](https://www.umass.edu/)  
 email: nkhargonkar [at] cs [dot] umass [dot] edu
+
+</br>
 
 I am a final year masters student in computer science at the University of Massachusetts Amherst. 
 I graduated from IIT-Kanpur in 2017  with a bachelors degree from the department of mathematics and statistics.
