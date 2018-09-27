@@ -4,7 +4,7 @@ pagetitle: Ninad Khargonkar
 
 ### Welcome to my homepage!
 
-![home](./etc/ninad-home-01.jpg){#homepic}
+![home](./etc/ninad-01.jpg){#homepic}
 
 Ninad Khargonkar  
 2nd year Masters Student  
@@ -25,7 +25,7 @@ When I am not into some reading or sleeping, I like to play football
 be more "artistic" I am also trying to pick up sketching from
 the awesome website of [drawabox](https://drawabox.com/).
 
-Here are a few links for more information on my "professional" activities:
+Here are a few links for more "professional" information:
 [linkedin](https://www.linkedin.com/in/ninadkhargonkar/) |
 [github](https://github.com/ninception) |
 [curriculum vitae](./etc/CV_NinadKhargonkar.pdf)
