@@ -26,8 +26,6 @@ quite good. There is also a [book](https://leanpub.com/the-tao-of-tmux/read) for
 
 Noting down some useful vim keystrokes:
 
----
-
 ### Navigation
 
 h -- go left
@@ -38,7 +36,7 @@ k -- go up
 
 l -- go right
 
----
+
 
 ### Saving files
 
@@ -52,7 +50,7 @@ i -- Will enable the insert mode for editing files
 
 ESC -- Will exit inset mode (and go back to normal mode)
 
----
+
 
 ### Operators
 
@@ -78,7 +76,6 @@ r -- replace key
 
 p -- put prev deleted text after cursor
 
----
 
 ### Undo
 
@@ -88,4 +85,55 @@ U -- fix the whole line as it was
 
 <Ctrl-R\> -- undo the undos
 
+-----------------
+
+
+### Tmux
+
+In this note `C` refers to the command prefix. Default is `Ctrl-b` and
+in my .tmux.conf I have it as `Ctrl-a` along with mapping `CAPS` key to `Ctrl`.
+
+
+### Panes
+
+- Split vertically: `C %`
+
+- Split horizontally: `C "`
+
+- Navigation: `C arrowKey`
+
+- Close pane: `exit` or `Ctrl-D`
+
+- Makes a pane go full screen: `C z`
+
+- Resize pane in arrowKey dirn: `C-b C-arrowKey`. Here `C` refers to `Ctrl` and
+not the prefix command which is stated explicitly.
+
+
+### Windows (they are like Virtual Desktops)
+
+- Create new: `C c`
+
+- Switch to previous: `C p`
+
+- Switch to window `NUM`: `C NUM`. (numbering starts from 0)
+
+- Rename current window: `C ,`
+
+
+### Session handling
+
+- Detach current session: `C d`
+
+- Choices for detaching: `C D`
+
+- List sessions: `tmux ls`
+
+- Attach session number 0: `tmux attach -t 0`
+
+- Create session with name: `tmux new -s sessName`
+
+- Rename session: `tmux rename-session -t 0 sessName`
+
+-------------
 
