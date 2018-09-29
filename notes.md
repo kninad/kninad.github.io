@@ -2,7 +2,7 @@
 pagetitle: Notes
 ---
 
-### Some posts
+### Posts
 
 [Vim & tmux](notes-vimtmux.html)
 
