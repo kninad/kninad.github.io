@@ -10,22 +10,10 @@ pagetitle: Notes
 
 ---
 
-### Latex help
 
-LaTeX is a very useful language for writing professional looking documents and 
-articles. For an online solution, I found ShareLatex to very convinient. It also
-has many short guides on various topics. Putting down some goto links:
+### Some useful links
 
-- [ShareLaTeX tutorial](https://www.sharelatex.com/learn/Learn_LaTeX_in_30_minutes)
-- [Templates](http://www.latextemplates.com/)
-- [Latex wikibook](https://en.wikibooks.org/wiki/LaTeX/)
-
----
-
-### Some other useful sites
-
+- LaTeX: [30 min tutorial](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes), [templates](http://www.latextemplates.com/), [wikibook](https://en.wikibooks.org/wiki/LaTeX/)
 - [Quanta magazine](https://www.quantamagazine.org/)
 - ['Hacker' News](https://news.ycombinator.com/)
 - [Old website search engine](https://wiby.me/ )
-
-
