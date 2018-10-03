@@ -17,3 +17,10 @@ pagetitle: Notes
 - [Quanta magazine](https://www.quantamagazine.org/)
 - ['Hacker' News](https://news.ycombinator.com/)
 - [Old website search engine](https://wiby.me/ )
+- [Project Gutenberg](https://www.gutenberg.org/): Public domain free ebooks
+- [Zotero](https://www.zotero.org/): Free software (GPL3) for organizing research papers. Also
+  has Firefox addon for ease in adding articles from web.
+- [Students against depression](https://www.studentsagainstdepression.org/): Helpful website 
+  for taking care of mental health
+- [lichess](https://lichess.org/): Free and open source alternative to chess.com and in my opinion 
+  a much better website for practicing playing chess!
