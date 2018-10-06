@@ -27,4 +27,4 @@ LaTeX: [30 min tutorial](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_
 
 [Students against depression](https://www.studentsagainstdepression.org/): Helpful website for taking care of mental health
 
-[lichess](https://lichess.org/): Free and open source alternative to chess.com and in my opinion for practicing chess!
+[lichess](https://lichess.org/): Free and open source alternative to chess.com for practicing chess!
