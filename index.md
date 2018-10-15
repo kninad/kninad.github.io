@@ -27,6 +27,5 @@ the awesome website of [drawabox](https://drawabox.com/).
 Here are a few links for more "professional" information:
 [linkedin](https://www.linkedin.com/in/ninadkhargonkar/) |
 [github](https://github.com/ninception) |
-[curriculum vitae](./etc/CV_NinadKhargonkar.pdf)
-
+[CV](./etc/CV_NinadKhargonkar.pdf)
 
