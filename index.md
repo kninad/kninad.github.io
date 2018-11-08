@@ -20,8 +20,8 @@ of language and healthcare. I am also interested in causal inference and explain
 intelligence in general.
 
 When I am not into some reading or sleeping, I like to play football 
-(soccer) and occasionally going on running/bicycling sessions. In order to 
-be more "artistic" I am also trying to pick up sketching from
+and occasionally running or bicycling. In order to 
+be more artistic I am also trying to pick up sketching from
 the awesome website of [drawabox](https://drawabox.com/).
 
 Here are a few links for more "professional" information:

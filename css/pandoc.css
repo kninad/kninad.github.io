@@ -1,5 +1,7 @@
 /* Custom CSS file for use with pandoc */
 
+@media screen and (min-width: 542px) {
+ 
 .mynavbar{  
     background-color: #505050;
     margin: 0;
@@ -41,6 +43,11 @@
     text-decoration: underline; }
 
 
+}
+
+
+
+
 body {      
       width:100%;
       margin:0px;
@@ -62,7 +69,7 @@ body {
       margin-left:28%;
       width: 44%;
       padding: 0;
-      padding-top: 60px;
+      padding-top:80px;
       }
 
 hr {
@@ -194,6 +201,10 @@ td, th {
   border-bottom: 1px solid #f1f1f1; }
 
 
+@media screen and (max-width: 541px) {
+#content{
+    width:100%;
+}
 
 
 
