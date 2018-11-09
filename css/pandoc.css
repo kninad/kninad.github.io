@@ -44,7 +44,6 @@
 .mynavbar li a:hover {    
     text-decoration: underline; }
 
-
 }
 
 
@@ -101,10 +100,10 @@ hr {
 
 
 #homepic{
-    float:left;
-    height:110px;
+    float: left;
+    height: 110px;
     border-radius: 46%;
-    display: inline; }
+    }
 
 
 #iflpic{
@@ -207,15 +206,23 @@ td, th {
   border-bottom: 1px solid #f1f1f1; }
 
 
+/* Small screens and mobile */
 @media screen and (max-width: 541px) {
 
 body{
     font-size:12px;
-}
+    }
     
 #content{
-    width:100%;
-}
+    width:95%;
+    margin-left:5%;
+    margin-right:5%;
+    }
+
+#homepic{
+    height:76px;
+    }
+
 }
 
 
