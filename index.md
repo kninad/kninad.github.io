@@ -14,14 +14,14 @@ Email: nkhargonkar [at] cs [dot] umass [dot] edu
 </br>
 
 I am a final year masters student in computer science at the University of Massachusetts Amherst. 
-I completed my undergraduate education from [IIT-Kanpur](https://www.iitk.ac.in/) in 2017  with a bachelors degree from the [department of mathematics and statistics](https://www.iitk.ac.in/math/).
-My research interests lie in the problems of machine learning and  probabilistic modelling and their applications in fields
-of language and healthcare. I am also interested in causal inference and explainable forms of artificial 
-intelligence in general.
+I completed my undergraduate education from [IIT-Kanpur](https://www.iitk.ac.in/) in 2017  with a 
+bachelors degree from the Department of Mathematics and Statistics.
+My research interests lie in the problems of machine learning and  probabilistic modelling and their 
+applications in fields of language and healthcare. I am also interested in causal inference and 
+explainable forms of artificial intelligence in general.
 
 When I am not into some reading or sleeping, I like to play football 
-and occasionally running or bicycling. In order to 
-be more artistic I am also trying to pick up sketching from
+and occasionally running or bicycling. I am also trying to pick up sketching from
 the awesome website of [drawabox](https://drawabox.com/).
 
 Here are a few links for more "professional" information:
