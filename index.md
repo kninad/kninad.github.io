@@ -30,3 +30,7 @@ Here are a few links for more "professional" information:
 [CV (long)](./etc/CV_NinadKhargonkar.pdf) | 
 [CV (short)](./etc/Resume_NinadKhargonkar.pdf)
 
+<small>
+Created using [pandoc](https://pandoc.org/) and hosted for free 
+using [github pages](https://pages.github.com/)
+</small>
