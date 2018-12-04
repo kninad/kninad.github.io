@@ -25,7 +25,7 @@
 .mynavbar ul {
     list-style: none;    
     margin: 0 auto; 
-    margin-left: 19%;
+    margin-left: 23%;
     padding: 0;
     overflow: hidden; }
 
@@ -70,10 +70,10 @@ body {
 #content {
       margin: 0 auto;
       margin-top: 0px;
-      margin-left: 20%;      
+      margin-left: 24%;      
       padding-top: 70px;
       padding-right: 5px;      
-      width: 50%;
+      width: 52%;
       }
 
 hr {
@@ -92,19 +92,19 @@ hr {
       
 #myfooter{
     font-size: 70% ; 
-    width: 50%;
+    width: 52%;
     color: gray; 
     margin: 0 auto;
     margin-top: 10px;
-    margin-left: 20%;
+    margin-left: 24%;
     border-top:1px solid #bbbbbb;
     text-align: center; }
 
 
 #homepic{
     float: left;
-    height: 106px;
-    border-radius: 46%;
+    height: 100px;
+    border-radius: 25%;
     }
 
 
