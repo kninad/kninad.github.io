@@ -26,11 +26,9 @@ and occasionally going for running and bicycling.
 I am also trying to pick up sketching from the awesome resource of 
 [drawabox](https://drawabox.com/).
 
-Here are a few links for more "professional" information:
+Here are few links for more "professional" information:
 [linkedin](https://www.linkedin.com/in/ninadkhargonkar/) |
-[github](https://github.com/ninception) |
-[CV (long)](./etc/CV_NinadKhargonkar.pdf) | 
-[CV (short)](./etc/Resume_NinadKhargonkar.pdf)
+[github](https://github.com/ninception)
 
 <small>
 Created using [pandoc](https://pandoc.org/) and hosted
