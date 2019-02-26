@@ -18,7 +18,7 @@
 .mynavbar ul {
     list-style: none;    
     margin: 0 auto; 
-    margin-left: 23%;
+    margin-left: 24%;
     padding: 0;
     overflow: hidden; }
 
@@ -48,8 +48,8 @@ body {
       width:100%;
       margin:0px;
       padding: 0px;
-      background-color: #fffff8;
-      font-size:18px;
+      background-color: #ffffff;
+      font-size:16px;
       /*font-family: Arial, sans-serif;*/
       font-family: 'Merriweather', Palatino, "Palatino Linotype", Georgia, serif;
       color: #111;
@@ -64,10 +64,13 @@ body {
 #content {
       margin: 0 auto;
       margin-top: 0px;
-      margin-left: 24%;      
-      padding-top: 70px;
-      padding-right: 5px;      
-      width: 52%;
+      padding-top: 50px;
+      padding-bottom: 10px;
+      padding-right: 4%;      
+      padding-left: 4%;
+      width: 50%;
+      border: 2px dashed black;
+      background-color: #fffff1;
       }
 
 hr {
@@ -97,7 +100,7 @@ hr {
 
 #homepic{
     float: left;
-    height: 114px;
+    height: 100px;
     border-radius: 25%;
     }
 
