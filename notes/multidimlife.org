@@ -1,0 +1,10 @@
+#+TITLE: Multi dimensional life
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+
+[[../index.html][home]] | [[../notes.html][notes]] | [[../misc.html][misc]]
+
+
+Its just a 100 dimension vector! Cant maximize all the dimensions!!
+
+

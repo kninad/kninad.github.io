@@ -1,0 +1,32 @@
+#+TITLE: Misc
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+
+[[./index.html][home]] | [[./notes.html][notes]] | [[./misc.html][misc]]
+
+* Football
+
+For quite some time, my primary passtime has been playing and watching 
+football. Here are some football related websites that I like:
+
+- [[http://fantasy.premierleague.com/][Fantasy premier league]]
+- [[https://www.tifofootball.com/][Tifo Football]]
+- [[http://spielverlagerung.com/][Spielverlagerung]]
+
+Below is a photo with my football friends at iitk footy ground around the 
+time we won the Institute football league!
+
+#+attr_html: :height 240px
+[[./etc/ifl1.jpg]]
+
+* Guiding philosophy
+
+1. Energy maximization: Minimize energy loss by wasting time on useless things. Take a nice nap instead :)
+2. Maintaining positive outlook:  We can't be absolutely sure of everything in life,  so why not take a positive perspective whenever in doubt!
+3. Enjoy moments in life: Strive to live in the present and not take unnecessary worry about things out of our hand.
+
+#+attr_html: :height 200px
+[[./etc/ninad-beach.jpg]]
+
+
+ 

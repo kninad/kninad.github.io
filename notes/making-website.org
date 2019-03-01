@@ -1,0 +1,57 @@
+#+TITLE: Multi dimensional life
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+
+[[../index.html][home]] | [[../notes.html][notes]] | [[../misc.html][misc]]
+ 
+* Using org mode
+I started using org mode in Emacs to organize my notes in a portable text
+format. In the process of learning about emacs and orgmode, I soon realized
+about how useful orgmode is apart just taking notes. I used to it create the
+html pages of this website using its publishing capabilities. I had to tweak
+the css a bit to make it look how I like but apart from that it was a smooth 
+process. I wrote the content in .org files and then published them to html
+in the same folder. So it is a realtively light weight and small setup but
+I guess I also don't need anything fancy as long as I am in control!
+
+
+* Old method: pandoc
+I took the help of [[https://pandoc.org/]] to simplify the entire process:
+Pandoc is a very useful document converter and a handy tool for creating the 
+html syntax of the website. 
+After creating the necessary files (locally), I used 
+[[https://pages.github.com/]] for hosting the website.
+
+Each page of this website was written in [[http://pandoc.org/MANUAL.html#pandocs-markdown][markdown]]
+and hence it was very easy to
+write or modify the content and track the changes using git. 
+The basic pandoc command for converting the markdown 
+file to html will only output a plain html file. 
+Although pandoc supports writing html syntax in the markdown file,
+its usually not recommended as its better to keep the markdown file clean.
+
+
+For further modifications, pandoc supports passing 
+custom html files which can be added
+to three positions (header, before-body and after-body) in the final html code 
+for the page. Additionally, one can play around with the pandoc's default html 
+template 
+for gaining control over the placement of certain elements (like div) in the 
+overall code. Finally the css file was created for styling the navigation bar 
+and the page content.
+
+To avoid writing the long pandoc command for each file, I wrote a simple bash 
+script to run the command on all the markdown files which made
+modifying the website content very easy.
+
+~~~
+pandoc \
+	-H "$HEADER" \
+	-B "$BEFORE" \
+	-A "$AFTER" \
+	-V author-meta="$AUTHOR" \
+	-s --template "$TEMPL" \
+	-f markdown -t html5 $mf -o $filename.html		
+~~~
+
+
