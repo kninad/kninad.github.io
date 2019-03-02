@@ -1,7 +1,7 @@
-#+TITLE: Multi dimensional life
+#+TITLE: This webpage
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/worg.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../css/worg.css" />
 
 [[../index.html][home]] | [[../notes.html][notes]] | [[../misc.html][misc]]
  
@@ -45,7 +45,7 @@ To avoid writing the long pandoc command for each file, I wrote a simple bash
 script to run the command on all the markdown files which made
 modifying the website content very easy.
 
-~~~
+#+BEGIN_SRC
 pandoc \
 	-H "$HEADER" \
 	-B "$BEFORE" \
@@ -53,6 +53,6 @@ pandoc \
 	-V author-meta="$AUTHOR" \
 	-s --template "$TEMPL" \
 	-f markdown -t html5 $mf -o $filename.html		
-~~~
+#+END_SRC
 
 
