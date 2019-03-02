@@ -1,8 +1,9 @@
-#+TITLE: Misc
+#+TITLE: Miscellaneous
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
-
-[[./index.html][home]] | [[./notes.html][notes]] | [[./misc.html][misc]]
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/worg.css" />
+[[./index.html][
+home]] | [[./notes.html][notes]] | [[./misc.html][misc]]
 
 * Football
 
@@ -13,11 +14,13 @@ football. Here are some football related websites that I like:
 - [[https://www.tifofootball.com/][Tifo Football]]
 - [[http://spielverlagerung.com/][Spielverlagerung]]
 
-Below is a photo with my football friends at iitk footy ground around the 
-time we won the Institute football league!
+The photo on the right is with my football friends at iitk footy ground around the 
+time we won the Institute football league! The other photo is from a memorable
+trip to Aksi beach near Mumbai.
 
-#+attr_html: :height 240px
+#+attr_html: :height 207px
 [[./etc/ifl1.jpg]]
+[[./etc/ninad-beach.jpg]]
 
 * Guiding philosophy
 
@@ -25,8 +28,3 @@ time we won the Institute football league!
 2. Maintaining positive outlook:  We can't be absolutely sure of everything in life,  so why not take a positive perspective whenever in doubt!
 3. Enjoy moments in life: Strive to live in the present and not take unnecessary worry about things out of our hand.
 
-#+attr_html: :height 200px
-[[./etc/ninad-beach.jpg]]
-
-
- 

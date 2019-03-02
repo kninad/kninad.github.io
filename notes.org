@@ -1,9 +1,9 @@
-#+TITLE: Making this website
+#+TITLE: Some Notes
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/worg.css" />
 
 [[./index.html][home]] | [[./notes.html][notes]] | [[./misc.html][misc]]
-
 
 *  Posts
 
@@ -19,7 +19,7 @@ explain their quality.
 [[./notes/making-website.html][Building this website]]
 
 
-* Some useful links
+* Useful links
 
 LaTeX: [[https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes][30 min tutorial]], [[http://www.latextemplates.com/][templates]], [[https://en.wikibooks.org/wiki/LaTeX/][wikibook]]
 

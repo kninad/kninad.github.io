@@ -1,18 +1,20 @@
-#+TITLE:Welcome!
+#+TITLE: Welcome to my homepage!
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/worg.css" />
 
 [[./index.html][home]] | [[./notes.html][notes]] | [[./misc.html][misc]]
 
 * About me
 
-/Ninad Khargonkar/ \\
-/[[https://www.cics.umass.edu/][College of Information and Computer Sciences]]/ \\
-/University of Massachusetts Amherst/ \\
-/Email: nkhargonkar [at] cs [dot] umass [dot] edu/
+Ninad Khargonkar \\
+College of Information and Computer Sciences \\
+University of Massachusetts Amherst \\
+Email: nkhargonkar [at] cs [dot] umass [dot] edu
 
-I am a final year masters student in computer science at the University of 
-Massachusetts Amherst. I completed my undergraduate education from
+I am a final year masters student in computer science at the 
+[[https://www.umass.edu/][University of Massachusetts Amherst]].
+I completed my undergraduate education from
 [[https://www.iitk.ac.in/][IIT Kanpur]] in 2017  with a bachelors degree from the department of 
 mathematics and statistics. Hopefully I will be able to use my education
 for a good cause!
