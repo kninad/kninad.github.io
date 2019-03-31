@@ -1,9 +1,8 @@
-#+TITLE: Org mode
-#+OPTIONS: toc:nil
-#+OPTIONS: num:nil
+---
+pagetitle: vim & tmux
+date: 15-July-2017
+---
 
-[[../index.html][home]] | [[../notes.html][notes]] | [[../misc.html][misc]]
- 
 ### Vim and tmux
 
 A very good resource for taking up vim is vimtutor which can accessed in a

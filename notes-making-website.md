@@ -1,9 +1,10 @@
-#+TITLE: Multi dimensional life
-#+OPTIONS: toc:nil
-#+OPTIONS: num:nil
+---
+pagetitle: Building this website
+date: 26-July-2017
+---
 
-[[../index.html][home]] | [[../notes.html][notes]] | [[../misc.html][misc]]
- 
+
+### Building this website 
 
 I wrote this page to document the process of creating this website.
 I mainly took the help of [pandoc](https://pandoc.org/) to simplify the entire process:
