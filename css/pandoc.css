@@ -13,13 +13,13 @@
 .mynavbar ul {
     list-style: none;    
     margin: 0 auto; 
-    margin-left: 24%;
+    margin-left: 19%;
     padding: 0;
     overflow: hidden; }
 
 .mynavbar li {
     float: left;      
-    font-size: 1.0em;
+    font-size: 0.9em;
     font-family: "DejaVu Sans", Arial, sans-serif;
 }
 
@@ -30,7 +30,7 @@
     text-align: center;
     text-decoration: none;
     padding: 8px 14px 6px 14px;
-    line-height: 0.8em; 
+    line-height: 0.5em; 
 }
 
 .mynavbar li a:hover {    
@@ -44,10 +44,11 @@ body {
       margin:0px;
       padding: 0px;
       background-color: #fffff1;
-      font-size:16px;
-      font-family: "DejaVu Sans", Arial, sans-serif;
+      font-size: 18px;
+      /*font-family: "DejaVu Sans", Arial, sans-serif;*/
+      font-family: "DejaVu Serif", Georgia, "Bookman", times, serif; 
       color: #111;
-      line-height:1.68; }
+      line-height:1.6; }
 
 #wrap {
       width: 100%;
@@ -58,11 +59,11 @@ body {
 #content {
       margin: 0 auto;
       margin-top: 0px;
-      padding-top: 50px;
+      padding-top: 40px;
       padding-bottom: 10px;
       padding-right: 4%;      
       padding-left: 4%;
-      width: 50%;
+      width: 60%;
       background-color: #fffff1;
       }
 
@@ -82,11 +83,11 @@ hr {
       
 #myfooter{
     font-size: 70% ; 
-    width: 52%;
+    width: 62%;
     color: gray; 
     margin: 0 auto;
     margin-top: 10px;
-    margin-left: 24%;
+    margin-left: 19%;
     border-top:1px solid #bbbbbb;
     text-align: center; }
 
@@ -122,14 +123,14 @@ small, sub, sup {
 
 
 a {
-	text-decoration: none;
-	color:#255db8; }
+    text-decoration: none;
+    color:#255db8; }
 
 a:hover {
-	text-decoration: underline; }
+    text-decoration: underline; }
 
 a:visited {
-	color:#255db8; }
+    color:#255db8; }
 
 ul {
   padding-left: 1.4em; }
