@@ -162,15 +162,16 @@ blockquote {
 
 /* Pre and Code */
 pre {
-  background-color: #f1f1f1;
+  background-color: #f5f7f9;
+  color: #444;
   display: block;
   padding: 1em;
-  overflow-x: auto; }
+  overflow-x: auto; 
+  border-left: 4px solid #d8dee9; }
 
 code {
   font-size: 0.9em;
-  padding: 0 0.5em;
-  background-color: #f1f1f1;
+  padding: 0.5em;
   white-space: pre-wrap; }
 
 pre > code {
@@ -196,15 +197,15 @@ td, th {
 @media screen and (max-width: 541px) {
 
 body{
-    font-size:12px;
+    font-size:14px;
     }
     
 #content{
     border-top: 1px solid #A0A0A0 ;
-    width:95%;
+    width: 95%;
     margin-left:2%;
+    margin-right: 2%;
     padding-top: 5px;
-    padding-right: 2%;
     }
 
 }
