@@ -44,12 +44,10 @@ body {
       margin:0px;
       padding: 0px;
       background-color: #fffff1;
-      font-size: 18px;
-      /*font-family: "DejaVu Sans", Arial, sans-serif;*/
-      font-family: "DejaVu Serif", "Georgia", "Times New Roman", 
-                    times, serif; 
+      font-size: 16px;
+      font-family: "DejaVu Sans", "Arial", sans-serif;
       color: #111;
-      line-height:1.6; }
+      line-height:1.5; }
 
 #wrap {
       width: 100%;
@@ -98,7 +96,7 @@ hr {
     height:200px; }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Times New Roman", times, serif;
+    font-family: "Georgia", "Times New Roman", times, serif;
 }
 
 h1 {
@@ -198,7 +196,7 @@ td, th {
 @media screen and (max-width: 541px) {
 
 body{
-    font-size:14px;
+    font-size:12px;
     }
     
 #content{
