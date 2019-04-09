@@ -46,7 +46,7 @@ body {
       background-color: #fffff1;
       font-size: 16px;
       font-family: "DejaVu Sans", "Arial", sans-serif;
-      color: #111;
+      color: #222;
       line-height:1.5; }
 
 #wrap {
@@ -95,8 +95,10 @@ hr {
 #iflpic{
     height:200px; }
 
-h1,h2,h3,h4,h5,h6 {
+    
+h1,h2,h3,h4,h5,h6 {    
     font-family: "Georgia", "Times New Roman", times, serif;
+    color: #111;
 }
 
 h1 {
