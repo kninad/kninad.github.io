@@ -46,7 +46,8 @@ body {
       background-color: #fffff1;
       font-size: 18px;
       /*font-family: "DejaVu Sans", Arial, sans-serif;*/
-      font-family: "DejaVu Serif", Georgia, "Bookman", times, serif; 
+      font-family: "DejaVu Serif", "Georgia", "Times New Roman", 
+                    times, serif; 
       color: #111;
       line-height:1.6; }
 
