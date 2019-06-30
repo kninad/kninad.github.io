@@ -4,9 +4,9 @@ pagetitle: Notes
 
 ### Posts
 
-[Vim & tmux](notes-vimtmux.html)
-
 [Building this website with pandoc](notes-making-website.html)
+
+[Guiding principles](notes-guiding-principles.html)
 
 ---
 

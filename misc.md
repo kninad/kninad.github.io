@@ -16,14 +16,4 @@ Below is a photo with my football friends at iitk footy ground around the time w
 ![ifl-iitk](./etc/ifl1.jpg){#iflpic}
 ![beachfooty](./etc/ninad-beach.jpg){#beachfooty}
 
----
-
-### Guiding philosophy
-
-1. Energy maximization: Sleep better and waste less energy.
-2. Maintaining positive outlook: We can't be absolutely sure of everything in life, so why not take a positive perspective whenever in doubt!
-3. Enjoy moments in life: Strive to live in the present and not take unnecessary worry about things out of our hand. 
-
----
-
 

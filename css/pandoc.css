@@ -1,4 +1,5 @@
 /* Custom CSS file for use with pandoc */
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
 
 @media screen and (min-width: 542px) {
  
@@ -13,7 +14,7 @@
 .mynavbar ul {
     list-style: none;    
     margin: 0 auto; 
-    margin-left: 19%;
+    margin-left: 24%;
     padding: 0;
     overflow: hidden; }
 
@@ -26,7 +27,7 @@
 .mynavbar li a {    
     display: inline-block;
     margin-top: 5px;
-    color: #FEFEFE;
+    color: rgb(253, 253, 253);
     text-align: center;
     text-decoration: none;
     padding: 8px 14px 6px 14px;
@@ -43,10 +44,10 @@ body {
       width:100%;
       margin:0px;
       padding: 0px;
-      background-color: #fffff1;
-      font-size: 16px;
-      font-family: "DejaVu Sans", "Arial", sans-serif;
-      color: #222;
+      background-color:#fffff1;
+      font-size: 18px;
+      font-family: "Noto Serif", "Georgia", serif;
+      color: #111;
       line-height:1.5; }
 
 #wrap {
@@ -62,8 +63,8 @@ body {
       padding-bottom: 10px;
       padding-right: 4%;      
       padding-left: 4%;
-      width: 60%;
-      background-color: #fffff1;
+      width: 50%;
+      /* background-color: #fffff1; */
       }
 
 hr {
@@ -82,11 +83,11 @@ hr {
       
 #myfooter{
     font-size: 70% ; 
-    width: 62%;
+    width: 52%;
     color: gray; 
     margin: 0 auto;
     margin-top: 10px;
-    margin-left: 19%;
+    margin-left: 24%;
     border-top:1px solid #bbbbbb;
     text-align: center; }
 
@@ -96,10 +97,9 @@ hr {
     height:200px; }
 
     
-h1,h2,h3,h4,h5,h6 {    
-    font-family: "Georgia", "Times New Roman", times, serif;
-    color: #111;
-}
+  /* h1,h2,h3,h4,h5,h6 {    
+      font-family: "Georgia", "Times New Roman", times, serif;    
+  } */
 
 h1 {
   font-size: 1.8em; }
