@@ -10,7 +10,7 @@ First year graduate student
 Department of Computer Science    
 University of Texas at Dallas
 
-Email: *ninadarun.khargonkar@utdallas.edu*      
+Email: ninadarun.khargonkar@utdallas.edu
 
 I completed my undergraduate education from [IIT Kanpur](https://www.iitk.ac.in/) 
 in 2017  with a bachelors degree from the department of mathematics and statistics
