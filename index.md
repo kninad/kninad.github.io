@@ -4,10 +4,13 @@ pagetitle: Ninad Khargonkar
 
 ### Welcome to my homepage!
 
-Ninad Arun Khargonkar    
+**Ninad Arun Khargonkar**    
+
 First year graduate student    
 Department of Computer Science    
-University of Texas Dallas      
+University of Texas Dallas
+
+**Email:** ninadarun [DOT] khargonkar [AT] utdallas [DOT] edu      
 
 I completed my undergraduate education from [IIT Kanpur](https://www.iitk.ac.in/) 
 in 2017  with a bachelors degree from the department of mathematics and statistics. 
