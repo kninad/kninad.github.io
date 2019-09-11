@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Creating this website</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">ninadakk</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="misc.html">Misc</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Creating this website</h1>
+</div>
+<p>I wrote this page to document the process of creating this website.
+I took the help of <a href="http://jemdoc.jaboc.net/" target=&ldquo;blank&rdquo;>jemdoc</a> to simplify the entire 
+process as it allows very readable text files to be converted to html through
+its markdown like syntax. For math support I used the 
+<a href="http://www.mit.edu/~wsshin/jemdoc+mathjax.html" target=&ldquo;blank&rdquo;>jemdoc+matjax</a> fork of the 
+original project. You can check out the files at my
+<a href="(https://github.com/ninception/ninception.github.io" target=&ldquo;blank&rdquo;>github repository</a> for this website. </p>
+<p>Make sure that jemdoc is in the PATH and make that file executable. </p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+sudo cp jemdoc.py /usr/bin/jemdoc
+sudo chmod +x /usr/bin/jemdoc
+</pre></div></div>
+<p>Then go to desired folder and just do the following. Your html files will be 
+generated inside the same folder.</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+jemdoc -c mysite.conf *.jemdoc
+</pre></div></div>
+<div id="footer">
+<div id="footer-text">
+Page generated 2019-09-11, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
