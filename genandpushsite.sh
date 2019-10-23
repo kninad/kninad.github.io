@@ -1,6 +1,6 @@
 #!/bin/bash
 
-jemdoc -c mysite.conf *.jemdoc.txt
+jemdoc -c mysite.conf *.jemdoc
 
 git add .
 git commit -m 'generate and push'
