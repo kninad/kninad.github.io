@@ -4,7 +4,12 @@
 
 - Add more notes! / concept demos
 
-- 
+## Sections
+- Research interests
+- Teaching
+- Reviewing
+- Talks
+- Publications and Preprints
 
 
 
