@@ -1,11 +1,5 @@
 # jemdoc: menu{MENU}{misc.html}, notime, nodate
-= miscellaneous Stuff
-
-== Notes
-
-[/note-creating-website.html Creating this website] 
-
-[/note-guiding-principles.html Guiding Principles]
+= Miscellaneous Stuff
 
 == Some useful links
 
@@ -18,6 +12,14 @@
 - [https://lichess.org/ lichess]: Good alternative to chess.com for practicing chess!
 - [https://www.zotero.org/ Zotero]: Free software for organizing documents. It 
   also has a Firefox addon for adding articles from web.
+
+
+== Notes
+
+[/note-creating-website.html Creating this website] 
+
+[/note-guiding-principles.html Guiding Principles]
+
 
 == Football
 

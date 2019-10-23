@@ -10,6 +10,7 @@
 - Reviewing
 - Talks
 - Publications and Preprints
+- Software: link to gihub repos of important codes
 
 ## Misc
 
