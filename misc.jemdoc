@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{misc.html}, notime
+# jemdoc: menu{MENU}{misc.html}, notime, nodate
 = Misc
 
 == Notes

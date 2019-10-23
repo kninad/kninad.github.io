@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{index.html}, notime
+# jemdoc: menu{MENU}{index.html}, notime, nodate
 = Welcome to my homepage
 
 ~~~
