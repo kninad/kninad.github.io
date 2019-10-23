@@ -7,7 +7,10 @@ Edit MENU to change structure and link to pages directly by providing a links un
 subheadings. But collecting links on a separate page looks like a better idea.
 
 Links in jemdoc consider the relative path, so non-essential stuff can be put in 
-separate folders. 
+separate folders. Later on can manage add notes in a subdir and modify the shell script to
+go in each subdir -> check for .jemdoc.txt files -> convert to equivalent .html files. This
+will make the website folder cleaner (but remember then to modify appropriate links!). Will be
+useful once content on the website starts piling up!
 
 
 ## Home
