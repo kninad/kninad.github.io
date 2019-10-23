@@ -18,5 +18,7 @@
   
 - Add technical notes under a different subsection. Make sure to add dates to all notes.
 
-- Finally, there will be a Useful Links section
+- Can use the MENU file to link notes directly! (see jemdoc homepage)
+
+- Finally, there will be a Useful Links + Footy pic section in Misc
 
