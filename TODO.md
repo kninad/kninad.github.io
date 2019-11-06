@@ -43,7 +43,7 @@ Also acts as a way to organize your papers! Need not include all your pubs. Add 
 
 - Can add undergrad and other side projects too!
 
-
+- Can add some research projects too (CV / NLP / DL stuff under projects done)
 
 
 
