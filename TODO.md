@@ -1,5 +1,8 @@
 # TODO
 
+Current Look: It looks clean and almost perfect right now. So please do not 
+tweak it any further and focus on adding more content rather than styling it. 
+
 Purpose: Review websites and plan what content to add (general structure of 
 the website). Fun / weird stuff can always go under Misc!
 
