@@ -8,8 +8,11 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: Georgia, serif;
+	font-family: Georgia, 'Times New Roman', times, serif;
+	font-size: 18px;
 	padding-bottom: 8px;
+    margin-left:auto;
+	margin-right:auto;
 	margin: 0;
 }
 
@@ -34,7 +37,7 @@ body {
 }
 
 #layout-content {
-	padding-top: 0.1em;
+	padding-top: 0.5em;
 	padding-left: 1.0em;
 	padding-right: 1.0em;
 	border: none;
