@@ -13,15 +13,15 @@ to us. Also trying(action) these bullet points is more important than just conte
 about different approaches! 
 
 - Energy maximization: Sleep better and waste less energy. Good sleep should be 
-priority number one, without it our mental health suffers. What works for me
+number one priority, since without it our mental health suffers. What works for me
 is saying a small prayer which my "aaji" (grandmother) taught me along with 
 just being grateful. Taking some time out for meditation and exercise
-also seems to have helped me!
+have definitely helped me!
 
 - Maintaining a positive outlook: We can't be absolutely sure of everything in 
 life, so why not take a positive perspective whenever in doubt! I have
 learnt that our thought process needs active training in this regard and just
-our "nazariya" (perspective) can absolutely make a big difference to our mood,
+our "nazariya" (perspective) can make a big difference to our mood,
 leading to a more joyful time. 
 
 - Enjoy moments in life: Strive to live in the present and not take unnecessary
@@ -30,5 +30,5 @@ worry about things out of our hand. What works for me is finishing my obligation
 who I am responsible for! Also not having too many unrealistic expectations 
 in general leads to much less sorrow. 
 
-- I have had a blessed life until now and it is up to me to augment is further. 
-Who knows what might happen tomorrow, so enjoy while the journey lasts!
+- I have had a blessed life until now and it is up to me to augment it further. 
+We don't know what might happen tomorrow, so enjoy while the journey lasts!
