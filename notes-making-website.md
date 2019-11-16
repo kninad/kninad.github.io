@@ -46,3 +46,23 @@ pandoc \
 ~~~
 
 
+Pandoc can also be used to do many other things like creating neat looking pdf
+documents (through a latex backend), docx files etc. It allows to control the
+structure of the output document through templates. I use some slightly modified
+templates (along with a custom pandoc css file for html output) which are 
+available in my [dotfiles](https://github.com/ninception/dotfiles) repository.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
