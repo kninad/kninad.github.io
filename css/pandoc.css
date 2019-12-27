@@ -1,9 +1,20 @@
 /* Custom CSS file for use with pandoc */
 
+@font-face{
+    font-family:"NotoSans";
+    src: url("fonts/Noto_Sans/NotoSans-Regular.ttf");
+}
+
+@font-face{
+    font-family:"NotoSerif";
+    src: url("fonts/Noto_Serif/NotoSerif-Regular.ttf");
+}
+
+
 @media screen and (min-width: 800px) {
  
 .mynavbar{  
-    background-color: #555;
+    background-color: #333;
     margin: 0;
     padding: 0;         
     width:100%;
@@ -19,19 +30,18 @@
 
 .mynavbar li {
     float: left;      
-    font-size: 0.95em;
-    font-weight: bold;
-    font-family: Arial, sans-serif;
+    font-size: 1em;    
+    font-family: "NotoSans", Arial, sans-serif;
 }
 
 .mynavbar li a {    
     display: inline-block;
     margin-top: 5px;
-    color: rgb(253, 253, 253);
+    color: #fffffe;
     text-align: center;
     text-decoration: none;
-    padding: 8px 14px 6px 14px;
-    line-height: 0.5em; 
+    padding: 8px 14px 8px 14px;
+    line-height: 0.6em; 
 }
 
 .mynavbar li a:hover {    
@@ -45,8 +55,8 @@ body { width:100%;
       padding: 0px;
       background-color:#fcfcfc;
       font-size: 16px;
-      font-family: Arial, sans-serif;
-      color: #222;
+      font-family: "NotoSans", Arial, sans-serif;
+      color: #111;
       line-height:1.5; }
 
 #wrap {
@@ -78,7 +88,8 @@ body { width:100%;
 #iflpic{ height:200px; }
 
 #homepic{float: left;
-    height: 120px;
+    height: 144px;
+    border-radius: 10%;
     padding-top: 0.5em; }
 
 hr {
@@ -96,16 +107,16 @@ hr {
     border-top: 1.5px solid #cccccc; }
           
 h1,h2,h3,h4,h5,h6 { 
-    font-family: Georgia, Palatino, serif; 
-    color: #666;
+    font-family: "NotoSerif", serif; 
+    color: #555;
     padding-top: 0.2em; }
 
-h1 { font-size: 1.9em; }
-h2 { font-size: 1.7em; }
-h3 { font-size: 1.4em; }
-h4 { font-size: 1.2em; }
-h5 { font-size: 0.9em; }
-h6 { font-size: 0.8em; }
+h1 { font-size: 1.7em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 0.9em; }
+h5 { font-size: 0.8em; }
+h6 { font-size: 0.7em; }
 
 small, sub, sup { font-size: 75%; }
 

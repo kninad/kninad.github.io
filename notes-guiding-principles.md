@@ -3,7 +3,7 @@ pagetitle: Guiding Principles
 date: 26-June-2019
 ---
 
-### Some Guiding Principles 
+## Some Guiding Principles 
 
 I wrote down some key principles to summarize many discussions with 
 friends and family over life, spirituality and related topics. Most approaches

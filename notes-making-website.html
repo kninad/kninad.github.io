@@ -24,14 +24,13 @@
 <div class="mynavbar">
 	
 	<ul>
-	  <li><a href="./index.html">Home</a></li>
-	  <li><a href="./notes.html">Notes</a></li>	  
+	  <li><a href="./index.html">Home</a></li>	  
 	  <li><a href="./misc.html">Misc</a></li>	  
 	</ul>
 </div>
 
 <div id="content">
-<h3 id="building-this-website">Building this website</h3>
+<h2 id="building-this-website">Building this website</h2>
 <p>I wrote this page to document the process of creating this website. I mainly took the help of <a href="https://pandoc.org/">pandoc</a> to simplify the entire process: Pandoc is a very useful document converter and a handy tool for creating the html syntax of the website. After creating the necessary files (locally), I used <a href="https://pages.github.com/">Github pages</a> for hosting the website.</p>
 <p>Each page of this website was written in <a href="http://pandoc.org/MANUAL.html#pandocs-markdown">markdown</a> and hence it was very easy to write or modify the content and track the changes using git. The basic pandoc command for converting the markdown file to html will only output a plain html file. Although pandoc supports writing html syntax in the markdown file, its usually not recommended as its better to keep the markdown file clean.</p>
 <p>For further modifications, pandoc supports passing custom html files which can be added to three positions (header, before-body and after-body) in the final html code for the page. Additionally, one can play around with the pandoc’s default html template for gaining control over the placement of certain elements (like div) in the overall code. Finally the css file was created for styling the navigation bar and the page content.</p>
