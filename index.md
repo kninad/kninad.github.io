@@ -14,7 +14,7 @@ Department of Computer Science
 University of Texas at Dallas    
 Office location: ECSS 4.214     
 Email: ninadarun [dot] khargonkar [at] utdallas [dot] edu       
-[Linkedin](https://www.linkedin.com/in/ninadkhargonkar/) | [Github](https://github.com/ninception)     
+[Linkedin](https://www.linkedin.com/in/ninadkhargonkar/) | [Github](https://github.com/kninad)     
 
 
 I am a first year PhD student in the [Computer Science](https://www.cs.utdallas.edu/)
