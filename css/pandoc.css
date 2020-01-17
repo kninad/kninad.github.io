@@ -54,7 +54,7 @@ body { width:100%;
       margin:0px;
       padding: 0px;
       background-color:#fcfcfc;
-      font-size: 16px;
+      font-size: 18px;
       font-family: "NotoSans", Arial, sans-serif;
       color: #111;
       line-height:1.5; }
@@ -88,7 +88,7 @@ body { width:100%;
 #iflpic{ height:200px; }
 
 #homepic{float: left;
-    height: 144px;
+    height: 160px;
     border-radius: 10%;
     padding-top: 0.5em; }
 
@@ -108,7 +108,7 @@ hr {
           
 h1,h2,h3,h4,h5,h6 { 
     font-family: "NotoSerif", serif; 
-    color: #555;
+    color: #444;
     padding-top: 0.2em; }
 
 h1 { font-size: 1.7em; }
