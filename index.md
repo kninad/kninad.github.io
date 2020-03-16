@@ -12,23 +12,28 @@ pagetitle: Ninad Khargonkar
 **Ninad Arun Khargonkar**    
 Department of Computer Science    
 University of Texas at Dallas    
-Office location: ECSS 4.214     
+Office Location: ECSS 3.413     
 Email: ninadarun [dot] khargonkar [at] utdallas [dot] edu       
 [Linkedin](https://www.linkedin.com/in/ninadkhargonkar/) | [Github](https://github.com/kninad)     
 
 
-I am a first year PhD student in the [Computer Science](https://www.cs.utdallas.edu/)
-department at the [University of Texas at Dallas](https://www.utdallas.edu/).
-I completed my undergraduate education from [IIT Kanpur](https://www.iitk.ac.in/) 
-in 2017  with a bachelors degree from the department of mathematics and statistics.
-Hopefully I will be able to use my education for a good cause! 
+I am a first year PhD student in the 
+[Computer Science](https://www.cs.utdallas.edu/)
+department at the [University of Texas at Dallas](https://www.utdallas.edu/) 
+where I am advised by 
+[Rishabh Iyer](https://sites.google.com/view/rishabhiyer/home) and I am
+currently working on problems in Machine Learning and Optimization.
+I spent four wonderful years in [IIT Kanpur](https://www.iitk.ac.in/) 
+from where I graduated with a bachelors degree in the department of mathematics and 
+statistics. I am still learning what it means to be a researcher and hopefully
+I can make the transition to an honest and sincere version!
 I generally like to read about all topics under the sun and when I am not into 
 some reading or sleeping, I like to play football and go for running or bicycling. 
-I am trying to pick up sketching boxes from the awesome resource of 
-[drawabox](https://drawabox.com/). 
 
 
 ## Teaching Assistance
+
+- CS 6301: Machine Learning
 
 - CS 4341: Discrete Mathematics
 
