@@ -27,8 +27,9 @@ to three positions (header, before-body and after-body) in the final html code
 for the page. Additionally, one can play around with the pandoc's default html 
 template 
 for gaining control over the placement of certain elements (like div) in the 
-overall code. Finally the css file was created for styling the navigation bar 
-and the page content.
+overall code. Finally the [solarized-light](http://thomasf.github.io/solarized-css/)
+css theme was created for styling the page content in conjuction with my custom
+css file for more fine grained control (font-family, font-szie, image sizes etc).
 
 To avoid writing the long pandoc command for each file, I wrote a simple bash 
 script to run the command on all the markdown files which made
@@ -50,7 +51,7 @@ Pandoc can also be used to do many other things like creating neat looking pdf
 documents (through a latex backend), docx files etc. It allows to control the
 structure of the output document through templates. I use some slightly modified
 templates (along with a custom pandoc css file for html output) which are 
-available in my [dotfiles](https://github.com/ninception/dotfiles) repository.
+available in my [dotfiles](https://github.com/kninad/dotfiles) repository.
 
 
 

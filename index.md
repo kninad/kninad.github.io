@@ -21,8 +21,8 @@ I am a first year PhD student in the
 [Computer Science](https://www.cs.utdallas.edu/)
 department at the [University of Texas at Dallas](https://www.utdallas.edu/) 
 where I am advised by 
-[Rishabh Iyer](https://sites.google.com/view/rishabhiyer/home) and I am
-currently working on problems in Machine Learning and Optimization.
+[Rishabh Iyer](https://sites.google.com/view/rishabhiyer/home). My current research 
+interests are in problems in the fields of Machine Learning and Optimization.
 I spent four wonderful years in [IIT Kanpur](https://www.iitk.ac.in/) 
 from where I graduated with a bachelors degree in the department of mathematics and 
 statistics. I am still learning what it means to be a researcher and hopefully
