@@ -1,16 +1,6 @@
 /* Custom CSS file for use with pandoc */
 
-@font-face{
-    font-family:"NotoSans";
-    src: url("fonts/Noto_Sans/NotoSans-Regular.ttf");
-}
-
-@font-face{
-    font-family:"NotoSerif";
-    src: url("fonts/Noto_Serif/NotoSerif-Regular.ttf");
-}
-
-.mynavbar { font-family: "NotoSans", Arial, sans-serif;}
+.mynavbar { font-family: Arial, sans-serif;}
 
 .mynavbar a { display: inline-block;
     text-decoration: none; }
@@ -18,7 +8,7 @@
 .mynavbar a:hover {text-decoration: underline; }
 
 body {font-size: 16px;
-      font-family: "NotoSerif", Arial, sans-serif;
+      font-family: "Noto Sans", "Open Sans", "Arial", "Helvetica", "Verdana", sans-serif;
       color: #333;
       line-height:1.5; }
 
@@ -49,7 +39,7 @@ hr {display: block;
           
 h1,h2,h3,h4,h5,h6 {
     color: #555; 
-    font-family: "NotoSerif", serif; 
+    font-family: "Noto Serif", "Georgia", "Times New Roman", times, serif; 
     padding-top: 0.1em; }
 
 h1 { font-size: 1.8em; }
