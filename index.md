@@ -12,7 +12,7 @@ pagetitle: Ninad Khargonkar
 **Ninad Arun Khargonkar**    
 Department of Computer Science    
 University of Texas at Dallas    
-Office Location: ECSS 3.413     
+Office Location: ECSS 3.618     
 Email: ninadarun [dot] khargonkar [at] utdallas [dot] edu       
 [Linkedin](https://www.linkedin.com/in/ninadkhargonkar/) | [Github](https://github.com/kninad)     
 
