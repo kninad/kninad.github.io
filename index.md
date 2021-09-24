@@ -17,7 +17,7 @@ Email: ninadarun [dot] khargonkar [at] utdallas [dot] edu
 [Linkedin](https://www.linkedin.com/in/ninadkhargonkar/) | [Github](https://github.com/kninad)     
 
 
-I am a second year PhD student in the 
+I am a PhD student in the 
 [Computer Science](https://www.cs.utdallas.edu/)
 department at the [University of Texas at Dallas](https://www.utdallas.edu/).
 I spent four wonderful years in [IIT Kanpur](https://www.iitk.ac.in/) 
