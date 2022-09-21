@@ -1,4 +1,8 @@
-# TODO
+# ninception.github.io
+github repository for my personal webpage: https://kninad.github.io/
+
+
+# TODO Overview
 
 Current Look: It looks clean and almost perfect right now. So please do not 
 tweak it any further and focus on adding more content rather than styling it. 
