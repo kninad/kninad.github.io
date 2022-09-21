@@ -1,0 +1,22 @@
+# jemdoc: menu{MENU}{research.html}, title{Research}
+
+= Research
+
+*Research Interests:*
+My main area of current research work is robot manipulation. I am particularly interested
+in the problem of transferring grasps across grippers and development of robust 
+computer vision/3d geometry based algorithms for synthesizing grasps.
+
+== Relevant Publications
+
+ 
+- *NeuralGrasps: Learning Implicit Representations for Grasps of Multiple Robotic Hands.* \n
+  Khargonkar, N., Song, N., Xu, Z., Prabhakaran, B., & Xiang, Y. \n
+  In Conference on Robot Learning (CoRL) 2022. \n
+  [https://arxiv.org/abs/2207.02959 Arxiv] | [https://irvlutd.github.io/NeuralGrasps/ Project Page]
+
+- *Virtepex: Virtual Remote Tele-Physical Examination System.* \n
+  Khargonkar, N., Desai, K., Prabhakaran, B., & Annaswamy, T. \n
+  In ACM Designing Interactive Systems Conference (DIS) 2022. \n
+  [https://doi.org/10.1145/3532106.3533486 DOI]
+

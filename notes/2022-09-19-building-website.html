@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="icon" href="./media/favicon.ico">
+<link rel="stylesheet" href="../css/main.css" type="text/css" />
+<title>Building website</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<div id="header-text-container">
+<p> Ninad Khargonkar </p>
+</div>
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout">
+<div id="layout-menu-container">
+<div id="layout-menu">
+<div class="menu-item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></div>
+<div class="menu-category">Homepage</div>
+<div class="menu-item"><a href="../index.html">About</a></div>
+<div class="menu-item"><a href="../research.html">Research</a></div>
+<div class="menu-item"><a href="../teaching.html">Teaching</a></div>
+<div class="menu-category">Misc</div>
+<div class="menu-item"><a href="../notes.html">Notes&nbsp;(Blog?)</a></div>
+<div class="menu-item"><a href="../extras.html">Extras</a></div>
+</div> <!-- <div id="layout-menu"> -->
+</div> <!-- <div id="layout-menu-container"> -->
+<div id="layout-content-container">
+<div id="layout-content">
+<h2>Building this website</h2>
+<p><tt>Date: 2022-09-19</tt></p>
+<div id="text-img-container"><div id="img-container">
+<img src="../media/webpage-screenshot.png" alt="" width="120px" /></div>
+<div id="text-container"><p>I used <a href="https://github.com/jem/jemdoc" target=&ldquo;blank&rdquo;>jemdoc</a> static site generator to build this website. 
+I was introduced to jemdoc long back but was using <a href="pandoc.org" target=&ldquo;blank&rdquo;>pandoc</a> to generate html 
+files for the website. The attractive property of jemdoc is that it only requires a
+working version of Python and no other dependencies. Jemdoc has some forks which are 
+particularly useful:</p>
+</div></div>
+<ol>
+<li><p><a href="https://github.com/wsshin/jemdoc_mathjax" target=&ldquo;blank&rdquo;>Jemdoc + MathJax</a></p>
+</li>
+<li><p><a href="https://github.com/szl2/jemdoc-new-design" target=&ldquo;blank&rdquo;>Jemdoc + Newdesign</a> (forked from above)</p>
+</li>
+</ol>
+<p>I am using the Newdesign repository since it includes a couple of quality
+of life improvements like responsiveness to screen size and menubar. The basic process
+about using the repository is well documented 
+<a href="https://szl2.github.io/jemdoc-new-design/www/index.html" target=&ldquo;blank&rdquo;>here</a> and even the README is
+good to get started. It also includes the <tt>jemdoc</tt> python script with the changes for
+use with <tt>Python 3</tt>.</p>
+<p>Jemdoc has a simple markdown-like syntax to write different elements of a webpage like
+headers, lists, links, code and images. Then the <tt>jemdoc.py</tt> python script is used to
+parse each <tt>.jemdoc</tt> file (where the content is) to convert the equivalent <tt>.html</tt> file.
+There is a support to add a simple menu/sidebar for navigation using a <tt>MENU</tt> file. Using
+this we can have a simple working example</p>
+<h3>Tweaks to Note</h3>
+<p>Using modelines: At the top level of the jemdoc file, we can have special line starting
+with +
+which menu file to use, the html name for the page, title etc. 
+Interestingly, if you want to demarcate content into folders, just put the jemdoc files
+as is but modify the modeline as follows:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+# jemdoc: menu{MENU}{file.html}{../}, title{TITLE}, nodefaultcss, addcss{../css/main.css}
+</pre></div></div>
+<p>The <tt>{..<i></i>}</tt> indicates where the root directory for the html links in the provided <tt>MENU</tt> 
+file. Hence whatever MENU file is in the project root, can simply be copied as is in the
+sub-dirs by adding the <tt>{..<i></i>}</tt> to each jemdoc file's modeline in the sub-dirs.</p>
+<p><tt>title{TITLE}</tt> gives a custom title to the webpage's generated html. <tt>nodefaultcss</tt>
+removes the css file provided by the <tt>mysite.conf</tt> configuration file. Then you can
+point to the actual path for the css file, and here since we are talking about files in a
+subdir, we go one level up as: <tt>{..<i>css</i>main.css}</tt>. </p>
+<p>Finally the <i>interior</i>, subdir files are translated to html using the code snippet below
+(notice the use of relative paths to jemdoc, and conf files). I plan to eventually 
+transition to a <tt>Makefile</tt> based build process with some code to traverse through the 
+entire src directory and generate html files. The current limitation is that I need to
+run the below command for <i>each</i> subdir.</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+python ../../jemdoc -c ../mysite.conf  *.jemdoc
+</pre></div></div>
+<h3>CSS Style file changes</h3>
+<ul>
+<li><p>Moved the main content div to the left instead of <tt>auto</tt> margin</p>
+</li>
+<li><p>Removed the bright yellow background for <tt>blockcontent</tt> and color for its title</p>
+</li>
+<li><p>Increased the font sizes for better readability of text</p>
+</li>
+<li><p>Changed the font family to be serif (personal preference)</p>
+</li>
+<li><p>Subtle changes to background colors</p>
+</li>
+</ul>
+</div> <!-- <div id="layout-content"> -->
+<div id="footer-container">
+<div id="footer">
+<div id="footer-text">
+Last edited  on September 20<sup>th</sup> 2022  11:06PM (Time Zone: EDT). </br>
+Powered by <a href="https://github.com/szl2/jemdoc-new-design" target="blank">jemdoc + new design</a>.
+</div> <!-- <div id="footer-text"> -->
+</div> <!-- <div id="footer"> -->
+</div> <!-- <div id="footer-container"> -->
+</div> <!-- <div id="layout-content-container"> -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
+</body>
+</html>

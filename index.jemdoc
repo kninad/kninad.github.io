@@ -1,0 +1,42 @@
+# jemdoc: menu{MENU}{index.html}, title{About}
+
+= Welcome to my homepage!
+
+~~~
+{}{img_left}{./media/profile_pic.jpg}{profile pic}{160px}{}{}
+
+*Ninad Khargonkar* \n
+PhD Student \n
+Department of Computer Science \n
+Office Location: ECSS 3.618 \n
+The University of Texas at Dallas \n
+Email: +ninadarun \[dot\] khargonkar \[at\] utdallas \[dot\] edu+
+~~~
+
+I am a PhD student in the Computer Science department at the University of Texas at Dallas.
+I spent four memorable years at IIT Kanpur from where I graduated with a 
+bachelors degree in Mathematics and Scientific Computing from the department of 
+Mathematics and Statistics. 
+I work on computer vision and machine learning research problems with applications in
+robot perception & manipulation. 
+I am associated with the 
+[https://labs.utdallas.edu/irvl/ Intelligent Robotics and Vision Lab] and I am advised by
+[https://yuxng.github.io/ Dr. Yu Xiang] and 
+[https://profiles.utdallas.edu/bprabhakaran Dr. B Prabhakaran].
+
+
+On a personal front, I am still learning about being a sincere 
+researcher and hopefully I can contribute positively via my research! I generally like 
+to read about all topics under the sun and when not into some reading or sleeping, I
+enjoy playing football and running/bicycling.
+
+
+== Links
+
+- GitHub: [https://github.com/kninad/ +kninad+]
+- Resume: [./media/Resume_NinadKhargonkar.pdf \[pdf\]]
+- ORCID: [https://orcid.org/0000-0001-9191-0250 0000-0001-9191-0250]
+- [https://scholar.google.com/citations?user=5eFmqkAAAAAJ&hl=en Google Scholar]
+- [https://www.linkedin.com/in/ninadkhargonkar/ LinkedIn]
+
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="icon" href="./media/favicon.ico">
+<link rel="stylesheet" href="./css/main.css" type="text/css" />
+<title>Extras</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<div id="header-text-container">
+<p> Ninad Khargonkar </p>
+</div>
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout">
+<div id="layout-menu-container">
+<div id="layout-menu">
+<div class="menu-item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></div>
+<div class="menu-category">Homepage</div>
+<div class="menu-item"><a href="index.html">About</a></div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-category">Misc</div>
+<div class="menu-item"><a href="notes.html">Notes&nbsp;(Blog?)</a></div>
+<div class="menu-item"><a href="extras.html" class="current">Extras</a></div>
+</div> <!-- <div id="layout-menu"> -->
+</div> <!-- <div id="layout-menu-container"> -->
+<div id="layout-content-container">
+<div id="layout-content">
+<h1>Extras</h1>
+<h2>Useful Links</h2>
+<p>LaTeX: 
+<a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" target=&ldquo;blank&rdquo;>30 min tutorial</a>, 
+<a href="http://www.latextemplates.com/" target=&ldquo;blank&rdquo;>templates</a>,
+<a href="https://en.wikibooks.org/wiki/LaTeX/" target=&ldquo;blank&rdquo;>wikibook</a></p>
+<p><a href="https://wiby.me/" target=&ldquo;blank&rdquo;>wiby.me</a>: Old websites search engine</p>
+<p><a href="https://www.gutenberg.org/" target=&ldquo;blank&rdquo;>Project Gutenberg</a>: Public domain free ebooks</p>
+<p><a href="https://www.studentsagainstdepression.org/" target=&ldquo;blank&rdquo;>Students against depression</a>: Helpful website
+for taking care of mental health</p>
+<p><a href="https://lichess.org/" target=&ldquo;blank&rdquo;>Lichess</a>: Trying out chess!</p>
+<p><a href="https://www.zotero.org/" target=&ldquo;blank&rdquo;>Zotero</a>: Free software for organizing research readings. It 
+also has a Firefox/Chrome addons for adding articles from web.</p>
+<h2>Football (For rest of the world!)</h2>
+<p>My primary passtime is playing and watching football. Here are some football related 
+websites that I like:</p>
+<ul>
+<li><p><a href="http://fantasy.premierleague.com/" target=&ldquo;blank&rdquo;>Fantasy premier league</a></p>
+</li>
+<li><p><a href="https://www.tifofootball.com/" target=&ldquo;blank&rdquo;>Tifo Football</a></p>
+</li>
+<li><p><a href="http://spielverlagerung.com/" target=&ldquo;blank&rdquo;>Spielverlagerung</a> </p>
+</li>
+</ul>
+<p>Below is a photo with my football friends at iitk footy ground around the time we won 
+the Institute football league!</p>
+<div id="text-img-container"><div id="img-container">
+<img src="./media/ifl1.jpg" alt="" width="300px" /></div>
+<div id="text-container"></div></div>
+</div> <!-- <div id="layout-content"> -->
+<div id="footer-container">
+<div id="footer">
+<div id="footer-text">
+Last edited  on September 20<sup>th</sup> 2022  11:06PM (Time Zone: EDT). </br>
+Powered by <a href="https://github.com/szl2/jemdoc-new-design" target="blank">jemdoc + new design</a>.
+</div> <!-- <div id="footer-text"> -->
+</div> <!-- <div id="footer"> -->
+</div> <!-- <div id="footer-container"> -->
+</div> <!-- <div id="layout-content-container"> -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
+</body>
+</html>
