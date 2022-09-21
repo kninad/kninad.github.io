@@ -254,6 +254,7 @@ div#footer {
 	min-width: 200px;
 	max-width: 850px;
 	margin: auto;
+	margin-left: 20px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	padding-left: 35px;
@@ -269,7 +270,8 @@ div#footer a:hover {
 }
 
 div#footer-text {
-	line-height: 30px;
+	border-top: 1px solid #c0c0c0;
+	line-height: 20px;
 }
 
 ul, ol, dl {
