@@ -1,0 +1,155 @@
+# jemdoc: menu{MENU}{index.html}, title{Resume}
+
+= Resume
+
+~~~
+Go back to [/./index.html homepage!]\n
+
+*Quick Links* --
+Email: ninadk.utd@gmail.com |
+GitHub: [https://github.com/kninad/ +kninad+] |
+[https://www.linkedin.com/in/ninadkhargonkar/ LinkedIn]
+~~~
+
+
+== Objective
+My research interests lie at the intersection of computer vision & robotics with problems 
+in robot manipulation, learning from humans, object segmentation, and 3D understanding.
+I am interested in applying my research and development skills to cross-domain problems
+and real-world applications.
+
+
+== Education
+
+=== University of Texas at Dallas
+Doctor of Philosophy (Ph.D.) in Computer Science: Aug. 2019 – May 2024
+
+=== University of Massachusetts, Amherst
+Master of Science (M.S) in Computer Science: Aug. 2017 – May 2019
+
+=== Indian Institute of Technology (IIT), Kanpur
+Bachelor of Science (B.S) in Mathematics & Scientific Computing: Jul. 2013 – Jun. 2017
+
+== Experience
+
+=== Research & Development Internship: Kitware Inc (Jun-Aug 2022)
+
+- Researched machine learning algorithms for approximating medial skeleton of 3D point clouds & voxels
+
+-  Implemented existing UNet based models for skeletonizing 2D images and adapted them for 3D images
+
+- Demonstrated improved results from the proposed pipeline on 3D medical data from hippocampi and
+leaflet regions. Prepared technical report for submission to IEEE ISBI
+
+
+=== Graduate Research Assistant: UT Dallas (Aug 2019 - Present)
+
+-  Research in [https://labs.utdallas.edu/irvl/ Intelligent Robotics and Vision Lab] on robot grasping, 3D vision and learning from humans
+
+- Concurrent research on interactive perception for unseen object segmentation in cluttered environments
+
+- Designed novel submodular information measures for data selection, active learning and summarization
+
+- Implemented an exergaming system in Unity for remote strength assessment with Kinect RGB-D sensor
+
+
+=== Mitacs Globalink Research Internship: UManitoba (May - Jul 2016)
+
+- Studied the problem of graph sampling and extracting relevant statistics like clustering coefficient
+
+- Implemented scale-down sampling with like Metropolis-Hastings and Jump random walks in R
+
+- Statistical models like ERGM were used for producing model fits and simulating random networks
+
+- Worked on second project for simulating team performance and biases in a football tournament structure
+
+
+== Skills
+
+- Programming Languages: Python, C\+\+, C\#, R, Java, HTML/CSS
+
+- Frameworks/Libraries: PyTorch, ROS, Unity, OpenCV, CUDA, OpenGL
+
+- Development Tools: Git, GitHub, Docker, VsCode, Vim, Tmux, Pandoc, LaTeX
+
+- Teaching: Teaching Assistant for Statistical Methods, Machine Learning, Robotics, NLP, Graphics, Digital Logic
+
+- Mentoring: Advising junior PhD students and mentoring two undergraduates on a directed research project
+
+- Coursework: Machine Learning, Computer Vision, Robotics, Deep Learning, Graphics, Optimization
+
+
+==  Projects
+
+=== Faster Inference for Chow-Liu Trees
+Developed approximation algorithms for faster inference in Chow-Liu tree probabilistic graphical model
+
+Focused on trying out sub-quadratic time variants for minimum weight spanning tree computation
+
+Proposed approximations demonstrated competitive results against the optimal setting
+
+Report and Code: [https://github.com/kninad/clt-mlproj +github.com\/kninad\/clt-mlproj+]
+
+
+=== Data Subset Selection 
+Studied optimization problem of training data subset selection with minimal impact on validation loss
+
+Utilized gradient approximation scheme to show utility on logistic regression and neural network models
+
+
+=== Part of Speech Tagger for Hindi
+Designed a semi-supervised method for a Hindi PoS tagger by leveraging an existing English tagger
+
+FastText word embeddings and a parallel corpus between the 2 languages were used for method
+
+Showed performance gain of 12% on domain classification of Hindi docs by using inferred PoS labels
+
+Report and Code: [https://github.com/kninad/POStagging_Hindi +github.com\/kninad\/POStagging_Hindi+]
+
+=== Marching Cubes
+Coded a base version of marching cubes algorithm for 3D iso-surface extraction using OpenGL
+
+Improved initial results via better representation for vertex normal by averaging over faces for a vertex
+
+Report and Code: [https://github.com/kninad/marching-cubes-graphics +github.com\/kninad\/marching-cubes-graphics+]
+
+== Publications
+
+- NeuralGrasps: Learning Implicit Representations for Grasps of Multiple Robotic Hands. In Conference on Robot Learning (CoRL), Proceedings of Machine Learning Research (PMLR), 2022.
+
+- Virtepex: Virtual Remote Tele-Physical Examination System. In ACM SIGCHI Conference on Designing Interactive Systems (DIS), 2022.
+
+- Generalized submodular information measures: Theoretical properties, examples, optimization algorithms, and applications. In IEEE Transactions on Information Theory Journal, 2021.
+
+- Submodular combinatorial information measures with applications in machine learning. In International Conference on Algorithmic Learning Theory (ALT), Proceedings of Machine Learning Research (PMLR), 2021.
+
+== Professional Service
+
+2022: IROS, ICMR, ICHI, ACM MM
+
+2021: IEEE VR, ACM MM
+
+2020: IJCAI (external reviewer)
+
+
+
+== Awards and Activities
+
+- Recipient of Inspire scholarship awarded by Indian Govt. for academic performance at IIT Kanpur
+
+- Awarded the Mitacs Globalink scholarship for fully funded summer research internship in Canada
+
+- Mentored freshmen and organized workshops as a Student Guide in Counselling Service of IIT Kanpur
+
+- Secured a percentile score of 97.7 in JEE (Advanced)-2013 and a percentile score of 99.8 in JEE (Main)-2013 national engineering entrance examinations
+
+
+
+== Extracurricular
+
+- Football: Playing on indoor court/turf and active interest in Fantasy Premier League
+
+- Blogging: Writing about best practices and interesting topics from technical/personal domains
+
+- Project Euler: Occasionally solving math problems, sometimes in a new programming language
+
