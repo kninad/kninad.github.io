@@ -52,13 +52,13 @@ div#header-text-container {
 	height: 20px;
 	display:inline-block;
 	color: white;
-	font-size: 18px;
+	font-size: 16px;
 	vertical-align: middle;
 	padding-bottom: 8px;
 }
 
 div#header-text-container p{
-	font-size: 20px;
+	font-size: 18px;
 	/* font-family: sans-serif; */
 }
 
@@ -165,13 +165,13 @@ div.menu-category {
 	padding-bottom: 0.1em;
 	padding-left: 25px;
 	padding-right: 25px;
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 2;
 	border-top: 0.8px solid #e1e4e8;
 }
 
 div.menu-item {
-	font-size: 18px;
+	font-size: 16px;
 	padding-left: 25px;
 	padding-right: 25px;
 }
@@ -212,7 +212,7 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 30px;
 }
 
 h2 {
@@ -233,7 +233,7 @@ h3 {
 }
 
 p {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.5;
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
