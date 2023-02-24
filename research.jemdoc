@@ -9,24 +9,26 @@ computer vision/3d geometry based algorithms for synthesizing grasps.
 
 == Relevant Publications
 
-- *Self-Supervised Unseen Object Instance Segmentation via Long-Term Robot Interaction.* \n
-  In Submission \n
-  [https://arxiv.org/abs/2302.03793 Arxiv] | [https://irvlutd.github.io/SelfSupervisedSegmentation/ Project Page]
+- /Self-Supervised Unseen Object Instance Segmentation via Long-Term Robot Interaction/ \n
+  In Submission | [https://arxiv.org/abs/2302.03793 Arxiv] | [https://irvlutd.github.io/SelfSupervisedSegmentation/ Project Page]
 
-- *Skeletal Point Representations with Geometric Deep Learning* \n
+- /Skeletal Point Representations with Geometric Deep Learning/ \n
   In IEEE International Symposium on Biomedical Imaging (ISBI) 2023.
 
-- *NeuralGrasps: Learning Implicit Representations for Grasps of Multiple Robotic Hands.* \n
-  In Conference on Robot Learning (CoRL) 2022. \n
-  [https://arxiv.org/abs/2207.02959 Arxiv] | [https://irvlutd.github.io/NeuralGrasps/ Project Page]
+- /ScanToVR: An RGB-D to VR Reconstruction Framework/ \n
+  In Submission
 
-- *Virtepex: Virtual Remote Tele-Physical Examination System.* \n
-  In ACM Designing Interactive Systems Conference (DIS) 2022. \n
-  [https://doi.org/10.1145/3532106.3533486 DOI]
+- /NeuralGrasps: Learning Implicit Representations for Grasps of Multiple Robotic Hands/ \n
+  In Conference on Robot Learning (CoRL) 2022 | [https://arxiv.org/abs/2207.02959 Arxiv] | [https://irvlutd.github.io/NeuralGrasps/ Project Page]
 
-- *Submodular combinatorial information measures with applications in machine learning* \n
-  In Algorithmic Learning Theory (ALT) 2021. \n
-  [https://proceedings.mlr.press/v132/iyer21a.html Paper PDF]
+- /Virtepex: Virtual Remote Tele-Physical Examination System/ \n
+  In ACM Designing Interactive Systems Conference (DIS) 2022 | [https://doi.org/10.1145/3532106.3533486 DOI]
+
+- /Generalized submodular information measures: Theoretical properties, examples, optimization algorithms, and applications/ \n
+  In IEEE Transactions on Information Theory (ISIT) 2021 | [https://doi.org/10.1109/TIT.2021.3123944 DOI]
+
+- /Submodular combinatorial information measures with applications in machine learning/ \n
+  In Algorithmic Learning Theory (ALT) 2021 | [https://proceedings.mlr.press/v132/iyer21a.html PDF Link]
 
 == Paper Reviewing
 
