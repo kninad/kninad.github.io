@@ -2,6 +2,12 @@
 github repository for my personal webpage: https://kninad.github.io/
 
 
+# HOWTO Publish
+
+edit the content in the jemdoc files
+
+See the `notes/buidling-this-website` file for more deatils!
+
 # TODO Overview
 
 Current Look: It looks clean and almost perfect right now. So please do not 
