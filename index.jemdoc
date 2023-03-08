@@ -39,4 +39,11 @@ enjoy playing football and running/bicycling.
 - [https://scholar.google.com/citations?user=5eFmqkAAAAAJ&hl=en Google Scholar]
 - [https://www.linkedin.com/in/kninad/ LinkedIn]
 
+== Fun Tools
+
+Here are some of my open source repos created for some niche use cases of mine!
+
+- [https://kninad.github.io/rippledoc-ext rippledoc-ext] Extended rippledoc to created html pages from folder full of markdown files.
+- [https://github.com/kninad/chess-pgn-gif chess-pgn-gif] Create a gif of chess game using its pgn file.
+
 
