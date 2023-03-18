@@ -3,7 +3,7 @@ pagetitle: Linux Setup
 date: 2015-05-05
 navbar_blog: true
 ---
-[<< back to home](../notes.md)
+[<< back to notes/blog](../notes.md)
 
 # Linux Setup
 

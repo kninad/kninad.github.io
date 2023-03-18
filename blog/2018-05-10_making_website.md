@@ -4,7 +4,7 @@ date: 2018-05-19
 navbar_blog: true
 ---
 
-[<< back to home](../notes.md)
+[<< back to notes/blog](../notes.md)
 
 # Building this website
 

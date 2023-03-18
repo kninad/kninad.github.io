@@ -3,7 +3,7 @@ pagetitle: Guiding Light
 date: 2019-02-04
 navbar_blog: true
 ---
-[<< back to home](../notes.md)
+[<< back to notes/blog](../notes.md)
 
 # Guiding Principles
 
