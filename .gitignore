@@ -1,4 +1,10 @@
-*.exe
-*.o
-etc/*
-.gitignore
+# Custom rules
+./static/etc/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
