@@ -23,6 +23,20 @@ tweak it any further and focus on adding more content rather than styling it.
 Purpose: Review websites and plan what content to add (general structure of 
 the website). Fun / weird stuff can always go under Misc!
 
+### Blog
+
+- Setup a python script to go through all `.md` files in the `blog/` folder
+  and auto-create a index that populates `blog/index.md`
+
+- Can try to have a more advanced system with a `.json` for each blog post,
+  use those json for tagging and abstract which will be displayed on the blog
+  index
+
+- Refs:
+  - https://push-f.com/posts/2020-10-06-blog-with-make-pandoc-and-python/
+  - https://github.com/lukasschwab/pandoc-blog (pyyaml, json)
+  - https://pdblog.org/ or https://github.com/GordStephen/pdblog
+  - Others: https://blog.achintyarao.in/post/markdown-pandoc-make/
 
 ### Home
 - Research interests: Short summary and advisor info.
