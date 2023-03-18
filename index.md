@@ -7,19 +7,17 @@ navbar_home: true
 
 ![banner_pic](./static/media/dp_nz.jpg){#profile_pic}
 
-
 **Ninad Khargonkar** \
 PhD Student \
 Department of Computer Science \
 The University of Texas at Dallas \
-Email: `ninadarun [dot] khargonkar [at] utdallas [dot] edu` \
-
-**Links**: 
-[GitHub (kninad)](https://github.com/kninad/) |
-[Resume (pdf)](./static/media/Resume_NinadKhargonkar.pdf) |
+[GitHub](https://github.com/kninad/) |
+[CV](./static/media/Resume_NinadKhargonkar.pdf) |
 [ORCID](https://orcid.org/0000-0001-9191-0250 0000-0001-9191-0250) |
 [Google Scholar](https://scholar.google.com/citations?user=5eFmqkAAAAAJ&hl=en) |
-[LinkedIn](https://www.linkedin.com/in/kninad/)
+[LinkedIn](https://www.linkedin.com/in/kninad/) \
+Email: `ninadarun [dot] khargonkar [at] utdallas [dot] edu` \
+
 
 I am a PhD student in the Computer Science department at the University of Texas
 at Dallas. I work on computer vision and machine learning
@@ -32,8 +30,8 @@ I spent four memorable years at IIT Kanpur from where I graduated with a
 bachelors degree in Mathematics and Scientific Computing from the department of 
 Mathematics and Statistics.
 
-**Research Interest**: My current research work revolves around data driven
-robot manipulation. I am particularly interested in the problem of transferring grasps across grippers and development of robust computer vision/3d geometry based algorithms for synthesizing grasps.
+My current research work revolves around data driven robot manipulation.
+I am particularly interested in the problem of transferring grasps across grippers and development of robust computer vision/3d geometry based algorithms for synthesizing grasps.
 
 
 ## (Fun?) Stuff

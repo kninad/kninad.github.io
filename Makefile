@@ -16,7 +16,7 @@ BLOG_HTMLs = $(patsubst %.md,%.html,$(BLOG_SOURCES))
 # See the A B website (youtube video) for sep shell scripts for blog portion
 TEMPFILE = sdfgsdfs7fs8d7tfgsduifgsdi5234j
 
-all: $(HTMLs) $(BLOG_HTMLs)
+all: $(HTMLs)
 
 %.html: %.md
 	cat $< > $(TEMPFILE)
