@@ -1,5 +1,5 @@
 ---
-pagetitle: About
+pagetitle: NinadK Home
 navbar_home: true
 ---
 

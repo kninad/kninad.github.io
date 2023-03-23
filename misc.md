@@ -36,8 +36,10 @@ websites that I like:
 - [Spielverlagerung](http://spielverlagerung.com/)
 
 
-Below is a photo with my friends at iitk footy ground around the time we won 
-the Institute football league!
+Below are some pics during a time where I ate, slept and played football. The sport has
+given me many fond memories and good friends!
 
-![ninad_photo](./static/media/ifl01.jpg){#footypic}
-
+![ifl1](./static/media/ifl01.jpg){#footypic}
+![footy2](./static/media/footy_hall9.jpg){#footypic}
+![ifl](./static/media/footy2.jpg){#footypic}
+![dav](./static/media/dav_s2_footy_team.jpg){#footypic}
