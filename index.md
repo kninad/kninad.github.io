@@ -1,5 +1,5 @@
 ---
-pagetitle: NinadK Home
+pagetitle: NinadK's Home
 navbar_home: true
 ---
 
@@ -18,7 +18,7 @@ Links: [GitHub](https://github.com/kninad/) |
 [LinkedIn](https://www.linkedin.com/in/kninad/) \
 Email: `ninadarun.khargonkar@utdallas.edu` \
 
-
+## About
 I am a PhD student in the Computer Science department at the University of Texas
 at Dallas. I work on computer vision and machine learning
 research problems with applications in robot perception & manipulation. I am 

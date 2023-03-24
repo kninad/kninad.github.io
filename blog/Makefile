@@ -12,7 +12,7 @@ all: $(HTMLs)
 %.html: %.md
 	@cat $< > $(TEMPFILE)
 	@echo "\n***\n\n<span class="footer">*$(STRING1) `stat -c %Y Makefile  | date +'%b %d, %Y'`. $(STRING2)*</span>" >> $(TEMPFILE)
-	@pandoc --lua-filter=../static/links-to-html.lua -c ../static/css/pandoc.css -B ../static/navbar_L2.html --mathjax -t html5 --standalone -i $(TEMPFILE) -o $@
+	@pandoc --toc --toc-depth 2 --lua-filter=../static/links-to-html.lua -c ../static/css/pandoc.css -B ../static/navbar_L2.html --mathjax -t html5 --standalone -i $(TEMPFILE) -o $@
 	@rm -f $(TEMPFILE)
 
 .PHONY : clean

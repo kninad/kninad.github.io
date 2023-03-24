@@ -6,7 +6,7 @@
 html {
   font-size: 100%;
   overflow-y: scroll;
-  background-color:#fefefe;
+  background-color:#fcfcfc;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -14,13 +14,47 @@ html {
 body {
   color: #2f2f2f;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
   font-size: 14px;
   line-height: 1.5;
   padding: 1em;
-  margin: auto; 
+  margin: auto;
+  /* margin-left: 160px; */
   max-width: 45em;
-  background-color:#fefefe;
+  background-color:#fafafa;
 }
+
+/* The sidebar menu */
+#TOC {
+  /* height: 100%; Full-height: remove this if you want "auto" height */
+  width: 250px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #f6f6f6; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 10px;
+  margin-top: 15px;
+  margin-left: 120px;
+}
+
+/* The navigation menu links */
+#TOC a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-family: Helvetica, Arial sans-serif;
+  font-size: 0.9em;
+  color: #111111;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+#TOC a:hover {
+  color: #444444;
+  text-decoration: underline;
+}
+
 
 #banner {
     height:100px;
@@ -66,9 +100,9 @@ body {
 
  .topnav {
    overflow: hidden;
-   /* font-family: Arial, Helvetica, sans-serif; */
+   font-family: Arial, Helvetica, sans-serif;
    /* font-weight: bold; */
-   font-size: 0.9em;   
+   font-size: 0.8em;   
  }
  
  .topnav a {
@@ -153,7 +187,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Palatino, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   /* font-family: Arial, Helvetica, sans-serif; */
   color: #255198;
   line-height: 125%;
@@ -174,27 +208,27 @@ h4, h5, h6 {
 }
 
 h1 {
-  font-size: 1.75em;
-}
-
-h2 {
   font-size: 1.5em;
 }
 
+h2 {
+  font-size: 1.35em;
+}
+
 h3 {
-  font-size: 1.25em;
+  font-size: 1.2em;
 }
 
 h4 {
-  font-size: 1em;
-}
-
-h5 {
   font-size: 0.9em;
 }
 
+h5 {
+  font-size: 0.8em;
+}
+
 h6 {
-  font-size: 0.75em;
+  font-size: 0.7em;
 }
 
 blockquote {
@@ -348,6 +382,17 @@ table td {
   text-align: center;
 }
 
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  #TOC {display: none; }
+}
+
+@media screen and (max-width: 900px) {
+  #TOC {display: none; }
+}
+
+
 @media only screen and (min-width: 480px) {
   body {
     font-size: 14px;
@@ -364,6 +409,10 @@ table td {
     color: black !important;
     filter: none !important;
     -ms-filter: none !important;
+  }
+
+  #TOC{
+    display: none;
   }
 
   body {
