@@ -218,7 +218,7 @@ pre, code, kbd, samp {
   color: #323232;
   background-color: #f4f4f4;
   font-family: SFMono-Regular, Consolas, "Liberation Mono", 'Courier New', Courier, monospace;
-  font-size: 0.9em;
+  font-size: 0.85em;
   border-radius: 4px;
   overflow: scroll;
 }
