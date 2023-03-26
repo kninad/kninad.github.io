@@ -1,0 +1,203 @@
+Site: kninad.github.io | GitHub: kninad | Email: ninadk.utd@gmail.com |
+LinkedIn: linkedin.com/in/kninad
+
+
+
+EDUCATION
+
+
+2019 - 2024: UNIVERSITY OF TEXAS AT DALLAS - _Ph.D. in Computer Science_
+
+2017 - 2019: UNIVERSITY OF MASSACHUSETTS, AMHERST - _M.S in Computer
+Science_
+
+2013 - 2017: INDIAN INSTITUTE OF TECHNOLOGY (IIT) KANPUR - _B.S. in
+Mathematics and Scientific Computing_
+
+
+
+WORK EXPERIENCE
+
+
+Research and Development Internship
+
+Jun 2022 - Aug 2022: _Kitware Inc_
+
+-   Researched machine learning algorithms for approximating medial
+    skeleton of point clouds & voxels
+-   Implemented UNet based segmentation models for skeletonizing 2D
+    images and adapted them for 3D setting
+-   Demonstrated improved results via point-cloud skeletonization on
+    data from hippocampi and leaflet regions
+
+
+Graduate Research Assistant
+
+Aug 2019 - Present: _University of Texas at Dallas_
+
+-   Researcher in Intelligent Robotics & Vision Lab, working on robot
+    grasping, 3D vision and learning from humans
+-   Concurrent research on interactive perception for unseen object
+    segmentation in cluttered environments
+-   Prior work on submodular information measures for machine learning
+    problems in data selection & active learning
+-   Involved in mentoring students, working as a teaching assistant and
+    taking guest lectures in selected courses
+
+
+Mitacs Globalink Research Internship
+
+May 2016 - Jul 2016: _University of Manitoba, Winnipeg_
+
+-   Studied the problem of graph sampling and extracting relevant
+    statistics like clustering coefficient
+-   Implemented scale-down sampling with like Metropolis-Hastings and
+    Jump random walks in R
+-   Statistical models like ERGM were used for producing model fits and
+    simulating random networks
+-   Worked on second project for simulating team performance and biases
+    in a football tournament structure
+
+
+
+TECHNICAL SKILLS
+
+
+PROGRAMMING LANGUAGES: Python, C/C++, R
+
+FRAMEWORKS/LIBRARIES: PyTorch, ROS, Unity, OpenCV, CUDA, OpenGL
+
+DEVELOPMENT TOOLS: Git/GitHub, Docker, VS Code, Vim, Tmux, LaTeX, Pandoc
+
+
+
+RESEARCH PROJECTS
+
+
+INTERACTIVE PERCEPTION | _Unseen Object Segmentation_
+
+-   Leveraging long term robot interaction with objects for real world
+    unseen object segmentation
+-   Proposed self-supervised data collection method to improved real
+    world segmentation performance
+
+OBJECT MANIPULATION | _Robust Grasping & Skill Transfer_
+
+-   Learning a common representation across different robot gripper
+    grasps for efficient skill transfer
+-   Proposed object contact-based metric learning constraints for
+    effective learning in common space
+-   Demonstrated applications for human to robot grasp trasnfer via our
+    encoding + retrieval pipeline
+
+SCAN TO VR | _Virtual World Reconstruction_
+
+-   Working on the problem of efficient and robust 3D object retrieval
+    from a RGB-D scan of indoor environment
+-   Implemented a pipeline to convert 3D scans to virtual Unity scenes
+    by fetching closest matching CAD models
+
+SUBMODULAR INFORMATION MEASURES | _Robust Machine Learning_
+
+-   Proposed novel information theoretic measures for submodular set
+    functionsin context for robust machine learning
+-   Theoretical properties backed up with applications on outlier aware
+    subsets, summarization & clustering tasks
+-   Proposed measures have also demonstrated use case for computer
+    vision in active learning for object detection
+
+VIRTEPEX | _Remote Strength Assessment_
+
+-   Design and development of a mixed reality system in Unity for
+    Kinect-based force estimation of body movements
+-   Utilized Kinect to track body joints and an inverse dynamics solver
+    to infer force/torque estimates for an user
+-   User studies with subject matter experts showed the benefit of using
+    a contact-less estimation method v/s telehealth
+
+
+
+PUBLICATIONS
+
+
+1.  Self-Supervised Unseen Object Instance Segmentation via Long-Term
+    Robot Interaction. (_In Submission, arXiv: 2302.03793_).
+
+2.  Skeletal Point Representations with Geometric Deep Learning. _In
+    IEEE International Symposium on Biomedical Imaging (ISBI), 2023._
+
+3.  NeuralGrasps: Learning Implicit Representations for Grasps of
+    Multiple Robotic Hands. _In Conference on Robot Learning (CoRL),
+    Proceedings of Machine Learning Research (PMLR), 2022._
+
+4.  Virtepex: Virtual Remote Tele-Physical Examination System. _In ACM
+    SIGCHI Conference on Designing Interactive Systems (DIS), 2022._
+
+5.  Generalized submodular information measures: Theoretical properties,
+    examples, optimization algorithms, and applications. _In IEEE
+    Transactions on Information Theory Journal, 2021._
+
+6.  Submodular combinatorial information measures with applications in
+    machine learning. _In International Conference on Algorithmic
+    Learning Theory (ALT), Proceedings of Machine Learning Research
+    (PMLR), 2021._
+
+
+
+OTHER EXPERIENCE
+
+
+PROFESSIONAL SERVICE: ICRA’22, IROS’22, ICMR’22, ICHI’22, IEEE VR’21,
+ACM MM’21, IJCAI’20 (external reviewer)
+
+TEACHING ASSISTANT: Machine Learning, Robotics, Statistical Methods,
+Graphics, Natural Language Processing
+
+MENTORSHIP: Peer mentor for new PhD students and member of Counselling
+Service at IIT Kanpur
+
+
+
+COURSE PROJECTS
+
+
+FASTER INFERENCE FOR CHOW-LIU TREES | _Machine Learning_
+
+-   Developed approximation algorithms for faster inference in Chow-Liu
+    tree probabilistic graphical model
+-   Tried out sub-quadratic variants for minimum weight spanning tree
+    computation & compared with optimal setting
+
+DATA SUBSET SELECTION | _Optimization Algorithms_
+
+-   Framed subset selection from training data as an optimization
+    problem with minimal impact on validation loss
+-   Utilized gradient approximation scheme to show utility on logistic
+    regression and neural network models
+
+PART OF SPEECH TAGGER FOR HINDI | _Natural Language Processing_
+
+-   Designed a machine learning method for a Hindi PoS tagger by
+    leveraging word embeddings and an English tagger
+-   Showed performance gain of 12% on domain classification of Hindi
+    docs when using inferred PoS labels
+
+MARCHING CUBES BASED RECONSTRUCTION | _Computer Graphics_
+
+-   Implemented a base version of marching cubes algorithm for 3D
+    iso-surface extraction using OpenGL and C++
+-   Improved initial results via better representation for vertex normal
+    by averaging over faces for a vertex
+
+
+
+ACADEMIC ACHIEVEMENTS
+
+
+-   Recipient of Inspire scholarship awarded by Indian Govt. for
+    academic performance at IIT Kanpur.
+-   Awarded the Mitacs Globalink scholarship for fully funded summer
+    research internship in Canada.
+-   Secured a percentile score of 97.7 in JEE (Advanced)-2013 and a
+    percentile score of 99.8 in JEE (Main)-2013 national engineering
+    entrance examinations.
