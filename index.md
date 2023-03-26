@@ -8,15 +8,15 @@ navbar_home: true
 ![banner_pic](./static/media/dp_nz.jpg){#profile_pic}
 
 **Ninad Khargonkar** \
-PhD Student \
+Ph.D. Student \
 Department of Computer Science \
 The University of Texas at Dallas \
+Email: `ninadarun.khargonkar@utdallas.edu` \
 Links: [GitHub](https://github.com/kninad/) |
-[CV](./static/media/Resume_NinadKhargonkar.pdf) |
+C.V -- [pdf](./resume/CV_NinadK.pdf), [html](./resume/CV_NinadK.html) |
 [ORCID](https://orcid.org/0000-0001-9191-0250) |
 [Google Scholar](https://scholar.google.com/citations?user=5eFmqkAAAAAJ&hl=en) |
 [LinkedIn](https://www.linkedin.com/in/kninad/) \
-Email: `ninadarun.khargonkar@utdallas.edu` \
 
 ## About
 I am a PhD student in the Computer Science department at the University of Texas
