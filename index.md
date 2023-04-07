@@ -38,6 +38,11 @@ I am particularly interested in the problem of transferring grasps across grippe
 
 Here are some of my open source repos created for some niche use cases!
 
+- [resume-pandoc](https://github.com/kninad/resume-pandoc) : Auto generate resume in different formats from a *single* markdown source.
 - [rippledoc-ext](https://kninad.github.io/rippledoc-ext) :  Extended rippledoc to created html pages from folder full of markdown files.
 - [chess-pgn-gif](https://github.com/kninad/chess-pgn-gif) : Create a gif of chess game using its pgn file.
+
+Apart from *work*, I am actively trying to wean myself from being obssesed about
+playing football (requested by my knees!) Efforts towards this *goal*
+include cooking, writing and becoming lazy with my physical fitness.
 
