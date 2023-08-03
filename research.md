@@ -5,21 +5,19 @@ navbar_research: true
 
 # Research
 
-My current focus is on designing novel deep learning algorithms for scene
-understanding and then using that for efficient grasping (as a downstream task).
-The input modality can be point clouds, rgb(-d) images and I try to use other
-sources of signals like object-contact manifolds to guide the learning process.
-As a consequence of my effort towards making algorithms for real world settings,
-I am also interested in topics like equi(or inv)-variant networks, deformable
-object modeling, deep generative models and robust benchmarking for robot
-manipulation.
+My current focus is on designing novel deep learning algorithms for scene understanding and then using that for efficient grasping (as a downstream task). The input modality can be point clouds, rgb(-d) images and I try to use other sources of signals like object-contact manifolds to guide the learning process. As a consequence of my effort towards making algorithms for real world settings, I am also interested in topics like equi(or inv)-variant networks, deformable object modeling, deep generative models and robust benchmarking for robot manipulation.
 
 ## Relevant Publications
 
 ### 2023
+
+- *SceneReplica: Benchmarking Real-World Robot Manipulation by Creating Reproducible Scenes* \
+  N Khargonkar, S Allu, Y Lu, J Jaykumar, B Prabhakaran, Y Xiang \
+  In Submission | [Arxiv](https://arxiv.org/abs/2306.15620) | [Project Page](https://irvlutd.github.io/SceneReplica/)
+
 - *Self-Supervised Unseen Object Instance Segmentation via Long-Term Robot Interaction* \
   Y Lu, N Khargonkar, Z Xu, C Averill, K Palanisamy, K Hang, Y Guo \
-  In Submission | [Arxiv](https://arxiv.org/abs/2302.03793) |
+  In Robotics: Science and Systems (RSS) 2023 | [Arxiv](https://arxiv.org/abs/2302.03793) |
   [Project Page](https://irvlutd.github.io/SelfSupervisedSegmentation/)
 
 - *Skeletal Point Representations with Geometric Deep Learning* \

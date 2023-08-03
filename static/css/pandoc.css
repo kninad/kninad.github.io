@@ -13,7 +13,8 @@ html {
 
 body {
   color: #2f2f2f;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
   /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
   font-size: 14px;
   line-height: 1.5;
@@ -242,7 +243,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 2px solid #aaa;
+  border-top: 2px solid #cfcfcf;
   /*border-bottom: 1px solid #eee;*/
   margin: 0;
   padding: 0;
