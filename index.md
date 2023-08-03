@@ -18,6 +18,8 @@ C.V -- [pdf](./resume/CV_NinadK.pdf), [html](./resume/CV_NinadK.html) |
 [Google Scholar](https://scholar.google.com/citations?user=5eFmqkAAAAAJ&hl=en) |
 [LinkedIn](https://www.linkedin.com/in/kninad/) \
 
+\   
+
 ## About
 I am a PhD student in the Computer Science department at the University of Texas
 at Dallas. I work on computer vision and machine learning
