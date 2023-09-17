@@ -44,13 +44,13 @@
 <p><a href="../notes.html">&lt;&lt; back to notes/blog</a></p>
 <h1 id="jemdoc-updates">Jemdoc Updates</h1>
 <p>Date: 2022-09-19</p>
-<p>Recently, I also tried to use jemdoc to create simple html pages. I was introduced to jemdoc long back but was using pandoc to generate html files for the website. The attractive property of jemdoc is that it only requires a working version of Python and no other dependencies. Jemdoc has some forks which are particularly useful:</p>
+<p>Recently, I tried to use jemdoc to create simple html pages. I was introduced to jemdoc long back but was using pandoc to generate html files for the website. The attractive property of jemdoc is that it only requires a working version of Python and no other dependencies. Jemdoc has some forks which have been updated recently and may be particularly useful:</p>
 <ul class="incremental">
 <li><a href="https://github.com/wsshin/jemdoc_mathjax">Jemdoc and MathJax</a></li>
 <li><a href="https://github.com/szl2/jemdoc-new-design">Jemdoc with Newdesign</a> (forked from above)</li>
 </ul>
-<p>I usde the Newdesign repository since it includes a couple of quality of life improvements like responsiveness to screen size and menubar. The basic process about using the repository is well documented <a href="https://szl2.github.io/jemdoc-new-design/www/index.html">here</a> and even the README is good to get started. It also includes the updated <code>jemdoc</code> script.</p>
-<p>Jemdoc has a simple markdown-like syntax to write different elements of a webpage like headers, lists, links, code and images. Then the <code>jemdoc.py</code> python script is used to parse each <code>.jemdoc</code> file (where the content is) to convert the equivalent <code>.html</code>. There is a support to add a simple menu/sidebar for navigation using a <code>MENU</code> file. Using this we can have a simple working example</p>
+<p>I usde the Newdesign repository since it includes a couple of quality of life improvements like responsiveness to screen size and menubar. The basic process about using the repository is well documented <a href="https://szl2.github.io/jemdoc-new-design/www/index.html">here</a> and even the README is good to get started. It also includes the updated <code>jemdoc</code> Python 3+ script.</p>
+<p>Jemdoc has a simple markdown-like syntax to write different elements of a webpage like headers, lists, links, code and images. Then the <code>jemdoc.py</code> python script is used to parse each <code>.jemdoc</code> file (where the content is) to convert the equivalent <code>.html</code>. There is a support to add a simple menu/sidebar for navigation using a <code>MENU</code> file. Using this we can have a simple working example.</p>
 <h2 id="tweaks-to-note">Tweaks to Note</h2>
 <p>Using modelines: At the top level of the jemdoc file, we can have special line starting with <code># jemdoc:</code> denoting a modeline. A modeline includes meta info for a page like which menu file to use, the html name for the page, title etc. Interestingly, if you want to demarcate content into folders, just put the jemdoc files as is but modify the modeline as follows:</p>
 <pre><code>{}{}
@@ -69,6 +69,6 @@ python ../../jemdoc -c ../mysite.conf  *.jemdoc</code></pre>
 <li>Subtle changes to background colors</li>
 </ul>
 <hr />
-<p><span class="footer"><em>Last updated on Aug 02, 2023. Created using <a href="http://pandoc.org/">pandoc</a>.</em></span></p>
+<p><span class="footer"><em>Last updated on Sep 17, 2023. Created using <a href="http://pandoc.org/">pandoc</a>.</em></span></p>
 </body>
 </html>

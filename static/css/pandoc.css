@@ -21,7 +21,7 @@ body {
   padding: 1em;
   margin: auto;
   /* margin-left: 160px; */
-  max-width: 45em;
+  max-width: 50em;
   background-color:#fafafa;
 }
 
@@ -57,6 +57,18 @@ body {
 }
 
 
+#paper-banner-small {
+  float:left;
+  height:80px;
+  width: 80px;
+  margin:0em 1em 0em 0em;}
+
+#paper-banner {
+  float:left;
+  height:90px;
+  width: 90px;
+  margin:0em 1em 0em 0em;}
+
 #banner {
     height:100px;
     width:100%;
@@ -75,7 +87,7 @@ body {
 
 #profile_pic {
   float:left;
-  height:150px;
+  height:145px;
   border-radius: 20px;
   margin:0em 1em 0em 0em;
   }
@@ -199,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3 {
   padding-bottom: 0.2em;
 	line-height: 1.25;
-	padding-top: 0.5em;
+	padding-top: 0.8em;
 	border-bottom: 0.7px solid #d4d4d4;
 	font-weight: 400;
 }
