@@ -28,7 +28,7 @@ body {
 /* The sidebar menu */
 #TOC {
   /* height: 100%; Full-height: remove this if you want "auto" height */
-  width: 250px; /* Set the width of the sidebar */
+  width: 230px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -207,7 +207,7 @@ h1, h2, h3 {
   padding-bottom: 0.2em;
 	line-height: 1.25;
 	padding-top: 0.8em;
-	border-bottom: 0.7px solid #d4d4d4;
+	border-bottom: 2px solid #c0c0c0;
 	font-weight: 400;
 }
 
@@ -250,7 +250,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 2px solid #cfcfcf;
+  border-top: 1.75px solid #d6d6d6;
   /*border-bottom: 1px solid #eee;*/
   margin: 0;
   padding: 0;
