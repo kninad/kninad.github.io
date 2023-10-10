@@ -6,12 +6,13 @@ LinkedIn: linkedin.com/in/kninad
 EDUCATION
 
 
-2019 - 2024: UNIVERSITY OF TEXAS AT DALLAS - _Ph.D. in Computer Science_
+2019 - 2024: UNIVERSITY OF TEXAS AT DALLAS, _Ph.D. in Computer Science_
+- Intelligent Robotics and Vision Lab
 
-2017 - 2019: UNIVERSITY OF MASSACHUSETTS, AMHERST - _M.S in Computer
+2017 - 2019: UNIVERSITY OF MASSACHUSETTS, AMHERST, _M.S in Computer
 Science_
 
-2013 - 2017: INDIAN INSTITUTE OF TECHNOLOGY (IIT) KANPUR - _B.S. in
+2013 - 2017: INDIAN INSTITUTE OF TECHNOLOGY (IIT) KANPUR, _B.S. in
 Mathematics and Scientific Computing_
 
 
@@ -65,7 +66,7 @@ TECHNICAL SKILLS
 
 PROGRAMMING LANGUAGES: Python, C/C++, R
 
-FRAMEWORKS/LIBRARIES: PyTorch, ROS, Unity, OpenCV, CUDA, OpenGL
+FRAMEWORKS/LIBRARIES: PyTorch, ROS, Unity, OpenGL, CUDA, OpenCV
 
 DEVELOPMENT TOOLS: Git/GitHub, Docker, VS Code, Vim, Tmux, LaTeX, Pandoc
 
@@ -80,6 +81,8 @@ INTERACTIVE PERCEPTION | _Unseen Object Segmentation_
     unseen object segmentation
 -   Proposed self-supervised data collection method to improved real
     world segmentation performance
+-   Extended the method to utilize uncertainty in segmentation for
+    minimizing number of interactions
 
 OBJECT MANIPULATION | _Robust Grasping & Skill Transfer_
 
@@ -90,12 +93,14 @@ OBJECT MANIPULATION | _Robust Grasping & Skill Transfer_
 -   Demonstrated applications for human to robot grasp trasnfer via our
     encoding + retrieval pipeline
 
-SCAN TO VR | _Virtual World Reconstruction_
+ROBOT BENCHMARKING | _Perception, Grasping & Motion Planning_
 
--   Working on the problem of efficient and robust 3D object retrieval
-    from a RGB-D scan of indoor environment
--   Implemented a pipeline to convert 3D scans to virtual Unity scenes
-    by fetching closest matching CAD models
+-   Developed an intuitive method for replicable, real-world scenes of
+    objects for robot benchmarking
+-   Implemented scene generation pipeline in simulation with focus on
+    cluttered but graspable scenes
+-   Extened 10 existing methods across pose estimation, segmentation and
+    grasping for real world experiments
 
 SUBMODULAR INFORMATION MEASURES | _Robust Machine Learning_
 
@@ -103,8 +108,8 @@ SUBMODULAR INFORMATION MEASURES | _Robust Machine Learning_
     functionsin context for robust machine learning
 -   Theoretical properties backed up with applications on outlier aware
     subsets, summarization & clustering tasks
--   Proposed measures have also demonstrated use case for computer
-    vision in active learning for object detection
+-   Follow up works demonstrated computer vision applications in active
+    learning for object detection
 
 VIRTEPEX | _Remote Strength Assessment_
 
@@ -120,41 +125,46 @@ VIRTEPEX | _Remote Strength Assessment_
 PUBLICATIONS
 
 
-1.  Self-Supervised Unseen Object Instance Segmentation via Long-Term
-    Robot Interaction. (_In Submission, arXiv: 2302.03793_).
+1.  RISeg: Robot Interactive Object Segmentation via Body
+    Frame-Invariant Features (_Under Review_)
 
-2.  Skeletal Point Representations with Geometric Deep Learning. _In
+2.  SceneReplica: Benchmarking Real-World Robot Manipulation by Creating
+    Replicable Scenes. (_Under Review, ArXiV: 2306.15620_)
+
+3.  Self-Supervised Unseen Object Instance Segmentation via Long-Term
+    Robot Interaction. _In Robotics: Science and Systems (RSS), 2023_.
+
+4.  Skeletal Point Representations with Geometric Deep Learning. _In
     IEEE International Symposium on Biomedical Imaging (ISBI), 2023._
 
-3.  NeuralGrasps: Learning Implicit Representations for Grasps of
-    Multiple Robotic Hands. _In Conference on Robot Learning (CoRL),
-    Proceedings of Machine Learning Research (PMLR), 2022._
+5.  NeuralGrasps: Learning Implicit Representations for Grasps of
+    Multiple Robotic Hands. _In Conference on Robot Learning
+    (CoRL), 2022._
 
-4.  Virtepex: Virtual Remote Tele-Physical Examination System. _In ACM
+6.  Virtepex: Virtual Remote Tele-Physical Examination System. _In ACM
     SIGCHI Conference on Designing Interactive Systems (DIS), 2022._
 
-5.  Generalized submodular information measures: Theoretical properties,
+7.  Generalized submodular information measures: Theoretical properties,
     examples, optimization algorithms, and applications. _In IEEE
     Transactions on Information Theory Journal, 2021._
 
-6.  Submodular combinatorial information measures with applications in
+8.  Submodular combinatorial information measures with applications in
     machine learning. _In International Conference on Algorithmic
-    Learning Theory (ALT), Proceedings of Machine Learning Research
-    (PMLR), 2021._
+    Learning Theory (ALT), 2021._
 
 
 
 OTHER EXPERIENCE
 
 
-PROFESSIONAL SERVICE: ICRA’22, IROS’22, ICMR’22, ICHI’22, IEEE VR’21,
-ACM MM’21, IJCAI’20 (external reviewer)
+PROFESSIONAL SERVICE: CoRL, ICRA, IROS, IEEE VR, ACM MM, ICMR, ICHI,
+IJCAI (external reviewer)
 
-TEACHING ASSISTANT: Machine Learning, Robotics, Statistical Methods,
-Graphics, Natural Language Processing
+TEACHING ASSISTANT: Machine Learning, Robotics, Computer Graphics,
+Statistics for Data Science
 
-MENTORSHIP: Peer mentor for new PhD students and member of Counselling
-Service at IIT Kanpur
+MENTORSHIP: Peer mentor for new PhD students at UT-Dallas and member of
+Counselling Service at IIT Kanpur
 
 
 
@@ -174,13 +184,6 @@ DATA SUBSET SELECTION | _Optimization Algorithms_
     problem with minimal impact on validation loss
 -   Utilized gradient approximation scheme to show utility on logistic
     regression and neural network models
-
-PART OF SPEECH TAGGER FOR HINDI | _Natural Language Processing_
-
--   Designed a machine learning method for a Hindi PoS tagger by
-    leveraging word embeddings and an English tagger
--   Showed performance gain of 12% on domain classification of Hindi
-    docs when using inferred PoS labels
 
 MARCHING CUBES BASED RECONSTRUCTION | _Computer Graphics_
 
