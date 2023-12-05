@@ -117,8 +117,6 @@ VIRTEPEX | _Remote Strength Assessment_
     Kinect-based force estimation of body movements
 -   Utilized Kinect to track body joints and an inverse dynamics solver
     to infer force/torque estimates for an user
--   User studies with subject matter experts showed the benefit of using
-    a contact-less estimation method v/s telehealth
 
 
 
@@ -131,24 +129,28 @@ PUBLICATIONS
 2.  SceneReplica: Benchmarking Real-World Robot Manipulation by Creating
     Replicable Scenes. (_Under Review, ArXiV: 2306.15620_)
 
-3.  Self-Supervised Unseen Object Instance Segmentation via Long-Term
+3.  CIS2VR: CNN-based Indoor Scan to VR Environment Authoring Framework,
+    _In IEEE International Conference on AI & extended and Virtual
+    Reality (AIxVR) 2024_.
+
+4.  Self-Supervised Unseen Object Instance Segmentation via Long-Term
     Robot Interaction. _In Robotics: Science and Systems (RSS), 2023_.
 
-4.  Skeletal Point Representations with Geometric Deep Learning. _In
+5.  Skeletal Point Representations with Geometric Deep Learning. _In
     IEEE International Symposium on Biomedical Imaging (ISBI), 2023._
 
-5.  NeuralGrasps: Learning Implicit Representations for Grasps of
+6.  NeuralGrasps: Learning Implicit Representations for Grasps of
     Multiple Robotic Hands. _In Conference on Robot Learning
     (CoRL), 2022._
 
-6.  Virtepex: Virtual Remote Tele-Physical Examination System. _In ACM
+7.  Virtepex: Virtual Remote Tele-Physical Examination System. _In ACM
     SIGCHI Conference on Designing Interactive Systems (DIS), 2022._
 
-7.  Generalized submodular information measures: Theoretical properties,
+8.  Generalized submodular information measures: Theoretical properties,
     examples, optimization algorithms, and applications. _In IEEE
     Transactions on Information Theory Journal, 2021._
 
-8.  Submodular combinatorial information measures with applications in
+9.  Submodular combinatorial information measures with applications in
     machine learning. _In International Conference on Algorithmic
     Learning Theory (ALT), 2021._
 
@@ -157,10 +159,14 @@ PUBLICATIONS
 OTHER EXPERIENCE
 
 
-PROFESSIONAL SERVICE: CoRL, ICRA, IROS, IEEE VR, ACM MM, ICMR, ICHI,
-IJCAI (external reviewer)
+PROFESSIONAL SERVICE:
 
-TEACHING ASSISTANT: Machine Learning, Robotics, Computer Graphics,
+-   Reviewer for CoRL, ICRA, IROS, IEEE VR, ACM MM, ICMR, ICHI, IJCAI
+    (external reviewer)
+-   Organized the Workshop for Neural Representation Learning for Robot
+    Manipulation at CoRL 2023
+
+TEACHING ASSISTANT: Machine Learning, Robotics, Computer Graphics, NLP,
 Statistics for Data Science
 
 MENTORSHIP: Peer mentor for new PhD students at UT-Dallas and member of
@@ -184,13 +190,6 @@ DATA SUBSET SELECTION | _Optimization Algorithms_
     problem with minimal impact on validation loss
 -   Utilized gradient approximation scheme to show utility on logistic
     regression and neural network models
-
-MARCHING CUBES BASED RECONSTRUCTION | _Computer Graphics_
-
--   Implemented a base version of marching cubes algorithm for 3D
-    iso-surface extraction using OpenGL and C++
--   Improved initial results via better representation for vertex normal
-    by averaging over faces for a vertex
 
 
 
