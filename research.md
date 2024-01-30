@@ -13,16 +13,25 @@ My main research focus is on robot manipulation methods, especially robust grasp
 ![banner_pic](./static/media/paper_thumbnails/icra24_riseg.png){#paper-banner}
 *RISeg: Robot Interactive Object Segmentation via Body Frame-Invariant Features* \
 With H Qian, Y Lu, K Ren, G Wang, Y Xiang, K Hang \
-Under Review \
-Links and code coming soon.
+In IEEE International Conference on Robotics and Automation (ICRA) 2024 \
+Links for paper and code coming soon!
 
 ----
 
 ![banner_pic](./static/media/paper_thumbnails/icra24_scenereplica.png){#paper-banner} 
 *SceneReplica: Benchmarking Real-World Robot Manipulation by Creating Reproducible Scenes* \
 With S Allu, Y Lu, J Jaykumar, B Prabhakaran, Y Xiang \
-Under Review \
+In IEEE International Conference on Robotics and Automation (ICRA) 2024 \
 | [Arxiv](https://arxiv.org/abs/2306.15620) | [Project Page](https://irvlutd.github.io/SceneReplica/) |
+
+----
+
+![banner_pic](./static/media/paper_thumbnails/ieee_aixvr24_cis2vr.png){#paper-banner}
+*CIS2VR: CNN-based Indoor Scan to VR Environment Authoring Framework* \
+With H Kumar, B Prabhakaran\
+In IEEE International Conference on AI & extended and VR (AIxVR) 2024  \
+Links for paper and code coming soon! \
+
 
 ----
 
@@ -55,7 +64,7 @@ In Conference on Robot Learning (CoRL) 2022 \
 *Virtepex: Virtual Remote Tele-Physical Examination System* \
 With K Desai, B Prabhakaran, T Annaswamy \
 In ACM Designing Interactive Systems Conference (DIS) 2022 \
-| [DOI](https://doi.org/10.1145/3532106.3533486) | \
+| [DOI Link](https://doi.org/10.1145/3532106.3533486) | \
 
 ----
 
@@ -63,7 +72,7 @@ In ACM Designing Interactive Systems Conference (DIS) 2022 \
 ![banner_pic](./static/media/paper_thumbnails/alt21_smi.png){#paper-banner}
 *Generalized submodular information measures: Theoretical properties, examples, optimization algorithms, and applications* \
 With R Iyer, J Bilmes, H Asanani \
-In IEEE Transactions on Information Theory (ISIT) 2021 | [DOI](https://doi.org/10.1109/TIT.2021.3123944) | \
+In IEEE Transactions on Information Theory (ISIT) 2021 | [DOI Link](https://doi.org/10.1109/TIT.2021.3123944) \
 
 ----
 
@@ -74,13 +83,12 @@ With R Iyer, J Bilmes, H Asanani \
 In Algorithmic Learning Theory (ALT) 2021 \
 | [JMLR Link](https://proceedings.mlr.press/v132/iyer21a.html) | [Arxiv](https://arxiv.org/abs/2006.15412) |
 
----
 
 ## Service
 
 I have served as a paper reviewer for the following:
 
-- 2023: ICRA, IROS, CoRL
+- 2023: ICRA, IROS, CoRL, ACM MM
 - 2022: ICRA, IROS, ICMR, ICHI, ACM MM
 - 2021: IEEE VR, ACM MM
 - 2020: IJCAI (external reviewer)
