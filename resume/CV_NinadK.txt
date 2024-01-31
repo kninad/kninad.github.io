@@ -120,14 +120,16 @@ VIRTEPEX | _Remote Strength Assessment_
 
 
 
-PUBLICATIONS
+RELEVANT PUBLICATIONS
 
 
 1.  RISeg: Robot Interactive Object Segmentation via Body
-    Frame-Invariant Features (_Under Review_)
+    Frame-Invariant Features, _In IEEE International Conference on
+    Robotics and Automation (ICRA) 2024_.
 
 2.  SceneReplica: Benchmarking Real-World Robot Manipulation by Creating
-    Replicable Scenes. (_Under Review, ArXiV: 2306.15620_)
+    Replicable Scenes, _In IEEE International Conference on Robotics and
+    Automation (ICRA) 2024_.
 
 3.  CIS2VR: CNN-based Indoor Scan to VR Environment Authoring Framework,
     _In IEEE International Conference on AI & extended and Virtual
@@ -146,11 +148,7 @@ PUBLICATIONS
 7.  Virtepex: Virtual Remote Tele-Physical Examination System. _In ACM
     SIGCHI Conference on Designing Interactive Systems (DIS), 2022._
 
-8.  Generalized submodular information measures: Theoretical properties,
-    examples, optimization algorithms, and applications. _In IEEE
-    Transactions on Information Theory Journal, 2021._
-
-9.  Submodular combinatorial information measures with applications in
+8.  Submodular combinatorial information measures with applications in
     machine learning. _In International Conference on Algorithmic
     Learning Theory (ALT), 2021._
 
@@ -163,8 +161,8 @@ PROFESSIONAL SERVICE:
 
 -   Reviewer for CoRL, ICRA, IROS, IEEE VR, ACM MM, ICMR, ICHI, IJCAI
     (external reviewer)
--   Organized the Workshop for Neural Representation Learning for Robot
-    Manipulation at CoRL 2023
+-   Workshop organizer for Workshop for Neural Representation Learning
+    for Robot Manipulation at CoRL 2023
 
 TEACHING ASSISTANT: Machine Learning, Robotics, Computer Graphics, NLP,
 Statistics for Data Science
