@@ -10,11 +10,18 @@ My main research focus is on robot manipulation methods, especially robust grasp
 
 ## Relevant Publications
 
+![banner_pic](./static/media/paper_thumbnails/iros24_mgg.png){#paper-banner}
+*MultiGripperGrasp: A Dataset for Robotic Grasping from Parallel Jaw Grippers to Dexterous Hands* \
+With F Casas, B Prabhakaran, Y Xiang \
+Under Submission | [Arxiv](https://arxiv.org/abs/2403.09841) | [Project Page](https://irvlutd.github.io/MultiGripperGrasp/)
+
+---
+
 ![banner_pic](./static/media/paper_thumbnails/icra24_riseg.png){#paper-banner}
 *RISeg: Robot Interactive Object Segmentation via Body Frame-Invariant Features* \
 With H Qian, Y Lu, K Ren, G Wang, Y Xiang, K Hang \
 In IEEE International Conference on Robotics and Automation (ICRA) 2024 \
-Links for paper and code coming soon!
+| [Arxiv](https://arxiv.org/abs/2403.01731) | \
 
 ----
 
@@ -22,7 +29,7 @@ Links for paper and code coming soon!
 *SceneReplica: Benchmarking Real-World Robot Manipulation by Creating Reproducible Scenes* \
 With S Allu, Y Lu, J Jaykumar, B Prabhakaran, Y Xiang \
 In IEEE International Conference on Robotics and Automation (ICRA) 2024 \
-| [Arxiv](https://arxiv.org/abs/2306.15620) | [Project Page](https://irvlutd.github.io/SceneReplica/) |
+| [Arxiv](https://arxiv.org/abs/2306.15620) | [Project Page](https://irvlutd.github.io/SceneReplica/) | \
 
 ----
 
@@ -30,7 +37,7 @@ In IEEE International Conference on Robotics and Automation (ICRA) 2024 \
 *CIS2VR: CNN-based Indoor Scan to VR Environment Authoring Framework* \
 With H Kumar, B Prabhakaran\
 In IEEE International Conference on AI & extended and VR (AIxVR) 2024  \
-Links for paper and code coming soon! \
+| [DOI Link](https://doi.ieeecomputersociety.org/10.1109/AIxVR59861.2024.00025) | \
 
 
 ----
@@ -88,6 +95,7 @@ In Algorithmic Learning Theory (ALT) 2021 \
 
 I have served as a paper reviewer for the following:
 
+- 2024: IROS, CoRL, ACM MM
 - 2023: ICRA, IROS, CoRL, ACM MM
 - 2022: ICRA, IROS, ICMR, ICHI, ACM MM
 - 2021: IEEE VR, ACM MM
