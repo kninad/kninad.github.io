@@ -1,13 +1,13 @@
-Site: kninad.github.io | GitHub: kninad | Email: ninadk.utd@gmail.com |
-LinkedIn: linkedin.com/in/kninad
+Webpage: kninad.github.io | GitHub: kninad | Email: ninadk.utd@gmail.com
+| LinkedIn: linkedin.com/in/kninad
 
 
 
 EDUCATION
 
 
-2019 - 2024: UNIVERSITY OF TEXAS AT DALLAS, _Ph.D. in Computer Science_
-- Intelligent Robotics and Vision Lab
+2019 - Present: UNIVERSITY OF TEXAS AT DALLAS, _Ph.D. in Computer
+Science_ - Intelligent Robotics and Vision Lab
 
 2017 - 2019: UNIVERSITY OF MASSACHUSETTS, AMHERST, _M.S in Computer
 Science_
@@ -20,9 +20,21 @@ Mathematics and Scientific Computing_
 WORK EXPERIENCE
 
 
-Research and Development Internship
+Machine Learning/AI Internship – _Covariant.ai_
 
-Jun 2022 - Aug 2022: _Kitware Inc_
+Jan 2024 - May 2024 | Emeryville, CA
+
+-   Worked as a researcher in problem domain of AI-based robotics for
+    warehousing and logistics operations
+-   Explored generative models like VAE and Latent Diffusion for robot
+    grasp generation from real-world inputs
+-   Building robot foundation models that can deal with multi-modal
+    inputs like text and images
+
+
+Research and Development Internship – _Kitware Inc._
+
+Jun 2022 - Aug 2022 | Remote
 
 -   Researched machine learning algorithms for approximating medial
     skeleton of point clouds & voxels
@@ -32,9 +44,9 @@ Jun 2022 - Aug 2022: _Kitware Inc_
     data from hippocampi and leaflet regions
 
 
-Graduate Research Assistant
+Graduate Research Assistant – _University of Texas at Dallas_
 
-Aug 2019 - Present: _University of Texas at Dallas_
+Aug 2019 - Present | Dallas, TX
 
 -   Researcher in Intelligent Robotics & Vision Lab, working on robot
     grasping, 3D vision and learning from humans
@@ -46,9 +58,9 @@ Aug 2019 - Present: _University of Texas at Dallas_
     taking guest lectures in selected courses
 
 
-Mitacs Globalink Research Internship
+Mitacs Globalink Research Internship – _University of Manitoba, Winnipeg_
 
-May 2016 - Jul 2016: _University of Manitoba, Winnipeg_
+May 2016 - Jul 2016 | Winnipeg, Canada
 
 -   Studied the problem of graph sampling and extracting relevant
     statistics like clustering coefficient
@@ -66,7 +78,7 @@ TECHNICAL SKILLS
 
 PROGRAMMING LANGUAGES: Python, C/C++, R
 
-FRAMEWORKS/LIBRARIES: PyTorch, ROS, Unity, OpenGL, CUDA, OpenCV
+FRAMEWORKS/LIBRARIES: PyTorch, ROS, CUDA, IsaacGym, Unity, OpenGL
 
 DEVELOPMENT TOOLS: Git/GitHub, Docker, VS Code, Vim, Tmux, LaTeX, Pandoc
 
@@ -111,13 +123,6 @@ SUBMODULAR INFORMATION MEASURES | _Robust Machine Learning_
 -   Follow up works demonstrated computer vision applications in active
     learning for object detection
 
-VIRTEPEX | _Remote Strength Assessment_
-
--   Design and development of a mixed reality system in Unity for
-    Kinect-based force estimation of body movements
--   Utilized Kinect to track body joints and an inverse dynamics solver
-    to infer force/torque estimates for an user
-
 
 
 RELEVANT PUBLICATIONS
@@ -159,8 +164,7 @@ OTHER EXPERIENCE
 
 PROFESSIONAL SERVICE:
 
--   Reviewer for CoRL, ICRA, IROS, IEEE VR, ACM MM, ICMR, ICHI, IJCAI
-    (external reviewer)
+-   Reviewer for CoRL, ICRA, IROS, IEEE VR, ACM MM, ICMR, ICHI
 -   Workshop organizer for Workshop for Neural Representation Learning
     for Robot Manipulation at CoRL 2023
 
@@ -172,32 +176,15 @@ Counselling Service at IIT Kanpur
 
 
 
-COURSE PROJECTS
+ACHIEVEMENTS & AWARDS
 
 
-FASTER INFERENCE FOR CHOW-LIU TREES | _Machine Learning_
-
--   Developed approximation algorithms for faster inference in Chow-Liu
-    tree probabilistic graphical model
--   Tried out sub-quadratic variants for minimum weight spanning tree
-    computation & compared with optimal setting
-
-DATA SUBSET SELECTION | _Optimization Algorithms_
-
--   Framed subset selection from training data as an optimization
-    problem with minimal impact on validation loss
--   Utilized gradient approximation scheme to show utility on logistic
-    regression and neural network models
-
-
-
-ACADEMIC ACHIEVEMENTS
-
-
--   Recipient of Inspire scholarship awarded by Indian Govt. for
+-   Awarded the competitive IEEE RAS Travel Grant and UTD Graduate
+    Student Assembly travel award.
+-   Recipient of Inspire scholarship awarded by Govt. of India for
     academic performance at IIT Kanpur.
--   Awarded the Mitacs Globalink scholarship for fully funded summer
-    research internship in Canada.
+-   Awarded the Mitacs Globalink scholarship for summer research
+    internship in Canada.
 -   Secured a percentile score of 97.7 in JEE (Advanced)-2013 and a
     percentile score of 99.8 in JEE (Main)-2013 national engineering
     entrance examinations.

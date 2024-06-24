@@ -16,7 +16,7 @@ Links: [GitHub](https://github.com/kninad/) |
 [Google Scholar](https://scholar.google.com/citations?user=5eFmqkAAAAAJ&hl=en) |
 [LinkedIn](https://www.linkedin.com/in/kninad/) |
 [ORCiD](https://orcid.org/0000-0001-9191-0250) |
-C.V: [[pdf]](./resume/CV_NinadK.pdf) / [[html]](./resume/CV_NinadK.html) \
+C.V: [[pdf]](./resume/CV_Ninad_Khargonkar.pdf) / [[html]](./resume/CV_Ninad_Khargonkar.html) \
 
 
 ## About
