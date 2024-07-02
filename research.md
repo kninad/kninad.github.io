@@ -13,7 +13,8 @@ My main research focus is on robot manipulation methods, especially robust grasp
 ![banner_pic](./static/media/paper_thumbnails/iros24_mgg.png){#paper-banner}
 *MultiGripperGrasp: A Dataset for Robotic Grasping from Parallel Jaw Grippers to Dexterous Hands* \
 With F Casas, B Prabhakaran, Y Xiang \
-Under Submission | [Arxiv](https://arxiv.org/abs/2403.09841) | [Project Page](https://irvlutd.github.io/MultiGripperGrasp/)
+In IEEE International Conference on Intelligent Robots and Systems (IROS) 2024 \
+| [Arxiv](https://arxiv.org/abs/2403.09841) | [Project Page](https://irvlutd.github.io/MultiGripperGrasp/)
 
 ---
 
