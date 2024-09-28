@@ -96,7 +96,7 @@ INTERACTIVE PERCEPTION | _Unseen Object Segmentation_
 -   Extended the method to utilize uncertainty in segmentation for
     minimizing number of interactions
 
-OBJECT MANIPULATION | _Robust Grasping & Skill Transfer_
+ROBOT MANIPULATION | _Robust Grasping & Skill Transfer_
 
 -   Learning a common representation across different robot gripper
     grasps for efficient skill transfer
@@ -105,7 +105,7 @@ OBJECT MANIPULATION | _Robust Grasping & Skill Transfer_
 -   Demonstrated applications for human to robot grasp trasnfer via our
     encoding + retrieval pipeline
 
-ROBOT BENCHMARKING | _Perception, Grasping & Motion Planning_
+REPLICABLE BENCHMARKING | _Perception, Grasping & Motion Planning_
 
 -   Developed an intuitive method for replicable, real-world scenes of
     objects for robot benchmarking
@@ -114,7 +114,7 @@ ROBOT BENCHMARKING | _Perception, Grasping & Motion Planning_
 -   Extened 10 existing methods across pose estimation, segmentation and
     grasping for real world experiments
 
-SUBMODULAR INFORMATION MEASURES | _Robust Machine Learning_
+SUBMODULAR INFORMATION MEASURES | _Machine Learning_
 
 -   Proposed novel information theoretic measures for submodular set
     functionsin context for robust machine learning
@@ -128,36 +128,39 @@ SUBMODULAR INFORMATION MEASURES | _Robust Machine Learning_
 RELEVANT PUBLICATIONS
 
 
-1.  MultiGripperGrasp: A Dataset for Robotic Grasping from Parallel Jaw
+1.  RobotFingerPrint: Unified Gripper Coordinate Space for Multi-Gripper
+    Grasp Synthesis, _(Under Submission)_
+
+2.  MultiGripperGrasp: A Dataset for Robotic Grasping from Parallel Jaw
     Grippers to Dexterous Hands, _In IEEE International Conference on
     Intelligent Robots and Systems (IROS) 2024_.
 
-2.  RISeg: Robot Interactive Object Segmentation via Body
+3.  RISeg: Robot Interactive Object Segmentation via Body
     Frame-Invariant Features, _In IEEE International Conference on
     Robotics and Automation (ICRA) 2024_.
 
-3.  SceneReplica: Benchmarking Real-World Robot Manipulation by Creating
+4.  SceneReplica: Benchmarking Real-World Robot Manipulation by Creating
     Replicable Scenes, _In IEEE International Conference on Robotics and
     Automation (ICRA) 2024_.
 
-4.  CIS2VR: CNN-based Indoor Scan to VR Environment Authoring Framework,
+5.  CIS2VR: CNN-based Indoor Scan to VR Environment Authoring Framework,
     _In IEEE International Conference on AI & extended and Virtual
     Reality (AIxVR) 2024_.
 
-5.  Self-Supervised Unseen Object Instance Segmentation via Long-Term
+6.  Self-Supervised Unseen Object Instance Segmentation via Long-Term
     Robot Interaction. _In Robotics: Science and Systems (RSS), 2023_.
 
-6.  Skeletal Point Representations with Geometric Deep Learning. _In
+7.  Skeletal Point Representations with Geometric Deep Learning. _In
     IEEE International Symposium on Biomedical Imaging (ISBI), 2023._
 
-7.  NeuralGrasps: Learning Implicit Representations for Grasps of
+8.  NeuralGrasps: Learning Implicit Representations for Grasps of
     Multiple Robotic Hands. _In Conference on Robot Learning
     (CoRL), 2022._
 
-8.  Virtepex: Virtual Remote Tele-Physical Examination System. _In ACM
+9.  Virtepex: Virtual Remote Tele-Physical Examination System. _In ACM
     SIGCHI Conference on Designing Interactive Systems (DIS), 2022._
 
-9.  Submodular combinatorial information measures with applications in
+10. Submodular combinatorial information measures with applications in
     machine learning. _In International Conference on Algorithmic
     Learning Theory (ALT), 2021._
 
@@ -169,8 +172,8 @@ OTHER EXPERIENCE
 PROFESSIONAL SERVICE:
 
 -   Reviewer for CoRL, ICRA, IROS, IEEE VR, ACM MM, ICMR, ICHI
--   Workshop organizer for Workshop for Neural Representation Learning
-    for Robot Manipulation at CoRL 2023
+-   Organizing committee member: Workshop for Neural Representation
+    Learning for Robot Manipulation at CoRL’23
 
 TEACHING ASSISTANT: Machine Learning, Robotics, Computer Graphics, NLP,
 Statistics for Data Science
@@ -183,12 +186,13 @@ Counselling Service at IIT Kanpur
 ACHIEVEMENTS & AWARDS
 
 
--   Awarded the competitive IEEE RAS Travel Grant and UTD Graduate
-    Student Assembly travel award.
--   Recipient of Inspire scholarship awarded by Govt. of India for
-    academic performance at IIT Kanpur.
+-   Awarded the competitive IEEE RAS Travel Grant for ICRA 2024 in
+    Japan.
+-   UT Dallas Graduate Student Assembly travel award for paper
+    presentation.
 -   Awarded the Mitacs Globalink scholarship for summer research
     internship in Canada.
--   Secured a percentile score of 97.7 in JEE (Advanced)-2013 and a
-    percentile score of 99.8 in JEE (Main)-2013 national engineering
-    entrance examinations.
+-   Recipient of Inspire scholarship awarded by Govt. of India for
+    academic performance at IIT Kanpur.
+-   Secured a percentile score of 97.7 in JEE (Advanced)-2013 and 99.8
+    in JEE (Main)-2013 national engineering entrance examinations.
