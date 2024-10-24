@@ -10,6 +10,13 @@ My main research focus is on robot manipulation methods, especially robust grasp
 
 ## Relevant Publications
 
+![banner_pic](./static/media/paper_thumbnails/icra25_RFP.png){#paper-banner}
+*RobotFingerPrint: Unified Gripper Coordinate Space for Multi-Gripper Grasp Synthesis* \
+With F Casas, B Prabhakaran, Y Xiang \
+*Under Submission* \
+| [Arxiv](https://arxiv.org/pdf/2409.14519) | [Project Page](https://irvlutd.github.io/RobotFingerPrint/)
+
+
 ![banner_pic](./static/media/paper_thumbnails/iros24_mgg.png){#paper-banner}
 *MultiGripperGrasp: A Dataset for Robotic Grasping from Parallel Jaw Grippers to Dexterous Hands* \
 With F Casas, B Prabhakaran, Y Xiang \
