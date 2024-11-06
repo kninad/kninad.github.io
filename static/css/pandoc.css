@@ -141,16 +141,17 @@ body {
  
 
 a {
-  color: #417189;
+  color: #3a667c;
   text-decoration: none;
 }
 
 a:visited {
-  color: #417189;
+  color: #3a667c;
 }
 
 a:hover {
-  color: #06e;
+  color: #064463;
+  text-decoration: underline;
 }
 
 a:active {
