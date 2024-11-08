@@ -1,0 +1,8 @@
+[submodule "themes/kayal"]
+	path = themes/kayal
+	url = https://github.com/mnjm/kayal.git
+	branch = main
+[submodule "themes/academic-folio"]
+	path = themes/academic-folio
+	url = git@github.com:kninad/academic-folio.git
+	branch = main
