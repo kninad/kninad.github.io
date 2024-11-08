@@ -3,6 +3,10 @@ body {
   font-size: 1.1em;
 }
 
+p {
+  line-height: 1.5em;
+}
+
 #main-menu a {
   margin: 0.7em 0.5em;
   font-size: 1.1rem;
