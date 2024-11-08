@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on </title>
+    <link>https://kninad.github.io/posts.html</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- 0.136.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kninad.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guiding Principles</title>
+      <link>https://kninad.github.io/posts/guiding_principles.html</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://kninad.github.io/posts/guiding_principles.html</guid>
+      <description>I wrote down some key principles to summarize many discussions with friends and family over life, spirituality and related topics. Most approaches towards &ldquo;life&rdquo; are not exactly taught and we need to explore and see what works for us from the vast religious, spiritual and philosophical literature available to us. Also trying (action) these bullet points is more important than just contemplating about different approaches!
+Energy maximization: Sleep better and waste less energy. Good sleep should be number one priority, since without it our mental health suffers. What works for me is saying a small prayer which my &ldquo;aaji&rdquo; (grandmother) taught me along with just being grateful. Taking some time out for meditation and exercise have definitely helped me!
+</description>
+    </item>
+    <item>
+      <title>Building a website with pandoc</title>
+      <link>https://kninad.github.io/posts/pandoc_website.html</link>
+      <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://kninad.github.io/posts/pandoc_website.html</guid>
+      <description>I wrote this page to document the process of creating this website. I took the help of pandoc to simplify the entire process. Pandoc is a very useful document converter and a handy tool for creating the html syntax of the website from a markdown file. After creating the necessary files (locally), I used Github pages for hosting the website. Primary references for design: this , this and this (although I take some liberty to break some of the commandments described in them).
+</description>
+    </item>
+    <item>
+      <title>Linux Setup</title>
+      <link>https://kninad.github.io/posts/linux_setup.html</link>
+      <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://kninad.github.io/posts/linux_setup.html</guid>
+      <description> Back story My first Linux based os was Ubuntu 10.04 lts which I installed on my home computer using wubi (it basically made ubuntu an &lsquo;installed program&rsquo; on windows). But this was just an exploration phase after I had come to know about Linux and the GNU project. In first semester in undergrad at iitk I used the computer center labs (CentOS, gnome 2) and also we had to write C programming assignments on those computers.
+</description>
+    </item>
+  </channel>
+</rss>
