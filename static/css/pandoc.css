@@ -13,11 +13,10 @@ html {
 
 body {
   color: #111111;
-  font-family: Arial, Helvetica, sans-serif;
-  /* font-family: Georgia, 'Times New Roman', Times, serif; */
-  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-  font-size: 14px;
-  line-height: 1.5;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: Palatino, Cambria, Cochin, Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;
+  line-height: 1.6;
   padding: 1em;
   margin: auto;
   /* margin-left: 160px; */
@@ -120,7 +119,7 @@ body {
    text-align: center;
    padding: 0px 10px 10px 0px;
    text-decoration: none;
-   font-size: 1.2em;
+   font-size: 1.1em;
  }
  
  .topnav a:hover {
@@ -196,7 +195,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Palatino, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   /* font-family: Arial, Helvetica, sans-serif; */
   color: #255198;
   line-height: 125%;
@@ -409,7 +408,7 @@ table td {
 }
 @media only screen and (min-width: 768px) {
   body {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media print {

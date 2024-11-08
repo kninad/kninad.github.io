@@ -8,7 +8,7 @@ navbar_home: true
 ![banner_pic](./static/media/dp_nz.jpg){#profile_pic}
 
 **Ninad Khargonkar** \
-Ph.D. Student \
+Ph.D. Candidate \
 Department of Computer Science \
 The University of Texas at Dallas \
 Email: `ninadarun.khargonkar@utdallas.edu` \
