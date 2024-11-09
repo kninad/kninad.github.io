@@ -6,7 +6,7 @@
 # [Optional] Path to the site logo image relative to assets/ folder. Displayed before the Site Title in the header. Minimum size: 64x64px.
 # logo = "/imgs/logo.png"
 # Site description.
-description = "Personal Webpage"
+description = "Personal Homepage"
 # [Optional] Copyright owner name.
 # copyright = ""
 # Whether to optimize images per view port.
@@ -48,7 +48,7 @@ showMore = false
 showMoreDest = "/posts"
 [homepage.profile]
 # [Optional] Displayed at the top of your homepage.
-# headline = "Welcome to my homepage!"
+# headline = "👋 Welcome to my site"
 # [Optional] Path to the profile image relative to assets/ folder. Minimum size: 200x200px.
 image = "imgs/profile.jpg"
 # Image position.
@@ -57,17 +57,17 @@ where = "left"  # Options: right, left, top
 # Article settings
 [article]
 # Whether to display article dates.
-showDate = false
+showDate = true
 # Whether to display modified dates of articles.
-showModDate = true
+showModDate = false
 # Whether to display reading time of articles.
-showReadingTime = false
+showReadingTime = true
 # Whether to display tags mentioned in the front matter.
 showTags = true
 # Whether to display next/previous article links in the article footer.
-showPagination = true
+showPagination = false
 # Whether to reverse the direction of next/previous article links.
-invertPagination = false
+invertPagination = true
 # Whether to display the table of contents on articles.
 showToC = true
 # Whether to open the Table of Contents when the page is loaded.
@@ -98,7 +98,7 @@ cardView = true
 # Term settings
 [term]
 # Whether to group articles by year.
-groupByYear = true
+groupByYear = false
 # Whether to display breadcrumbs
 showBreadcrumbs = false
 # Whether to display pages as a card
@@ -111,12 +111,12 @@ showRSS = false
 # name = "GitHub"
 # icon = "github"
 # url = "https://github.com/mnjm/kayal"
-
+#
 # [[social]]
 # name = "Email"
 # icon = "email"
 # url = "mailto:name@example.com"
-
+#
 # [[social]]
 # name = "Twitter / X"
 # icon = "x-twitter"

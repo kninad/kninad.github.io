@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kninad.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-07-20T22:37:45+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kninad.github.io/posts/guiding_principles.html</loc>
+    <loc>http://localhost:1313/posts/guiding_principles/</loc>
     <lastmod>2019-02-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kninad.github.io/posts.html</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2019-02-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kninad.github.io/posts/pandoc_website.html</loc>
+    <loc>http://localhost:1313/posts/pandoc_website/</loc>
     <lastmod>2018-05-19T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kninad.github.io/posts/linux_setup.html</loc>
+    <loc>http://localhost:1313/posts/linux_setup/</loc>
     <lastmod>2015-05-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kninad.github.io/categories.html</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kninad.github.io/misc.html</loc>
+    <loc>http://localhost:1313/misc/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kninad.github.io/cv.html</loc>
+    <loc>http://localhost:1313/cv/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kninad.github.io/research.html</loc>
+    <loc>http://localhost:1313/research/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kninad.github.io/tags.html</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kninad.github.io/teaching.html</loc>
+    <loc>http://localhost:1313/teaching/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

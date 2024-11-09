@@ -1,27 +1,29 @@
 # -- Site Configuration --
 
 # URL to the root of your website.
-baseURL = "https://kninad.github.io/"
-relativeURLs = true
-uglyURLs = true
-publishDir = "docs"
+# baseURL = "https://your_domain.com/"
 
 # Site's language code
 languageCode = 'en-us'
 
-# title = "Site Title"
+title = "NinadK's Page"
 
 theme = "kayal" # UNCOMMENT THIS LINE
 
+cleanDestinationDir = true
+
+# For githhub pages where it'll auto pickup
+publishDir = "docs"
+
 # Number of articles per page in the listing.
 [pagination]
-  pagerSize = 100
+  pagerSize = 10
 
 # Enable processing of emojis in markdown.
 enableEmoji = true
 
 # Enable creation of robots.txt for search engine crawling.
-enableRobotsTXT = false
+enableRobotsTXT = true
 
 # Length of default summaries.
 summaryLength = 0

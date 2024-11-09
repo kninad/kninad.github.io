@@ -9,28 +9,22 @@
 # `pre` is an icon ID. For a list of all available icons, check [https://github.com/mnjm/kayal/tree/main/assets/icons]
 
 [[main]]
-name = "home"
-title = "Home"
-url = "/"
-weight = 1
-
-[[main]]
 name = "research"
 title = "Research"
 url = "/research/"
-weight = 2
+weight = 1
 
 [[main]]
 name = "teaching"
 title = "Teaching"
 url = "/teaching/"
-weight = 3
+weight = 2
 
 [[main]]
 name = "posts"
 title = "Posts"
 url = "/posts/"
-weight = 4
+weight = 3
 
 # [[main]]
 # name = "github"
@@ -42,4 +36,4 @@ weight = 4
 name = "misc"
 title = "Misc"
 url = "/misc/"
-weight = 5
+weight = 4
