@@ -1,10 +1,16 @@
 ---
 title: "Ninad Khargonkar"
+date: 2024-11-09
 # showToC: false
 ---
 
+**Other formats**: [PDF](./CV_Ninad_Khargonkar.pdf) | [TXT](./CV_Ninad_Khargonkar.txt) | [Docx](./CV_Ninad_Khargonkar.docx) 
+
+----
+
 Webpage: [kninad.github.io](https://kninad.github.io/) | GitHub: [kninad](https://github.com/kninad) | Email: [ninadk.utd@gmail.com](mailto:ninadk.utd@gmail.com) | LinkedIn: [linkedin.com/in/kninad](https://linkedin.com/in/kninad)
 
+---
 
 ## Education
 
@@ -14,6 +20,7 @@ Webpage: [kninad.github.io](https://kninad.github.io/) | GitHub: [kninad](https:
 
 2013 - 2017: **Indian Institute of Technology (IIT) Kanpur**, *B.S. in Mathematics and Scientific Computing*
 
+----
 
 ## Work Experience
 
@@ -52,6 +59,7 @@ May 2016 - Jul 2016 | Winnipeg, Canada
 - Statistical models like ERGM were used for producing model fits and simulating random networks
 - Worked on second project for simulating team performance and biases in a football tournament structure
 
+----
 
 ## Technical Skills
 
@@ -60,6 +68,8 @@ May 2016 - Jul 2016 | Winnipeg, Canada
 **Frameworks/Libraries:** PyTorch, ROS, CUDA, IsaacGym, Unity, OpenGL    
 
 **Development Tools:** Git/GitHub, Docker, VS Code, Vim, Tmux, LaTeX, Pandoc
+
+----
 
 ## Research Projects
 
@@ -89,6 +99,8 @@ May 2016 - Jul 2016 | Winnipeg, Canada
 - Theoretical properties backed up with applications on outlier aware subsets, summarization & clustering tasks
 - Follow up works demonstrated computer vision applications in active learning for object detection
 
+----
+
 
 ## Relevant Publications
 
@@ -112,6 +124,7 @@ May 2016 - Jul 2016 | Winnipeg, Canada
 
 8. Submodular combinatorial information measures with applications in machine learning. *In International Conference on Algorithmic Learning Theory (ALT), 2021.*
 
+----
 
 ## Other Experience
 **Professional Service:**
@@ -123,7 +136,7 @@ May 2016 - Jul 2016 | Winnipeg, Canada
 
 **Mentorship:** Peer mentor for new PhD students at UT-Dallas and member of Counselling Service at IIT Kanpur
 
-
+----
 
 
 ## Achievements & Awards 

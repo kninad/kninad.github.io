@@ -9,13 +9,14 @@ showHeadingAnchors: false
 Ph.D. Candidate \
 Department of Computer Science \
 The University of Texas at Dallas \
-**Email**: `ninadarun.khargonkar@utdallas.edu`
+**Email** {{<icon "envelope">}}: `ninadarun.khargonkar@utdallas.edu`
 
-**Links**: [GitHub {{< icon "github" >}}](https://github.com/kninad/) |
-[Google Scholar {{< icon "google" >}}](https://scholar.google.com/citations?user=5eFmqkAAAAAJ&hl=en) |
-[LinkedIn {{< icon "linkedin" >}}](https://www.linkedin.com/in/kninad/) |
-[ORCiD {{< icon "orcid" >}}](https://orcid.org/0000-0001-9191-0250) |
-CV: [[pdf]](./cv/CV_Ninad_Khargonkar.pdf) / [[html]](cv/)
+**Links**:
+**CV** {{<icon "copy-solid">}} ([**PDF**](./cv/CV_Ninad_Khargonkar.pdf), [**HTML**](cv/)) |
+[**GitHub** {{< icon "github" >}}](https://github.com/kninad/) |
+[**Google Scholar** {{< icon "google" >}}](https://scholar.google.com/citations?user=5eFmqkAAAAAJ&hl=en) |
+[**LinkedIn** {{< icon "linkedin" >}}](https://www.linkedin.com/in/kninad/) |
+[**ORCiD** {{< icon "orcid" >}}](https://orcid.org/0000-0001-9191-0250) 
 
 
 <!-- **About** -->
