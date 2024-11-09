@@ -7,8 +7,8 @@ title: Miscellaneous stuff
 
 LaTeX: 
 [30 min tutorial](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes), 
-[templates](http://www.latextemplates.com/),
-[wikibook](https://en.wikibooks.org/wiki/LaTeX/)
+[Templates](http://www.latextemplates.com/),
+[Wikibook](https://en.wikibooks.org/wiki/LaTeX/)
 
 [wiby.me](https://wiby.me/): Old websites search engine
 
@@ -23,7 +23,7 @@ for taking care of mental health
 also has a Firefox/Chrome addons for adding articles from web.
 
 
-## Nice Hugo Themes
+### Nice Hugo Themes
 
 These are some of the hugo themes which I liked!
 
@@ -32,7 +32,16 @@ These are some of the hugo themes which I liked!
 - [Texify3](https://themes.gohugo.io/themes/hugo-texify3/)
 - [Compost](https://themes.gohugo.io/themes/compost/)
 - [XMin](https://themes.gohugo.io/themes/hugo-xmin/)
-- [Kayal](https://themes.gohugo.io/themes/kayal/) -- currently using this one with some mods.
+- [Kayal](https://themes.gohugo.io/themes/kayal/) -- I am currently using this theme with some modifications to the default css.
+
+
+### Markdown based documentation
+
+Here are some of my repos created for my use case!
+
+- [resume-pandoc](https://github.com/kninad/resume-pandoc) : Auto generate resume in different formats from a *single* markdown source.
+- [rippledoc-ext](https://kninad.github.io/rippledoc-ext) :  Extended rippledoc to created html pages from folder full of markdown files.
+
 
 
 ## Football (For rest of the world!)

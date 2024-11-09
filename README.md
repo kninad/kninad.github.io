@@ -9,9 +9,10 @@ How to Publish
 --------------
 
 - Edit the markdown files in `content`
-- Run `hugo`
+- Preview the website using `hugo server` -- will open a local website (default on `localhost:1313`)
+- To finally push changes to web host, run `hugo`. IMP to run this before pushing!
   - It will publish the website in teh `docs` folder
-  - This is not the defauly folder it usually publishes in, but I changed the `publishDir = "docs"` in `hugo.toml` config.
+  - NOTE: This is not the defauly folder it usually publishes in (default is `public` folder), but I changed the `publishDir = "docs"` in `hugo.toml` config.
 - I have enabled github to load the website from the `docs` folder of the repo.
 - Push the changes to github
 
