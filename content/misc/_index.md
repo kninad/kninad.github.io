@@ -23,6 +23,17 @@ for taking care of mental health
 also has a Firefox/Chrome addons for adding articles from web.
 
 
+## Nice Hugo Themes
+
+These are some of the hugo themes which I liked!
+
+- [Today I Learned](https://themes.gohugo.io/themes/hugo-theme-til/)
+- [Gruvbox](https://themes.gohugo.io/themes/hugo-theme-gruvbox/)
+- [Texify3](https://themes.gohugo.io/themes/hugo-texify3/)
+- [Compost](https://themes.gohugo.io/themes/compost/)
+- [XMin](https://themes.gohugo.io/themes/hugo-xmin/)
+- [Kayal](https://themes.gohugo.io/themes/kayal/) -- currently using this one with some mods.
+
 
 ## Football (For rest of the world!)
 
