@@ -6,7 +6,7 @@
   --radius: 6px;
   --primary-color: #292929;
   --secondary-color: #EFEFE6;
-  --tertiary-color: #E0002D;
+  --tertiary-color: #652632;
   --link-color: #449DD1;
   --tertiary-color-light: #FFB370;
   --secondary-color-dark: #DFDFCD;
@@ -21,7 +21,7 @@
 .dark {
   --primary-color: #EFEFE6;
   --secondary-color: #292929;
-  --tertiary-color: #FF7F11;
+  --tertiary-color: #cf9e74;
   --tertiary-color-light: #A34C00;
   --secondary-color-dark: #3D3D29;
   --scrollbar-track: #292929;

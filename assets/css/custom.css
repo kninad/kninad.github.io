@@ -11,6 +11,17 @@ body {
   border-bottom: none;
 }
 
+
+a {
+  border-bottom: 1px dashed var(--tertiary-color);
+  /* color: var(--link-color); */
+}
+
+a:hover {
+  color: var(--link-color);
+  border-bottom: 2px solid var(--tertiary-color);
+}
+
 .avatar.left {
   /* margin-top: 16px; */
   margin-top: 0px;
