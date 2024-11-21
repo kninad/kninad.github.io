@@ -100,7 +100,7 @@ In Algorithmic Learning Theory (ALT) 2021 \
 
 I have served as a paper reviewer for the following:
 
-- 2024: IROS, CoRL, ACM MM
+- 2024: RA-L, IROS, CoRL, ACM MM
 - 2023: ICRA, IROS, CoRL, ACM MM
 - 2022: ICRA, IROS, ICMR, ICHI, ACM MM
 - 2021: IEEE VR, ACM MM
