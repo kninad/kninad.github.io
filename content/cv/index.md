@@ -14,7 +14,7 @@ Webpage: [kninad.github.io](https://kninad.github.io/) | GitHub: [kninad](https:
 
 ## Education
 
-2019 - Present: **University of Texas at Dallas**, *Ph.D. in Computer Science* - [Intelligent Robotics and Vision Lab](https://labs.utdallas.edu/irvl/)
+2019 - 2025: **University of Texas at Dallas**, *Ph.D. in Computer Science* - [Intelligent Robotics and Vision Lab](https://labs.utdallas.edu/irvl/)
 
 2017 - 2019: **University of Massachusetts, Amherst**, *M.S in Computer Science*
 

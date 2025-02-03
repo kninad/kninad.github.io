@@ -5,8 +5,8 @@ Github repository for my personal webpage: https://kninad.github.io/
 Made using Hugo and Kayal theme.
 
 
-How to Publish
---------------
+# Usage and Publishing
+
 
 - Edit the markdown files in `content`
 - Preview the website using `hugo server` -- will open a local website (default on `localhost:1313`)
@@ -16,7 +16,14 @@ How to Publish
 - I have enabled github to load the website from the `docs` folder of the repo.
 - Push the changes to github
 
-### Home
+Notes:
+
+1. For html CV, I just edit the `content/cv/_index.md` manually as the other resume changes
+
+
+# Content Notes
+
+## Home
 - Research interests: Short summary and advisor info.
 - Teaching (TAed courses + mentees)
 - Reviewing
@@ -26,13 +33,13 @@ How to Publish
 - Software: link to github repos of important codes? + short description (can be in misc too)
 
 
-### Research
+## Research
 
 An entire page dedicated to short summaries of papers and high-level ideas about your researach.
 Also acts as a way to organize your papers! Need not include all your pubs. Add relevant images and pdf links to papers. Also can add a wordcloud image at the beginning or end. 
 
 
-### Misc
+## Misc
 
 - Add stuff about hobbies: music, sketching, football (notes for them) + other thoughts under
   an appropriate section header

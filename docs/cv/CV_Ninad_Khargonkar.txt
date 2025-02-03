@@ -6,8 +6,8 @@ Webpage: kninad.github.io | GitHub: kninad | Email: ninadk.utd@gmail.com
 EDUCATION
 
 
-2019 - Present: UNIVERSITY OF TEXAS AT DALLAS, _Ph.D. in Computer
-Science_ - Intelligent Robotics and Vision Lab
+2019 - 2025: UNIVERSITY OF TEXAS AT DALLAS, _Ph.D. in Computer Science_
+- Intelligent Robotics and Vision Lab
 
 2017 - 2019: UNIVERSITY OF MASSACHUSETTS, AMHERST, _M.S in Computer
 Science_
