@@ -3,6 +3,28 @@ title: Miscellaneous stuff
 ---
 
 
+## Football (For rest of the world!)
+
+My primary passtime is playing and watching football. Here are some football related 
+websites that I like:
+
+- [Fantasy premier league](http://fantasy.premierleague.com/)
+- [Tifo Football](https://www.tifofootball.com/)
+- [Spielverlagerung](http://spielverlagerung.com/)
+
+
+Below are some pics during a time where I ate, slept and played football. The sport has
+given me many fond memories and good friends!
+
+{{< figure src="images/dav_s2_footy_team.jpg" alt="IFL" class="footypic" >}}
+
+{{< figure src="images/footy_hall9.jpg" alt="IFL" class="footypic" >}}
+
+{{< figure src="images/ifl01.jpg" alt="IFL" class="footypic" >}}
+
+{{< figure src="images/footy2.jpg" alt="IFL" class="footypic" >}}
+
+
 ## Useful Links
 
 LaTeX: 
@@ -42,26 +64,4 @@ Here are some of my repos created for my use case!
 - [resume-pandoc](https://github.com/kninad/resume-pandoc) : Auto generate resume in different formats from a *single* markdown source.
 - [rippledoc-ext](https://kninad.github.io/rippledoc-ext) :  Extended rippledoc to created html pages from folder full of markdown files.
 
-
-
-## Football (For rest of the world!)
-
-My primary passtime is playing and watching football. Here are some football related 
-websites that I like:
-
-- [Fantasy premier league](http://fantasy.premierleague.com/)
-- [Tifo Football](https://www.tifofootball.com/)
-- [Spielverlagerung](http://spielverlagerung.com/)
-
-
-Below are some pics during a time where I ate, slept and played football. The sport has
-given me many fond memories and good friends!
-
-{{< figure src="images/dav_s2_footy_team.jpg" alt="IFL" class="footypic" >}}
-
-{{< figure src="images/footy_hall9.jpg" alt="IFL" class="footypic" >}}
-
-{{< figure src="images/ifl01.jpg" alt="IFL" class="footypic" >}}
-
-{{< figure src="images/footy2.jpg" alt="IFL" class="footypic" >}}
 
