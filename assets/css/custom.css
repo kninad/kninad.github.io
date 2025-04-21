@@ -1,3 +1,6 @@
+html, body {
+  font-size: 15px;
+}
 
 body {
   font-size: 1em;
@@ -11,6 +14,9 @@ body {
   border-bottom: none;
 }
 
+pre, code {
+  font-size: 0.85em;
+}
 
 a {
   border-bottom: 1px dashed var(--tertiary-color);
@@ -38,6 +44,13 @@ a:hover {
   padding-left: 8px;
   border-radius: 10%;
 }
+
+h1, h2 {
+  border-bottom: 2px dotted #bbbbbb;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 
 h1::before {
   content: '';
@@ -68,7 +81,7 @@ h6::before {
 
 .footypic {
   float: left;
-  width:300px;
+  width: 300px;
   border-radius: 10px;
-  padding: 5px;
+  padding: 15px;
 }

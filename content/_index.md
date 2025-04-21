@@ -12,7 +12,7 @@ The University of Texas at Dallas \
 **Email** {{<icon "envelope">}}: `ninadarun.khargonkar@utdallas.edu`
 
 **Links**:
-**CV** {{<icon "copy-solid">}} ([**PDF**](./cv/CV_Ninad_Khargonkar.pdf), [**HTML**](cv/)) |
+[**CV** {{<icon "copy-solid">}}](/cv/) [ [pdf](./cv/CV_Ninad_Khargonkar.pdf) | [html](/cv/) ] |
 [**GitHub** {{< icon "github" >}}](https://github.com/kninad/) |
 [**Google Scholar** {{< icon "google" >}}](https://scholar.google.com/citations?user=5eFmqkAAAAAJ&hl=en) |
 [**LinkedIn** {{< icon "linkedin" >}}](https://www.linkedin.com/in/kninad/) |

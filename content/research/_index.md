@@ -2,7 +2,25 @@
 title: Research
 ---
 
-My main research focus is on robot manipulation methods, especially robust grasping. I am interested in developing generalizable grasp and manipulation methods which can scale well to unseen objects and gripper morphologies. I am currently trying to develop generative models for fast and accurate grasp synthesis. In addition to this, I am also interested in interactive perception based methods for real world robotics and have a couple of projects relating to real world segmentation. Apart from these, I am excited to learn more about topics like equivariant networks, deformable object modeling, deep generative models and geometry fundamentals!
+My main research focus is on robot manipulation methods, especially robust 
+grasping. I am interested in developing generalizable grasp and manipulation 
+methods which can scale well to unseen objects and gripper morphologies. I am
+currently trying to develop generative models for fast and accurate grasp 
+synthesis. In addition to this, I am also interested in interactive perception
+based methods relating to real world unseen object segmentation.
+
+## Service
+
+I have served as a paper reviewer for the following:
+
+- 2025: RA-L, IROS
+- 2024: RA-L, IROS, CoRL, ACM MM
+- 2023: ICRA, IROS, CoRL, ACM MM
+- 2022: ICRA, IROS, ICMR, ICHI, ACM MM
+- 2021: IEEE VR, ACM MM
+
+Workshop Organization: [Neural Representation Learning for Robot Manipulation](https://neurl-rmw.github.io/),
+[2023 Conference on Robot Learning](https://www.corl2023.org/)
 
 
 ## Relevant Publications
@@ -94,16 +112,5 @@ In IEEE Transactions on Information Theory (ISIT) 2021 \
 With R Iyer, J Bilmes, H Asanani \
 In Algorithmic Learning Theory (ALT) 2021 \
 | [JMLR Link](https://proceedings.mlr.press/v132/iyer21a.html) | [Arxiv](https://arxiv.org/abs/2006.15412) |
-
-
-## Service
-
-I have served as a paper reviewer for the following:
-
-- 2024: RA-L, IROS, CoRL, ACM MM
-- 2023: ICRA, IROS, CoRL, ACM MM
-- 2022: ICRA, IROS, ICMR, ICHI, ACM MM
-- 2021: IEEE VR, ACM MM
-- 2020: IJCAI (external reviewer)
 
 
