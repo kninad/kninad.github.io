@@ -7,6 +7,8 @@ Made using Hugo and Kayal theme.
 
 # Usage and Publishing
 
+Last checked compatability with Hugo Version: `0.139.4`. Newer versions `0.14xx`
+did not work well as hugo showed a warning for kayal theme not being compatible.
 
 - Edit the markdown files in `content`
 - Preview the website using `hugo server` -- will open a local website (default on `localhost:1313`)
