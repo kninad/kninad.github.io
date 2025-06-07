@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
 
 :root{
-  --ff: 'Domine', 'Palatino', 'Cambria', 'Cochin', 'Georgia', 'Times New Roman', 'Times', serif;
-  /* --ff: 'Ubuntu'; */
+  --ff: 'Domine', Charter, 'Bitstream Charter', 'Georgia', 'Sitka Text', Cambria, serif;
   --radius: 6px;
   --primary-color: #292929;
   --secondary-color: #EFEFE6;
@@ -28,10 +27,4 @@
   --scrollbar-thumb: #525252;
 }
 
-@font-face {
-  font-display: swap;
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 300;
-  src: url('../fonts/Ubuntu-Regular.woff2') format('woff2');
-}
+
