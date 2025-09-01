@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+
+:root{
+  --ff: 'Domine', Charter, 'Bitstream Charter', 'Georgia', 'Sitka Text', Cambria, serif;
+  --radius: 6px;
+  --primary-color: #292929;
+  --secondary-color: #EFEFE6;
+  --tertiary-color: #652632;
+  --link-color: #449DD1;
+  --tertiary-color-light: #FFB370;
+  --secondary-color-dark: #DFDFCD;
+  --black: #292929;
+  --code-bg: #272822; /*Monokai*/
+  --code-fg: #f8f8f2; /*Monokai*/
+  --code-scroll-thumb: #525252;
+  --scrollbar-track: #EFEFE6;
+  --scrollbar-thumb: #B7B78F;
+}
+
+.dark {
+  --primary-color: #EFEFE6;
+  --secondary-color: #292929;
+  --tertiary-color: #cf9e74;
+  --tertiary-color-light: #A34C00;
+  --secondary-color-dark: #3D3D29;
+  --scrollbar-track: #292929;
+  --scrollbar-thumb: #525252;
+}
+
+

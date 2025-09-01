@@ -1,0 +1,87 @@
+html, body {
+  font-size: 15px;
+}
+
+body {
+  font-size: 1em;
+  line-height: 1.65em;
+}
+
+#main-menu a {
+  margin: 0.7em 0.5em;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-bottom: none;
+}
+
+pre, code {
+  font-size: 0.85em;
+}
+
+a {
+  border-bottom: 1px dashed var(--tertiary-color);
+  /* color: var(--link-color); */
+}
+
+a:hover {
+  color: var(--link-color);
+  border-bottom: 2px solid var(--tertiary-color);
+}
+
+.avatar.left {
+  /* margin-top: 16px; */
+  margin-top: 0px;
+  position: relative;
+  float: left;
+}
+
+.avatar img {
+  height: 120px;
+  width: 120px;
+  /* padding: 8px: */
+  padding: 0px;
+  padding-right: 8px;
+  padding-left: 8px;
+  border-radius: 10%;
+}
+
+h1, h2 {
+  border-bottom: 2px dotted #bbbbbb;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+
+h1::before {
+  content: '';
+}
+h2::before {
+  content: '';
+}
+h3::before {
+  content: '';
+}
+h4::before {
+  content: '';
+}
+h5::before {
+  content: '';
+}
+h6::before {
+  content: '';
+}
+
+.paper-banner {
+  float:left;
+  height:110px;
+  width: 100px;
+  border-radius: 10px;
+  margin:0em 1em 0em 0em;
+}
+
+.footypic {
+  float: left;
+  width: 300px;
+  border-radius: 10px;
+  padding: 15px;
+}

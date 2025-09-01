@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="data:text/css;charset=utf-8,%0A%3Cstyle%3E%0A%0A%0Ahtml%20%7B%0Afont%2Dsize%3A%20100%25%3B%0Aoverflow%2Dy%3A%20scroll%3B%0Abackground%2Dcolor%3A%23fcfcfc%3B%0A%2Dwebkit%2Dtext%2Dsize%2Dadjust%3A%20100%25%3B%0A%2Dms%2Dtext%2Dsize%2Dadjust%3A%20100%25%3B%0A%7D%0Abody%20%7B%0Acolor%3A%20%232f2f2f%3B%0Afont%2Dfamily%3A%20Arial%2C%20Helvetica%2C%20sans%2Dserif%3B%0A%0A%0Afont%2Dsize%3A%2014px%3B%0Aline%2Dheight%3A%201%2E5%3B%0Apadding%3A%201em%3B%0Amargin%3A%20auto%3B%0A%0Amax%2Dwidth%3A%2050em%3B%0Abackground%2Dcolor%3A%23fafafa%3B%0A%7D%0A%0A%23TOC%20%7B%0A%0Awidth%3A%20350px%3B%20%0Aposition%3A%20fixed%3B%20%0Az%2Dindex%3A%201%3B%20%0Atop%3A%200%3B%20%0Aleft%3A%200%3B%0Abackground%2Dcolor%3A%20%23f6f6f6%3B%20%0A%0Apadding%2Dtop%3A%2010px%3B%0Amargin%2Dtop%3A%2015px%3B%0Amargin%2Dleft%3A%2050px%3B%0Amax%2Dheight%3A%2080%25%3B%0Aoverflow%3Aauto%3B%0A%7D%0A%0A%23TOC%20a%20%7B%0Apadding%3A%206px%208px%206px%2016px%3B%0Atext%2Ddecoration%3A%20none%3B%0Afont%2Dfamily%3A%20Helvetica%2C%20Arial%20sans%2Dserif%3B%0Afont%2Dsize%3A%200%2E9em%3B%0Acolor%3A%20%23111111%3B%0Adisplay%3A%20block%3B%0A%7D%0A%0A%23TOC%20a%3Ahover%20%7B%0Acolor%3A%20%23444444%3B%0Atext%2Ddecoration%3A%20underline%3B%0A%7D%0A%23paper%2Dbanner%20%7B%0Afloat%3Aleft%3B%0Aheight%3A90px%3B%0Awidth%3A%2090px%3B%0Aborder%2Dradius%3A%2010px%3B%0Amargin%3A0em%201em%200em%200em%3B%7D%0A%23banner%20%7B%0Aheight%3A100px%3B%0Awidth%3A100%25%3B%0A%7D%0A%23footypic%20%7B%0A%0Amax%2Dheight%3A200px%3B%0Aborder%2Dradius%3A%2010px%3B%0Apadding%3A%205px%3B%0A%7D%0A%23mypic%20%7B%0Amax%2Dheight%3A200px%3B%0A%7D%0A%23profile%5Fpic%20%7B%0Afloat%3Aleft%3B%0Aheight%3A145px%3B%0Aborder%2Dradius%3A%2020px%3B%0Amargin%3A0em%201em%200em%200em%3B%0A%7D%0A%23research%5Fpic%20%7B%0Afloat%3Aright%3B%0Awidth%3A20em%3B%0Amargin%3A0em%200em%201em%201em%3B%0A%7D%0A%2Efooter%20%7B%0A%0Afont%2Dsize%3A%20%2E8em%3B%0A%7D%0A%23hr%5Ffooter%20%7B%0Adisplay%3A%20block%3B%0Aheight%3A%201px%3B%0Aborder%3A%200%3B%0Aborder%2Dtop%3A%201px%20solid%20%23c9c9c9%3B%0A%0A%7D%20%2Etopnav%20%7B%0Aoverflow%3A%20hidden%3B%0Afont%2Dfamily%3A%20Arial%2C%20Helvetica%2C%20sans%2Dserif%3B%0A%0Afont%2Dsize%3A%200%2E8em%3B%20%7D%0A%2Etopnav%20a%20%7B%0Afloat%3A%20left%3B%0A%0Acolor%3A%20%231c373d%3B%20%0Atext%2Dalign%3A%20center%3B%0Apadding%3A%200px%2010px%2010px%200px%3B%0Atext%2Ddecoration%3A%20none%3B%0Afont%2Dsize%3A%201%2E2em%3B%0A%7D%0A%2Etopnav%20a%3Ahover%20%7B%0A%0A%0Atext%2Ddecoration%3A%20underline%3B%0A%7D%0A%2Etopnav%20a%2Eactive%20%7B%0A%0Acolor%3A%20%23634508%3B%0A%7D%0A%2Enav%5Fitem%5Factive%20a%7B%0A%0Acolor%3A%20%23634508%3B%0A%7D%0Aa%20%7B%0Acolor%3A%20%23417189%3B%0Atext%2Ddecoration%3A%20none%3B%0A%7D%0Aa%3Avisited%20%7B%0Acolor%3A%20%23417189%3B%0A%7D%0Aa%3Ahover%20%7B%0Acolor%3A%20%2306e%3B%0A%7D%0Aa%3Aactive%20%7B%0Acolor%3A%20%23634508%3B%0A%7D%0Aa%3Afocus%20%7B%0Aoutline%3A%20thin%20dotted%3B%0A%7D%0A%0Ap%20%7B%0Amargin%3A%201em%200%3B%0A%7D%0Aimg%20%7B%0Amax%2Dheight%3A%20200px%3B%0Amax%2Dwidth%3A%20100%25%3B%0A%7D%0Ah1%2C%20h2%2C%20h3%2C%20h4%2C%20h5%2C%20h6%20%7B%0Afont%2Dfamily%3A%20Palatino%2C%20Cambria%2C%20Cochin%2C%20Georgia%2C%20Times%2C%20%27Times%20New%20Roman%27%2C%20serif%3B%0A%0Acolor%3A%20%23255198%3B%0Aline%2Dheight%3A%20125%25%3B%0Amargin%2Dtop%3A%200%2E25em%3B%0Afont%2Dweight%3A%20normal%3B%0A%7D%0Ah1%2C%20h2%2C%20h3%20%7B%0Apadding%2Dbottom%3A%200%2E2em%3B%0Aline%2Dheight%3A%201%2E25%3B%0Apadding%2Dtop%3A%200%2E8em%3B%0Aborder%2Dbottom%3A%202px%20solid%20%23c0c0c0%3B%0Afont%2Dweight%3A%20normal%3B%0A%7D%0Ah4%2C%20h5%2C%20h6%20%7B%0Afont%2Dweight%3A%20bold%3B%0A%7D%0Ah1%20%7B%0Afont%2Dsize%3A%201%2E7em%3B%0A%7D%0Ah2%20%7B%0Afont%2Dsize%3A%201%2E5em%3B%0A%7D%0Ah3%20%7B%0Afont%2Dsize%3A%201%2E25em%3B%0A%7D%0Ah4%20%7B%0Afont%2Dsize%3A%201em%3B%0A%7D%0Ah5%20%7B%0Afont%2Dsize%3A%200%2E8em%3B%0A%7D%0Ah6%20%7B%0Afont%2Dsize%3A%200%2E7em%3B%0A%7D%0Ablockquote%20%7B%0Acolor%3A%20%23666666%3B%0Amargin%3A%200%3B%0Apadding%2Dleft%3A%203em%3B%0Aborder%2Dleft%3A%200%2E5em%20%23EEE%20solid%3B%0A%7D%0Ahr%20%7B%0Adisplay%3A%20block%3B%0Aheight%3A%201px%3B%0Aborder%3A%200%3B%0Aborder%2Dtop%3A%201%2E75px%20solid%20%23d6d6d6%3B%0A%0Amargin%3A%200%3B%0Apadding%3A%200%3B%0A%7D%0Apre%2C%20code%2C%20kbd%2C%20samp%20%7B%0Acolor%3A%20%23323232%3B%0Abackground%2Dcolor%3A%20%23f4f4f4%3B%0Afont%2Dfamily%3A%20SFMono%2DRegular%2C%20Consolas%2C%20%22Liberation%20Mono%22%2C%20%27Courier%20New%27%2C%20Courier%2C%20monospace%3B%0Afont%2Dsize%3A%200%2E9em%3B%0Aborder%2Dradius%3A%204px%3B%0Aoverflow%3A%20scroll%3B%0A%7D%0Apre%20%7B%0Awhite%2Dspace%3A%20pre%3B%0Awhite%2Dspace%3A%20pre%2Dwrap%3B%0Aword%2Dwrap%3A%20break%2Dword%3B%0A%7D%0Ab%2C%20strong%20%7B%0Afont%2Dweight%3A%20bold%3B%0A%7D%0Adfn%20%7B%0Afont%2Dstyle%3A%20italic%3B%0A%7D%0Ains%20%7B%0Abackground%3A%20%23ff9%3B%0Acolor%3A%20%23000%3B%0Atext%2Ddecoration%3A%20none%3B%0A%7D%0Amark%20%7B%0Abackground%3A%20%23ff0%3B%0Acolor%3A%20%23000%3B%0Afont%2Dstyle%3A%20italic%3B%0Afont%2Dweight%3A%20bold%3B%0A%7D%0Asub%2C%20sup%20%7B%0Afont%2Dsize%3A%2075%25%3B%0Aline%2Dheight%3A%200%3B%0Aposition%3A%20relative%3B%0Avertical%2Dalign%3A%20baseline%3B%0A%7D%0Asup%20%7B%0Atop%3A%20%2D0%2E5em%3B%0A%7D%0Asub%20%7B%0Abottom%3A%20%2D0%2E25em%3B%0A%7D%0Aul%2C%20ol%20%7B%0Amargin%3A%201em%200%3B%0Apadding%3A%200%200%200%202em%3B%0A%7D%0Ali%20p%3Alast%2Dchild%20%7B%0Amargin%2Dbottom%3A%200%3B%0A%7D%0Aul%20ul%2C%20ol%20ol%20%7B%0Amargin%3A%20%2E3em%200%3B%0A%7D%0Adl%20%7B%0Amargin%2Dbottom%3A%201em%3B%0A%7D%0Adt%20%7B%0Afont%2Dweight%3A%20bold%3B%0Amargin%2Dbottom%3A%20%2E8em%3B%0A%7D%0Add%20%7B%0Amargin%3A%200%200%20%2E8em%202em%3B%0A%7D%0Add%3Alast%2Dchild%20%7B%0Amargin%2Dbottom%3A%200%3B%0A%7D%0Aimg%20%7B%0Aborder%3A%200%3B%0A%2Dms%2Dinterpolation%2Dmode%3A%20bicubic%3B%0Avertical%2Dalign%3A%20middle%3B%0A%7D%0Afigure%20%7B%0Adisplay%3A%20block%3B%0Atext%2Dalign%3A%20center%3B%0Amargin%3A%201em%200%3B%0A%7D%0Afigure%20img%20%7B%0Aborder%3A%20none%3B%0Amargin%3A%200%20auto%3B%0Adisplay%3Ablock%3B%0Apage%2Dbreak%2Dinside%3Aavoid%3B%20%7D%0Afigcaption%20%7B%0Afont%2Dsize%3A%200%2E8em%3B%0Afont%2Dstyle%3A%20italic%3B%0Amargin%3A%200%200%20%2E8em%3B%0Adisplay%3Anone%3B%0A%7D%0Atable%20%7B%0Amargin%2Dbottom%3A%202em%3B%0Aborder%2Dbottom%3A%201px%20solid%20%23ddd%3B%0Aborder%2Dright%3A%201px%20solid%20%23ddd%3B%0Aborder%2Dspacing%3A%200%3B%0Aborder%2Dcollapse%3A%20collapse%3B%0A%7D%0Atable%20th%20%7B%0Apadding%3A%20%2E2em%201em%3B%0Abackground%2Dcolor%3A%20%23eee%3B%0Aborder%2Dtop%3A%201px%20solid%20%23ddd%3B%0Aborder%2Dleft%3A%201px%20solid%20%23ddd%3B%0A%7D%0Atable%20td%20%7B%0Apadding%3A%20%2E2em%201em%3B%0Aborder%2Dtop%3A%201px%20solid%20%23ddd%3B%0Aborder%2Dleft%3A%201px%20solid%20%23ddd%3B%0Avertical%2Dalign%3A%20top%3B%0A%7D%0A%2Eauthor%20%7B%0Afont%2Dsize%3A%201%2E2em%3B%0Atext%2Dalign%3A%20center%3B%0A%7D%0A%0A%40media%20screen%20and%20%28max%2Dheight%3A%20450px%29%20%7B%0A%23TOC%20%7Bdisplay%3A%20none%3B%20%7D%0A%7D%0A%40media%20screen%20and%20%28max%2Dwidth%3A%20900px%29%20%7B%0A%23TOC%20%7Bdisplay%3A%20none%3B%20%7D%0A%7D%0A%40media%20only%20screen%20and%20%28min%2Dwidth%3A%20480px%29%20%7B%0Abody%20%7B%0Afont%2Dsize%3A%2014px%3B%0A%7D%0A%7D%0A%40media%20only%20screen%20and%20%28min%2Dwidth%3A%20768px%29%20%7B%0Abody%20%7B%0Afont%2Dsize%3A%2016px%3B%0A%7D%0A%7D%0A%40media%20print%20%7B%0A%2A%20%7B%0Abackground%3A%20transparent%20%21important%3B%0Acolor%3A%20black%20%21important%3B%0Afilter%3A%20none%20%21important%3B%0A%2Dms%2Dfilter%3A%20none%20%21important%3B%0A%7D%0A%23TOC%7B%0Adisplay%3A%20none%3B%0A%7D%0Abody%20%7B%0Afont%2Dsize%3A%2012pt%3B%0Amax%2Dwidth%3A%20100%25%3B%0A%7D%0Aa%2C%20a%3Avisited%20%7B%0Atext%2Ddecoration%3A%20underline%3B%0A%7D%0Ahr%20%7B%0Aheight%3A%201px%3B%0Aborder%3A%200%3B%0Aborder%2Dbottom%3A%201px%20solid%20black%3B%0A%7D%0Aa%5Bhref%5D%3Aafter%20%7B%0Acontent%3A%20%22%20%28%22%20attr%28href%29%20%22%29%22%3B%0A%7D%0Aabbr%5Btitle%5D%3Aafter%20%7B%0Acontent%3A%20%22%20%28%22%20attr%28title%29%20%22%29%22%3B%0A%7D%0A%2Eir%20a%3Aafter%2C%20a%5Bhref%5E%3D%22javascript%3A%22%5D%3Aafter%2C%20a%5Bhref%5E%3D%22%23%22%5D%3Aafter%20%7B%0Acontent%3A%20%22%22%3B%0A%7D%0Apre%2C%20blockquote%20%7B%0Aborder%3A%201px%20solid%20%23999%3B%0Apadding%2Dright%3A%201em%3B%0Apage%2Dbreak%2Dinside%3A%20avoid%3B%0A%7D%0Atr%2C%20img%20%7B%0Apage%2Dbreak%2Dinside%3A%20avoid%3B%0A%7D%0Aimg%20%7B%0Amax%2Dwidth%3A%20100%25%20%21important%3B%0A%7D%0A%40page%20%3Aleft%20%7B%0Amargin%3A%2015mm%2020mm%2015mm%2010mm%3B%0A%7D%0A%40page%20%3Aright%20%7B%0Amargin%3A%2015mm%2010mm%2015mm%2020mm%3B%0A%7D%0Ap%2C%20h2%2C%20h3%20%7B%0Aorphans%3A%203%3B%0Awidows%3A%203%3B%0A%7D%0Ah2%2C%20h3%20%7B%0Apage%2Dbreak%2Dafter%3A%20avoid%3B%0A%7D%0A%7D%0A%3C%2Fstyle%3E%0A" rel="stylesheet" type="text/css" />
+  <meta name="keywords" content="python, c++, cuda, pytorch, machine learning, robotics, computer vision, deep learning, git, github, rest api, ros, gazebo, pybind, isaac, research">
+  <title>Ninad Khargonkar</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">body { font-family:Arial, Helvetica, sans-serif; }
+body { width: 75%; margin: auto; max-width: 1000px; margin-left:300px; padding-left: 40px;}
+body, p { font-size: 12pt; color: #222; }
+h1.title { font-size: 24pt; text-transform: uppercase ; color: #111 ; font-weight: normal;}
+h1, h2, h3 { font-family: 'Palatino', Georgia, Times, 'Times New Roman', serif }
+h1 { font-size: 1.4em; text-transform: normal; font-weight: bold; color: #00485c; margin-top: 1em; margin-bottom: .4em; border-bottom: 1px solid #444;
+}
+h2 { font-size: 1.1em; font-weight: bold;}
+p { margin: 0.7em 0 0 0; }
+ul { list-style: "-"; margin: 0.5em; padding-left: 1em; text-indent: -1em; padding-right: 2em; }
+li { padding-left: 1em; text-indent: -1em; padding-right: 2em;}
+a { text-decoration: none; border-bottom: 1px dashed #bbb; color: #000; }
+a:hover, #foot a:hover { color: #444; border-bottom: 1px dashed #444; }
+code { font-size: 10pt; background-color: #f4f4f4; padding: 2px; box-shadow: 1px 1px 2px #ddd; }
+#downloads { position: absolute; top: 1em; right: 1em; color: #777; font-style: italic; font-size: 0.8em; }
+#online_resume { display: none; }
+#clear_foot { height: 3em; }
+hr { display: none; }
+@media print {
+body { width: 92%; margin: auto; }
+h1 { font-size: 16pt; }
+h2 { font-size: 12pt; margin-top: 2em; }
+body, p, li { font-size: 10pt; }
+code {font-size: 8pt; background-color: #eee; padding: 2px;}
+hr { display: block; page-break-after: always; padding: 0; margin: 0; border: 0; }
+#downloads { display: none; }
+#online_resume { display: block; text-align: center; color: #777; font-style: italic; font-size: 10pt; }
+}
+
+#TOC {
+
+width: 300px; 
+position: fixed; 
+z-index: 1; 
+top: 0; 
+left: 0;
+background-color: #f6f6f6; 
+overflow-x: hidden; 
+padding-top: 10px;
+margin-top: 5px;
+}
+
+#TOC a {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-family: Helvetica, Arial sans-serif;
+font-size: 0.9em;
+color: #111111;
+display: block;
+}
+
+#TOC a:hover {
+color: #444444;
+text-decoration: underline;
+}
+</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="downloads">
+  <a href="../index.html"><b>[Back to Homepage]</b></a>. 
+  Download as: 
+  <a href="CV_Ninad_Khargonkar.txt">[TXT]</a> or
+  <a href="CV_Ninad_Khargonkar.pdf">[PDF]</a> or
+  <a href="CV_Ninad_Khargonkar.docx">[DOCX]</a>
+  (Generated from pandoc/markdown)
+</div>
+<header>
+<h1 class="title">Ninad Khargonkar</h1>
+</header>
+<nav id="TOC">
+<ul>
+<li><a href="#education">Education</a></li>
+<li><a href="#work-experience">Work Experience</a></li>
+<li><a href="#technical-skills">Technical Skills</a></li>
+<li><a href="#research-projects">Research Projects</a></li>
+<li><a href="#relevant-publications">Relevant Publications</a></li>
+<li><a href="#other-experience">Other Experience</a></li>
+<li><a href="#achievements-awards">Achievements &amp; Awards</a></li>
+</ul>
+</nav>
+<p>Webpage: <a href="https://kninad.github.io/">kninad.github.io</a> | GitHub: <a href="https://github.com/kninad">kninad</a> | Email: <a href="mailto:ninadk.utd@gmail.com">ninadk.utd@gmail.com</a> | LinkedIn: <a href="https://linkedin.com/in/kninad">linkedin.com/in/kninad</a></p>
+<h1 id="education">Education</h1>
+<p>2019 - 2025: <strong>University of Texas at Dallas</strong>, <em>Ph.D. in Computer Science</em> - <a href="https://labs.utdallas.edu/irvl/">Intelligent Robotics and Vision Lab</a></p>
+<p>2017 - 2019: <strong>University of Massachusetts, Amherst</strong>, <em>M.S in Computer Science</em></p>
+<p>2013 - 2017: <strong>Indian Institute of Technology (IIT) Kanpur</strong>, <em>B.S. in Mathematics and Scientific Computing</em></p>
+<h1 id="work-experience">Work Experience</h1>
+<h2 id="machine-learningai-internship-covariant.ai">Machine Learning/AI Internship – <em>Covariant.ai</em></h2>
+<p>Jan 2024 - May 2024 | Emeryville, CA</p>
+<ul>
+<li>Worked as a researcher in problem domain of AI-based robotics for warehousing and logistics operations</li>
+<li>Explored generative models like VAE and Latent Diffusion for robot grasp generation from real-world inputs</li>
+<li>Building robot foundation models that can deal with multi-modal inputs like text and images</li>
+</ul>
+<h2 id="research-and-development-internship-kitware-inc.">Research and Development Internship – <em>Kitware Inc.</em></h2>
+<p>Jun 2022 - Aug 2022 | Remote</p>
+<ul>
+<li>Researched machine learning algorithms for approximating medial skeleton of point clouds &amp; voxels</li>
+<li>Implemented UNet based segmentation models for skeletonizing 2D images and adapted them for 3D setting</li>
+<li>Demonstrated improved results via point-cloud skeletonization on data from hippocampi and leaflet regions</li>
+</ul>
+<h2 id="graduate-research-assistant-university-of-texas-at-dallas">Graduate Research Assistant – <em>University of Texas at Dallas</em></h2>
+<p>Aug 2019 - Present | Dallas, TX</p>
+<ul>
+<li>Researcher in Intelligent Robotics &amp; Vision Lab, working on robot grasping, 3D vision and learning from humans</li>
+<li>Concurrent research on interactive perception for unseen object segmentation in cluttered environments</li>
+<li>Prior work on submodular information measures for machine learning problems in data selection &amp; active learning</li>
+<li>Involved in mentoring students, working as a teaching assistant and taking guest lectures in selected courses</li>
+</ul>
+<h2 id="mitacs-globalink-research-internship-university-of-manitoba-winnipeg">Mitacs Globalink Research Internship – <em>University of Manitoba, Winnipeg</em></h2>
+<p>May 2016 - Jul 2016 | Winnipeg, Canada</p>
+<ul>
+<li>Studied the problem of graph sampling and extracting relevant statistics like clustering coefficient</li>
+<li>Implemented scale-down sampling with like Metropolis-Hastings and Jump random walks in R</li>
+<li>Statistical models like ERGM were used for producing model fits and simulating random networks</li>
+<li>Worked on second project for simulating team performance and biases in a football tournament structure</li>
+</ul>
+<h1 id="technical-skills">Technical Skills</h1>
+<p><strong>Programming Languages:</strong> Python, C/C++, R</p>
+<p><strong>Frameworks/Libraries:</strong> PyTorch, ROS, CUDA, IsaacGym, Unity, OpenGL</p>
+<p><strong>Development Tools:</strong> Git/GitHub, Docker, VS Code, Vim, Tmux, LaTeX, Pandoc</p>
+<h1 id="research-projects">Research Projects</h1>
+<p><strong>Interactive Perception</strong> | <em>Unseen Object Segmentation</em></p>
+<ul>
+<li>Leveraging long term robot interaction with objects for real world unseen object segmentation</li>
+<li>Proposed self-supervised data collection method to improved real world segmentation performance</li>
+<li>Extended the method to utilize uncertainty in segmentation for minimizing number of interactions</li>
+</ul>
+<p><strong>Robot Manipulation</strong> | <em>Robust Grasping &amp; Skill Transfer</em></p>
+<ul>
+<li>Learning a common representation across different robot gripper grasps for efficient skill transfer</li>
+<li>Proposed object contact-based metric learning constraints for effective learning in common space</li>
+<li>Demonstrated applications for human to robot grasp trasnfer via our encoding + retrieval pipeline</li>
+</ul>
+<p><strong>Replicable Benchmarking</strong> | <em>Perception, Grasping &amp; Motion Planning</em></p>
+<ul>
+<li>Developed an intuitive method for replicable, real-world scenes of objects for robot benchmarking</li>
+<li>Implemented scene generation pipeline in simulation with focus on cluttered but graspable scenes</li>
+<li>Extened 10 existing methods across pose estimation, segmentation and grasping for real world experiments</li>
+</ul>
+<p><strong>Submodular Information Measures</strong> | <em>Machine Learning</em></p>
+<ul>
+<li>Proposed novel information theoretic measures for submodular set functionsin context for robust machine learning</li>
+<li>Theoretical properties backed up with applications on outlier aware subsets, summarization &amp; clustering tasks</li>
+<li>Follow up works demonstrated computer vision applications in active learning for object detection</li>
+</ul>
+<h1 id="relevant-publications">Relevant Publications</h1>
+<ol type="1">
+<li><p>RobotFingerPrint: Unified Gripper Coordinate Space for Multi-Gripper Grasp Synthesis, <em>(Under Submission)</em></p></li>
+<li><p>MultiGripperGrasp: A Dataset for Robotic Grasping from Parallel Jaw Grippers to Dexterous Hands, <em>In IEEE International Conference on Intelligent Robots and Systems (IROS) 2024</em>.</p></li>
+<li><p>RISeg: Robot Interactive Object Segmentation via Body Frame-Invariant Features, <em>In IEEE International Conference on Robotics and Automation (ICRA) 2024</em>.</p></li>
+<li><p>SceneReplica: Benchmarking Real-World Robot Manipulation by Creating Replicable Scenes, <em>In IEEE International Conference on Robotics and Automation (ICRA) 2024</em>.</p></li>
+<li><p>CIS2VR: CNN-based Indoor Scan to VR Environment Authoring Framework, <em>In IEEE International Conference on AI &amp; extended and Virtual Reality (AIxVR) 2024</em>.</p></li>
+<li><p>Self-Supervised Unseen Object Instance Segmentation via Long-Term Robot Interaction. <em>In Robotics: Science and Systems (RSS), 2023</em>.</p></li>
+<li><p>Skeletal Point Representations with Geometric Deep Learning. <em>In IEEE International Symposium on Biomedical Imaging (ISBI), 2023.</em></p></li>
+<li><p>NeuralGrasps: Learning Implicit Representations for Grasps of Multiple Robotic Hands. <em>In Conference on Robot Learning (CoRL), 2022.</em></p></li>
+<li><p>Virtepex: Virtual Remote Tele-Physical Examination System. <em>In ACM SIGCHI Conference on Designing Interactive Systems (DIS), 2022.</em></p></li>
+<li><p>Submodular combinatorial information measures with applications in machine learning. <em>In International Conference on Algorithmic Learning Theory (ALT), 2021.</em></p></li>
+</ol>
+<h1 id="other-experience">Other Experience</h1>
+<p><strong>Professional Service:</strong></p>
+<ul>
+<li>Reviewer for CoRL, ICRA, IROS, IEEE VR, ACM MM, ICMR, ICHI</li>
+<li>Organizing committee member: <a href="https://neurl-rmw.github.io/">Workshop for Neural Representation Learning for Robot Manipulation</a> at CoRL’23</li>
+</ul>
+<p><strong>Teaching Assistant:</strong> Machine Learning, Robotics, Computer Graphics, NLP, Statistics for Data Science</p>
+<p><strong>Mentorship:</strong> Peer mentor for new PhD students at UT-Dallas and member of Counselling Service at IIT Kanpur</p>
+<h1 id="achievements-awards">Achievements &amp; Awards</h1>
+<ul>
+<li>Awarded the competitive IEEE RAS Travel Grant for ICRA 2024 in Japan.</li>
+<li>UT Dallas Graduate Student Assembly travel award for paper presentation.</li>
+<li>Awarded the Mitacs Globalink scholarship for summer research internship in Canada.</li>
+<li>Recipient of Inspire scholarship awarded by Govt. of India for academic performance at IIT Kanpur.</li>
+<li>Secured a percentile score of 97.7 in JEE (Advanced)-2013 and 99.8 in JEE (Main)-2013 national engineering entrance examinations.</li>
+</ul>
+</body>
+</html>

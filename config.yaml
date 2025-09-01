@@ -1,4 +1,0 @@
-CONTENT_DIR: "content"
-OUTPUT_DIR: "docs"
-THEME_DIR: "themes/simple"
-STATIC_DIR: "static"
