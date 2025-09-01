@@ -4,7 +4,7 @@ title: Welcome to my homepage!
 navbar_home: true
 ---
 
-![banner_pic](./static/media/dp_nz.jpg){#profile-pic}
+![banner_pic](./static/media/profile_pic.png){#profile-pic}
 **Ninad Khargonkar** \
 Ph.D. Candidate \
 Department of Computer Science \
