@@ -2,25 +2,22 @@
 
 Github repository for my personal webpage: https://kninad.github.io/
 
-Made using Hugo and Kayal theme.
+# Current Build
 
+Vibecoded python based static site generator
 
-# Usage and Publishing
+- Content goes under `content`
+- Static files images go under `static`
+  - Use `./static/...` path in markdown
+  - CSS under `static/css/style.css`
+- Dark theme by default for going easy on the eyes
+  - Couldn't figure out toggle switch in time!
+- Sitewide config in `config.yaml`
+  - Specifies the `static` dir and `content` dir
+- Menu is under `menu.yaml`
+  - Use html paths for the links
 
-Last checked compatability with Hugo Version: `0.139.4`. Newer versions `0.14xx`
-did not work well as hugo showed a warning for kayal theme not being compatible.
-
-- Edit the markdown files in `content`
-- Preview the website using `hugo server` -- will open a local website (default on `localhost:1313`)
-- To finally push changes to web host, run `hugo`. IMP to run this before pushing!
-  - It will publish the website in teh `docs` folder
-  - NOTE: This is not the defauly folder it usually publishes in (default is `public` folder), but I changed the `publishDir = "docs"` in `hugo.toml` config.
-- I have enabled github to load the website from the `docs` folder of the repo.
-- Push the changes to github
-
-Notes:
-
-1. For html CV, I just edit the `content/cv/_index.md` manually as the other resume changes
+Seems simple enough to quickly write new websites without hassle of a complex generator which I don't fully understand. 
 
 
 # Content Notes
@@ -61,3 +58,35 @@ Also acts as a way to organize your papers! Need not include all your pubs. Add 
 
 - Add redshift link to Useful Links under Notes
 
+
+
+# (OLD) Hugo Publishing
+
+Made using Hugo and Kayal theme.
+
+> Last checked compatability with Hugo Version: `0.139.4`. 
+Newer versions `0.14xx` did not work well as hugo showed a warning for kayal theme not being compatible.
+
+I have the hugo binary under `~/Applications/bin/` folder where I keep other third party binaries. Also
+have a backup with me for the binary.
+
+## Hugo Config
+- Under `config/_default.hugo.toml`
+- Keep the `publishDir = "docs"` and github settings to pick up the content from here.
+
+
+## Workflow
+
+- Edit the markdown files in `content`
+- Preview the website using `hugo server` -- will open a local websit
+  - default on `localhost:1313`
+- To finally push changes to web host, run `hugo`. IMP to run this before pushing!
+  - It will publish the website in teh `docs` folder
+  - NOTE: This is not the defauly folder it usually publishes in
+    - Default is `public` folder), but I changed the `publishDir = "docs"` in `hugo.toml` config.
+- I have enabled github to load the website from the `docs` folder of the repo.
+- Push the changes to github
+
+Notes:
+
+1. For html CV, I just edit the `content/cv/_index.md` manually as the other resume changes

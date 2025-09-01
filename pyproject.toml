@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simple-static-site"
+version = "0.1.0"
+description = "A minimal static site generator with Markdown, YAML, and Jinja2 support."
+authors = [
+    { name = "Your Name", email = "you@example.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["static-site-generator", "markdown", "jinja2", "yaml"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/simple-static-site"
+"Repository" = "https://github.com/yourusername/simple-static-site"
+
+[project.dependencies]
+PyYAML = "^7.0"
+Markdown = "^3.5"
+Jinja2 = "^3.1"
+
+[project.scripts]
+ssg = "generator:main"
