@@ -1,4 +1,0 @@
-[submodule "themes/kayal"]
-	path = themes/kayal
-	url = git@github.com:kninad/kayal.git
-	branch = main

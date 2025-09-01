@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Misc</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="./static/css/pandoc.css" />
+</head>
+
+
+<body>
+<nav>
+  <div class="nav-container">
+
+    <ul>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="index.html" class="">Home</a>
+      </li>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="research.html" class="">Research</a>
+      </li>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="blog/index.html" class="">Notes</a>
+      </li>
+
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="misc.html" class="">Misc</a>
+      </li>
+
+      <!-- theme toggle button -->
+      <li class="nav-toggle">
+        <button id="theme-toggle" aria-label="Toggle Theme">
+          🌙
+        </button>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+<hr />
+
+<div class="main-content">
+      <header id="title-block-header">
+      <h1 class="title">Miscellaneous stuff</h1>
+          
+      
+            </header>
+  
+  <h2 id="useful-links">Useful Links</h2>
+  <p>LaTeX: <a
+  href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes">30
+  min tutorial</a>, <a
+  href="http://www.latextemplates.com/">templates</a>, <a
+  href="https://en.wikibooks.org/wiki/LaTeX/">wikibook</a></p>
+  <p><a href="https://wiby.me/">wiby.me</a>: Old websites search
+  engine</p>
+  <p><a href="https://www.gutenberg.org/">Project Gutenberg</a>: Public
+  domain free ebooks</p>
+  <p><a href="https://www.studentsagainstdepression.org/">Students
+  against depression</a>: Helpful website for taking care of mental
+  health</p>
+  <p><a href="https://lichess.org/">Lichess</a>: Trying out chess!</p>
+  <p><a href="https://www.zotero.org/">Zotero</a>: Free software for
+  organizing research readings. It also has a Firefox/Chrome addons for
+  adding articles from web.</p>
+  <h3 id="markdown-based-documentation">Markdown based
+  documentation</h3>
+  <p>Here are some of my code repos created for use cases of writing a
+  resume and personal documentation.</p>
+  <ul class="incremental">
+  <li><p><a
+  href="https://github.com/kninad/resume-pandoc">resume-pandoc</a> :
+  Auto generate resume in different formats from a <em>single</em>
+  markdown source.</p></li>
+  <li><p><a
+  href="https://kninad.github.io/rippledoc-ext">rippledoc-ext</a> :
+  Extended rippledoc to created html pages from folder full of markdown
+  files.</p></li>
+  </ul>
+  <h2 id="football-for-rest-of-the-world">Football (For rest of the
+  world!)</h2>
+  <p>My primary passtime is playing and watching football. Here are some
+  football related websites that I like:</p>
+  <ul class="incremental">
+  <li><a href="http://fantasy.premierleague.com/">Fantasy premier
+  league</a></li>
+  <li><a href="https://www.tifofootball.com/">Tifo Football</a></li>
+  <li><a href="http://spielverlagerung.com/">Spielverlagerung</a></li>
+  </ul>
+  <p>Below are some pics during a time where I ate, slept and played
+  football. The sport has given me many fond memories and good
+  friends!</p>
+  <p><img src="./static/media/ifl01.jpg" id="footypic" alt="ifl1" />
+  <img src="./static/media/footy_hall9.jpg" id="footypic"
+  alt="footy2" /> <img src="./static/media/footy2.jpg" id="footypic"
+  alt="ifl" /> <img src="./static/media/dav_s2_footy_team.jpg"
+  id="footypic" alt="dav" /></p>
+  <hr / id=hr_footer>
+  <p><em><span class=footer>Last updated on Sep 01, 2025. Created using
+  <a href="http://pandoc.org/">pandoc</a>.</em></span></p>
+
+  </div>
+
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    // Initialize theme from localStorage
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    body.classList.add(savedTheme);
+    updateIcon(savedTheme);
+
+
+    toggle.addEventListener('click', () => {
+      if (body.classList.contains('light')) {
+        body.classList.replace('light', 'dark');
+        localStorage.setItem('theme', 'dark');
+        updateIcon('dark');
+      } else {
+        body.classList.replace('dark', 'light');
+        localStorage.setItem('theme', 'light');
+        updateIcon('light');
+      }
+    });
+
+  // Update icon based on theme
+  function updateIcon(theme) {
+    toggle.textContent = theme === 'light' ? '🌙' : '☀️';
+  }
+  </script>
+
+</body>
+</html>

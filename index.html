@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>NinadK’s Page</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="./static/css/pandoc.css" />
+</head>
+
+
+<body>
+<nav>
+  <div class="nav-container">
+
+    <ul>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="index.html" class="">Home</a>
+      </li>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="research.html" class="">Research</a>
+      </li>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="blog/index.html" class="">Notes</a>
+      </li>
+
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="misc.html" class="">Misc</a>
+      </li>
+
+      <!-- theme toggle button -->
+      <li class="nav-toggle">
+        <button id="theme-toggle" aria-label="Toggle Theme">
+          🌙
+        </button>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+<hr />
+
+<div class="main-content">
+      <header id="title-block-header">
+      <h1 class="title">Welcome to my homepage!</h1>
+          
+      
+            </header>
+  
+  <p><img src="./static/media/dp_nz.jpg" id="profile-pic"
+  alt="banner_pic" /> <strong>Ninad Khargonkar</strong><br />
+  Ph.D. Candidate<br />
+  Department of Computer Science<br />
+  The University of Texas at Dallas<br />
+  Email: <code>ninadarun.khargonkar@utdallas.edu</code></p>
+  <p><strong>Links</strong>: <a
+  href="https://github.com/kninad/">GitHub</a> | <a
+  href="https://scholar.google.com/citations?user=5eFmqkAAAAAJ&amp;hl=en">Google
+  Scholar</a> | <a
+  href="https://www.linkedin.com/in/kninad/">LinkedIn</a> | <a
+  href="https://orcid.org/0000-0001-9191-0250">ORCiD</a> | C.V: <a
+  href="./static/docs/resume/CV_Ninad_Khargonkar.pdf">[pdf]</a> / <a
+  href="./static/docs/resume/CV_Ninad_Khargonkar.html">[html]</a><br />
+  </p>
+  <p>I am a PhD student in the Computer Science department at the
+  University of Texas at Dallas. I work on computer vision and machine
+  learning research problems with applications in robot perception &amp;
+  manipulation. I am associated with the <a
+  href="https://labs.utdallas.edu/irvl/">Intelligent Robotics and Vision
+  Lab</a> and I am advised by <a href="https://yuxng.github.io/">Dr. Yu
+  Xiang</a> and <a
+  href="https://profiles.utdallas.edu/bprabhakaran">Dr. B
+  Prabhakaran</a>. I spent four memorable years at IIT Kanpur from where
+  I graduated with a bachelors degree in Mathematics and Scientific
+  Computing from the department of Mathematics and Statistics. My
+  current research work revolves around data driven robot manipulation.
+  I am particularly interested in the problem of transferring grasps
+  across grippers and development of robust computer vision and geometry
+  based algorithms for grasping.</p>
+  <p>Apart from work, I am actively trying to wean myself from being
+  obssesed about playing football (requested by my knees!) Efforts
+  towards this <em>goal</em> include cooking, writing and becoming lazy
+  with my physical fitness.</p>
+  <hr / id=hr_footer>
+  <p><em><span class=footer>Last updated on Sep 01, 2025. Created using
+  <a href="http://pandoc.org/">pandoc</a>.</em></span></p>
+
+  </div>
+
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    // Initialize theme from localStorage
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    body.classList.add(savedTheme);
+    updateIcon(savedTheme);
+
+
+    toggle.addEventListener('click', () => {
+      if (body.classList.contains('light')) {
+        body.classList.replace('light', 'dark');
+        localStorage.setItem('theme', 'dark');
+        updateIcon('dark');
+      } else {
+        body.classList.replace('dark', 'light');
+        localStorage.setItem('theme', 'light');
+        updateIcon('light');
+      }
+    });
+
+  // Update icon based on theme
+  function updateIcon(theme) {
+    toggle.textContent = theme === 'light' ? '🌙' : '☀️';
+  }
+  </script>
+
+</body>
+</html>

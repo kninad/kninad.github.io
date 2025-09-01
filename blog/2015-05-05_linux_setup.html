@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="dcterms.date" content="2015-05-05" />
+  <title>Linux Setup</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="../static/css/pandoc.css" />
+</head>
+
+
+<body>
+<nav>
+  <div class="nav-container">
+
+    <ul>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="../index.html" class="">Home</a>
+      </li>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="../research.html" class="">Research</a>
+      </li>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="./index.html" class="">Notes</a>
+      </li>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="../misc.html" class="">Misc</a>
+      </li>
+
+      <!-- theme toggle button -->
+      <li class="nav-toggle">
+        <button id="theme-toggle" aria-label="Toggle Theme">
+          🌙
+        </button>
+      </li>
+
+
+    </ul>
+
+  </div>
+</nav>
+<hr />
+
+<div class="main-content">
+  
+  <h1 id="linux-setup">Linux Setup</h1>
+  <p>Date: 2015-05-05</p>
+  <h2 id="back-story">Back story</h2>
+  <p>My first Linux based os was Ubuntu 10.04 lts which I installed on
+  my home computer using wubi (it basically made ubuntu an ‘installed
+  program’ on windows). But this was just an exploration phase after I
+  had come to know about Linux and the GNU project. In first semester in
+  undergrad at iitk I used the computer center labs (CentOS, gnome 2)
+  and also we had to write C programming assignments on those
+  computers.</p>
+  <h2 id="motivation">Motivation</h2>
+  <p>In my second semester, I became more sucked into all the different
+  DEs! After that semester I became so comfortable and used to the way
+  of things in a linux os that I installed ubuntu on my personal laptop
+  (dual boot) and as soon my Windows os crashed right before an end
+  semester exam, I decided to use linux almost exclusively and
+  henceforth only booted into windows for games (fifa/cs).</p>
+  <p>I think once a person gets used to the environment a linux based os
+  , it can be easily used for everyday computing tasks and I have even
+  managed to convince my father to make the switch (ofcourse after he
+  longer had use for ms-office)! This is especially in today’s web
+  centric world where we use our browser most of the time.</p>
+  <p>Another motivation was the availability of programming tools which
+  were present by default in any installation along with the shell. I
+  still use the standard ‘noob’ distro i.e ubuntu (with Mate desktop
+  environment) as it suits my needs perfectly! Some mental notes put
+  down:</p>
+  <h2 id="useful-non-default-programs">Useful non-default programs</h2>
+  <ul class="incremental">
+  <li>LaTeX editor: Texmaker</li>
+  <li>Calibre: ebook management</li>
+  <li>Numix theme/icons for making desktop ‘pretty’</li>
+  <li>Tmux: terminal tabbing/windows</li>
+  <li>Redshift: reduce blue intensity of screen light (during dark
+  hours)</li>
+  </ul>
+  <h3 id="things-to-keep-in-mind">Things to keep in mind</h3>
+  <ul class="incremental">
+  <li>Days of distro-hopping (same goes for DE) are over. Go with what
+  works best and makes you productive.</li>
+  <li>Preferably download os .iso file over torrent and remember to
+  check hashes.</li>
+  <li>Use the file backup utilities to prevent catastrophe!!!</li>
+  <li>Suspend issue: install nvidia driver with
+  <code>acpi_sleep=nonvs</code> in grub + kernel update</li>
+  <li>Screen tearing: again drive + compositor like compiz helps</li>
+  <li>Battery Life: Install TLP / switch off nvidia gpu</li>
+  <li>Debian not added as sudo: You have to login as root and add your
+  user as sudo. <code>#adduser username sudo</code></li>
+  <li>Fonts: In Debian 8, fonts did not look ‘pretty’ by default. <a
+  href="https://wiki.debian.org/Fonts">Fonts wiki</a> will help. Also
+  check anti-aliasing settings, font rendering.</li>
+  </ul>
+  <hr />
+  <p><span class="footer"><em>Last updated on Sep 01, 2025. Created
+  using <a href="http://pandoc.org/">pandoc</a>.</em></span></p>
+
+  </div>
+
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    // Initialize theme from localStorage
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    body.classList.add(savedTheme);
+    updateIcon(savedTheme);
+
+
+    toggle.addEventListener('click', () => {
+      if (body.classList.contains('light')) {
+        body.classList.replace('light', 'dark');
+        localStorage.setItem('theme', 'dark');
+        updateIcon('dark');
+      } else {
+        body.classList.replace('dark', 'light');
+        localStorage.setItem('theme', 'light');
+        updateIcon('light');
+      }
+    });
+
+  // Update icon based on theme
+  function updateIcon(theme) {
+    toggle.textContent = theme === 'light' ? '🌙' : '☀️';
+  }
+  </script>
+
+</body>
+</html>

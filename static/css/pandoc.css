@@ -1,0 +1,355 @@
+/*
+ * Gruvbox Light Mode CSS for Pandoc HTML
+ */
+
+
+/* Light mode (default) */
+body.light {
+  --bg: #fdf6e3;
+  --text: #3c3836;
+  --primary: #b57614;
+  --secondary: #d65d0e;
+  --accent: #8f3f71;
+  --border: #d5c4a1;
+  --code-bg: #f0e6c8;
+  --code-text: #3c3836;
+  --link-hover: #fabd2f;
+  --nav-bg: #f4e7c5;
+}
+
+/* Dark mode */
+body.dark {
+  --bg: #1d2021;
+  --text: #ebdbb2;
+  --primary: #f4e7c5;
+  --secondary: #f1a66a;
+  --accent: #ffb86c;
+  --border: #3c3836;
+  --code-bg: #3c3836;
+  --code-text: #f4e7c5;
+  --link-hover: #ffb86c;
+  --nav-bg: #282828;
+}
+
+/* --- Base --- */
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  background-color: var(--bg);
+}
+
+body {
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
+  max-width: 50em;
+  margin: auto;
+  padding: none;
+  background-color: var(--bg);
+}
+
+.main-content {
+  margin: auto;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+/* --- Top Navigation --- */
+
+nav {
+  background-color: var(--nav-bg);
+  color: var(--text);
+  padding: 0.5em;
+  border-top: none;      /* remove any top border */
+  box-shadow: none;      /* remove shadow if unwanted */
+  border-bottom: 1px solid var(--border);  /* optional border line */
+}
+
+
+nav .nav-container {
+  max-width: 800px;      /* same as main max-width */
+  margin: 0 auto;        /* center it */
+  display: flex;
+  justify-content: center; /* center the menu horizontally */
+  align-items: center;
+}
+
+nav .nav-container ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: var(--text);
+  text-decoration: none;
+  padding: 0.3em 0.5em;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: var(--primary-hover);
+}
+
+nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid var(--primary);
+  color: var(--primary);
+}
+
+.nav-toggle {
+  margin-left: auto; /* pushes the toggle to the extreme right */
+}
+
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--text);
+  transition: color 0.2s;
+}
+
+#theme-toggle:hover {
+  color: var(--link-hover);
+}
+
+/* --- Links --- */
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--secondary);
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+a:active {
+  color: var(--primary);
+}
+
+/* --- Typography --- */
+p {
+  margin: 1em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Georgia", serif;
+  color: var(--primary);
+  line-height: 125%;
+  margin-top: 0.25em;
+  font-weight: normal;
+}
+
+h2, h3 {
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.2em;
+  padding-top: 0.8em;
+}
+
+h4, h5, h6 {
+  font-weight: bold;
+}
+
+h1 { font-size: 1.5em; margin-top: 1em;}
+h2 { font-size: 1.35em; }
+h3 { font-size: 1.2em; }
+h4 { font-size: 0.9em; }
+h5 { font-size: 0.8em; }
+h6 { font-size: 0.7em; }
+
+/* --- Blockquote --- */
+blockquote {
+  color: #7c6f64;
+  margin: 0;
+  padding-left: 3em;
+  border-left: 0.5em var(--border) solid;
+}
+
+/* --- Horizontal Rule --- */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1.75px solid var(--border);
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Code / Pre --- */
+pre, code, kbd, samp {
+  color: var(--code-text);
+  background-color: var(--code-bg);
+  font-family: "Fira Mono", Consolas, "Liberation Mono", monospace;
+  font-size: 0.85em;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* --- Inline styling --- */
+b, strong { font-weight: bold; }
+dfn { font-style: italic; }
+ins { background: #fffb91; color: #000; text-decoration: none; }
+mark { background: #fbf1c7; color: #000; font-style: italic; font-weight: bold; }
+sub, sup { font-size: 75%; line-height: 0; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+/* --- Lists --- */
+ul, ol { margin: 1em 0; padding-left: 2em; }
+ul ul, ol ol { margin: 0.3em 0; }
+
+/* --- Tables --- */
+table {
+  margin-bottom: 2em;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid var(--border);
+}
+
+table th, table td {
+  padding: 0.2em 1em;
+  border: 1px solid var(--border);
+  vertical-align: top;
+}
+
+table th {
+  background-color: #f0e6c8;
+}
+
+/* --- Figures --- */
+figure {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+
+figcaption {
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 0 0 0.8em;
+  display: none;
+}
+
+figure img {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+ #hr_footer {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin-bottom: -15px;
+ } 
+
+.footer {
+     margin: 0;
+     font-size: .6em;
+ }
+
+
+
+/* --- Custom Images --- */
+
+#paper-banner {
+  float:left;
+  height:90px;
+  width: 90px;
+  border-radius: 10px;
+  margin:0em 1em 0em 0em;}
+
+#footypic {
+  /* float: left; */
+  max-height:200px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#profile-pic {
+  float:left;
+  width:15%;
+  margin:0em 1em 0em 0em;
+  border-radius: 50%;
+}
+
+
+/* --- Media Queries --- */
+@media screen and (max-height: 450px), screen and (max-width: 900px) {
+  #TOC { display: none; }
+}
+
+@media only screen and (min-width: 480px) { body { font-size: 14px; } }
+@media only screen and (min-width: 768px) { body { font-size: 16px; } }
+
+@media print {
+  * { background: transparent !important; color: black !important; filter: none !important; }
+  #TOC { display: none; }
+  body { font-size: 12pt; max-width: 100%; }
+  a, a:visited { text-decoration: underline; }
+  hr { border-bottom: 1px solid black; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  pre, blockquote { border: 1px solid #999; padding-right: 1em; page-break-inside: avoid; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 50% !important; }
+}
+
+
+/* ------------------------------------------------ */
+/* --- Mobile Friendly --- */
+@media (max-width: 600px) {
+    /* nav {
+      flex-direction: column;
+      align-items: flex-start;
+    } */
+
+    body { font-size: 14px; }  
+      nav .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav ul {
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+}
