@@ -43,32 +43,31 @@ body {
   font-family: system-ui, sans-serif;
   font-size: 1em;
   line-height: 1.6;
-  max-width: 50em;
   margin: auto;
   padding: none;
   background-color: var(--bg);
 }
 
 .main-content {
-  margin: auto;
-  margin-left: 1%;
-  margin-right: 1%;
+  max-width: 50em;
+  margin: 0 auto;
+  padding-left: 2%;
+  padding-right: 2%
 }
 
 /* --- Top Navigation --- */
 
 nav {
+  width: 99%;
   background-color: var(--nav-bg);
   color: var(--text);
   padding: 0.5em;
-  border-top: none;      /* remove any top border */
-  box-shadow: none;      /* remove shadow if unwanted */
   border-bottom: 1px solid var(--border);  /* optional border line */
 }
 
 
 nav .nav-container {
-  max-width: 800px;      /* same as main max-width */
+  max-width: 50em;      /* same as main max-width */
   margin: 0 auto;        /* center it */
   display: flex;
   justify-content: center; /* center the menu horizontally */
