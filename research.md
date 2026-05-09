@@ -57,7 +57,6 @@ With S Allu, J Jaykumar, T Summers, J Yao, Y Xiang \
 *RobotFingerPrint: Unified Gripper Coordinate Space for Multi-Gripper Grasp Synthesis* \
 With F Casas, B Prabhakaran, Y Xiang \
 *In IEEE International Conference on Intelligent Robots and Systems (IROS) 2025* \
-*In IEEE International Conference on Intelligent Robots and Systems (IROS) 2025* \
 | [Arxiv](https://arxiv.org/pdf/2409.14519) | [Project Page](https://irvlutd.github.io/RobotFingerPrint/)
 
 ---
