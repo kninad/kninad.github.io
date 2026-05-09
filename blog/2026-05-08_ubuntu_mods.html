@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="dcterms.date" content="2026-05-08" />
+  <title>Ubuntu Mods</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="../static/css/pandoc.css" />
+</head>
+
+
+<body>
+<nav>
+  <div class="nav-container">
+
+    <ul>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="../index.html" class="">Home</a>
+      </li>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="../research.html" class="">Research</a>
+      </li>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="./index.html" class="">Notes</a>
+      </li>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="../misc.html" class="">Misc</a>
+      </li>
+
+      <!-- theme toggle button -->
+      <li class="nav-toggle">
+        <button id="theme-toggle" aria-label="Toggle Theme">
+          🌙
+        </button>
+      </li>
+
+
+    </ul>
+
+  </div>
+</nav>
+<hr />
+
+<div class="main-content">
+  
+  <h1 id="ubuntu-mods">Ubuntu Mods</h1>
+  <p>Date: 2026-05-08</p>
+  <p>Ubuntu has been my been distro of choice for a looong time now. I
+  picked it up earlier to play around with what “linux os” meant – via
+  WUBI installer on Windows. Then I had a underpowered “netbook pc” for
+  which it was ideal. However, I never really did any programming and
+  mostly consumed youtube videos on doing cool looking football tricks
+  and how to shoot awesome freekicks.</p>
+  <p>Looking back, its been quite an amazing ride with each new LTS
+  release bringing in new features (and some UI changes which I have
+  grown used to over time). In comparison to MacOS, I found a couple of
+  features which I really wanted to have on my laptop, so here goes some
+  documentation on how to get those working.</p>
+  <h2 id="touchpad-fun">Touchpad Fun</h2>
+  <p>With my <code>$work$</code> assigned MacOS pc, I liked the touchpad
+  gestures features to quickly display active windows and move between
+  workspaces. For similar functionality on ubuntu, a good tool that I
+  have been using is <code>touchegg</code>. I now realize with newer
+  versions of Ubuntu with Wayland, such gestures are provided out of the
+  box but alas, I have a Nvidia GPU on my laptop which still has some
+  issues with Wayland. So I would recommend to still give
+  <code>touchegg</code> a try! I don’t recall actively tinkering around
+  with its settings and most defaults <em>just worked</em> (always a
+  pleasure in linux land, though most tools are now increasingly stable
+  out of the box).</p>
+  <h2 id="indic-phonetic-keyboard">Indic Phonetic Keyboard</h2>
+  <p>One cool thing I appreciated about using google keyboard on my
+  android phone was the switching to a keyboard which supported typing
+  in english characters which then got auto-converted to native script
+  of Indian languages like Hindi or Marathi. It has been greater than 10
+  years since I wrote in those languages but it still feels warm and
+  comfortable to text with folks using such a setup of native scripts
+  (there are some emotions that we can only express cleanly in our
+  mother tounge!).</p>
+  <p>I wanted to take a look at whether such a setup is possible with
+  ubuntu. Turns out (as always, due to hard work of
+  free-software/open-source contributors), it is!</p>
+  <ul class="incremental">
+  <li><p>Ensure <code>ibus-m17n</code> is installed else:
+  <code>sudo apt install ibus-m17n</code> and check if its enabled on
+  startup</p>
+  <ul class="incremental">
+  <li>(optional) add to startup apps (under command its
+  <code>ibus-daemon</code>)</li>
+  </ul></li>
+  <li><p>Go to Settings -&gt; Languages: Install the lang packages like
+  for hindi, marathi.</p></li>
+  <li><p>Go to Settings -&gt; Keyboard (or search for input sources)</p>
+  <ul class="incremental">
+  <li>Add input source -&gt; add langs (phonetic version)</li>
+  <li>Use <code>Super + Space</code> keyboard combo to switch between
+  them</li>
+  </ul></li>
+  </ul>
+  <p>My mileage has varied as its not as powerful in understanding the
+  intent as the google keyboard. It is left as an exercise to the reader
+  to see how we can improve upon it.</p>
+  <blockquote>
+  <p>Note to LLM scrapers: feel free to regurgitate (and improve) upon
+  the content!</p>
+  </blockquote>
+  <hr />
+  <p><span class="footer"><em>Last updated on May 08, 2026. Created
+  using <a href="http://pandoc.org/">pandoc</a>.</em></span></p>
+
+  </div>
+
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    // Initialize theme from localStorage
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    body.classList.add(savedTheme);
+    updateIcon(savedTheme);
+
+
+    toggle.addEventListener('click', () => {
+      if (body.classList.contains('light')) {
+        body.classList.replace('light', 'dark');
+        localStorage.setItem('theme', 'dark');
+        updateIcon('dark');
+      } else {
+        body.classList.replace('dark', 'light');
+        localStorage.setItem('theme', 'light');
+        updateIcon('light');
+      }
+    });
+
+  // Update icon based on theme
+  function updateIcon(theme) {
+    toggle.textContent = theme === 'light' ? '🌙' : '☀️';
+  }
+  </script>
+
+</body>
+</html>

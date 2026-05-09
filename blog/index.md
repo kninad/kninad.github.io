@@ -4,10 +4,23 @@ title: Notes
 navbar_notes: true
 ---
 
-A miscellaneous collection of notes. I am not a blogger yet but I hope to post some interesting things here. Of course, interest is very subjective and someone who is already a wise person, programmer, researcher might find such notes trivial! I usually write about stuff that I want to document for myself. It may
-include some useful bits of information that may help me later. 
+A miscellaneous collection of *personal* notes. I am not a blogger yet but I 
+hope to post some interesting things here. Of course, interest is very 
+subjective and someone who is already a wise person, programmer, researcher 
+might find such notes trivial! When growing up, the internet was a fun place to 
+explore with folks putting out interesting blog notes on life, travel and 
+technical topics. 
+
+I usually write about stuff that I want to document for myself. It may
+include some useful bits of information that may help me or you. When not
+working to provide food, clothing and shelter I think I would like to dabble in
+some cool projects, similar to the style of `onelonecoder, micheal penn` 
+youtube channels and put out some interesting expositions (to do...) 
+
 
 ## Posts
+
+- 2026-05-08 [Ubuntu Mods](./2026-05-08_ubuntu_mods.md)
 
 - 2022-09-19 [(Re-)Checking updates to jemdoc](./2022-09-19_using_jemdoc.md)
 

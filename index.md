@@ -15,8 +15,8 @@ Links: [GitHub](https://github.com/kninad/) |
 [ORCiD](https://orcid.org/0000-0001-9191-0250)
 C.V: [[pdf]](./static/docs/resume/CV_Ninad_Khargonkar.pdf) / [[html]](./static/docs/resume/CV_Ninad_Khargonkar.html) \
 
-I am an Applied Scientist at Amazon Robotics in Seattle focusing on perception and high-level planning for robot manipulation.
-I was a PhD student in the Computer Science department at the University of Texas at Dallas and worked on CV/ML research with applications in robot perception & manipulation. I was associated with the [Intelligent Robotics and Vision Lab](https://labs.utdallas.edu/irvl/) and advised by [Dr. Yu Xiang](https://yuxng.github.io/) and  [Dr. B Prabhakaran](https://profiles.utdallas.edu/bprabhakaran). I spent four memorable years at IIT Kanpur from where I graduated with a bachelors degree in Mathematics and Scientific Computing from the department of  Mathematics and Statistics. My current research work revolves around data driven robot manipulation. I am particularly interested in the problem of transferring grasps across grippers and development of robust computer vision and geometry based algorithms for grasping.
+I am an Applied Scientist at Amazon Robotics in Seattle focusing on perception and planning for robot manipulation.
+I was a PhD student in the Computer Science department at the University of Texas at Dallas and worked on CV/ML research with applications in robot perception & manipulation. I was associated with the [Intelligent Robotics and Vision Lab](https://labs.utdallas.edu/irvl/) and advised by [Dr. Yu Xiang](https://yuxng.github.io/). I spent four memorable years at IIT Kanpur from where I graduated with a bachelors degree in Mathematics and Scientific Computing from the department of  Mathematics and Statistics. My current research work revolves around data driven robot manipulation. 
 
-Apart from work, I am actively trying to wean myself from being obssesed about playing football (requested by my knees!). Efforts towards this *goal* include cooking, writing and becoming lazy with my physical fitness.
+Apart from work, I am actively trying to wean myself from being obssesed about playing football (requested by my knees!). Efforts towards this *goal* include cooking, writing and becoming lazy with my physical fitness (task successfully executed!).
 
