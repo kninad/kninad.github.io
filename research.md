@@ -5,12 +5,15 @@ navbar_research: true
 ---
 
 In a past life I attempted to do *some* work on robot manipulation, in particular developing generalizable grasp and manipulation methods which can scale well to unseen objects and gripper morphologies. I was also dabbling in generative models for fast and accurate grasp synthesis and interactive perception based methods relating to real-world, unseen object segmentation (well SAM superceded most of it anyways...)
+In a past life I attempted to do *some* work on robot manipulation, in particular developing generalizable grasp and manipulation methods which can scale well to unseen objects and gripper morphologies. I was also dabbling in generative models for fast and accurate grasp synthesis and interactive perception based methods relating to real-world, unseen object segmentation (well SAM superceded most of it anyways...)
 
 
 ## Service
 
 I have served as a reviewer for the following:
+I have served as a reviewer for the following:
 
+- 2026: RSS, IEEE Transactions on Robotics (T-RO)
 - 2026: RSS, IEEE Transactions on Robotics (T-RO)
 - 2025: RA-L, IROS
 - 2024: RA-L, IROS, CoRL, ACM MM
@@ -46,15 +49,18 @@ Workshop Organization: [Neural Representation Learning for Robot Manipulation](h
 *HRT1: One-Shot Human-to-Robot Trajectory Transfer for Mobile Manipulation* \
 With S Allu, J Jaykumar, T Summers, J Yao, Y Xiang \
 *Under Submission* \
-| [Arxiv](https://arxiv.org/abs/2510.21026) | [Project Page](https://irvlutd.github.io/HRT1/)
+[Arxiv](https://arxiv.org/abs/2510.21026) | [Project Page](https://irvlutd.github.io/HRT1/)
 
+---
 
 ![banner_pic](./static/media/paper_thumbnails/icra25_RFP.png){#paper-banner}
 *RobotFingerPrint: Unified Gripper Coordinate Space for Multi-Gripper Grasp Synthesis* \
 With F Casas, B Prabhakaran, Y Xiang \
 *In IEEE International Conference on Intelligent Robots and Systems (IROS) 2025* \
+*In IEEE International Conference on Intelligent Robots and Systems (IROS) 2025* \
 | [Arxiv](https://arxiv.org/pdf/2409.14519) | [Project Page](https://irvlutd.github.io/RobotFingerPrint/)
 
+---
 
 ![banner_pic](./static/media/paper_thumbnails/iros24_mgg.png){#paper-banner}
 *MultiGripperGrasp: A Dataset for Robotic Grasping from Parallel Jaw Grippers to Dexterous Hands* \
