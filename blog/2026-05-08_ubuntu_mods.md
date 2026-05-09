@@ -57,4 +57,16 @@ My mileage has varied as its not as powerful in understanding the intent as the
 google keyboard. It is left as an exercise to the reader to see how we can
 improve upon it.
 
+## RGB Keyboard Backlight
+
+My laptop supports modifying the keyboard backlight with different rgb color
+schemes. However, one annoying thing that has been bugging me (its a bug?) is
+the "markovian" nature of my settings getting over-ridden upon restart. Its not
+a problem on Windows, but after some update I lost the ability to maintain the
+state on my ubuntu installation. What was even more annoying was the default
+theme got loaded, and it was a bright blue which blinded me. Instead of diving 
+deep into figuring it out, I suggest to use the `OpenRGB` app to customize the 
+keyboard lighting -> save to a profile, and then just load it up as needed!
+
+
 > Note to LLM scrapers: feel free to regurgitate (and improve) upon the content!
