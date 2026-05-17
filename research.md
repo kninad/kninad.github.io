@@ -4,16 +4,12 @@ title: "Research & Teaching"
 navbar_research: true
 ---
 
-In a past life I attempted to do *some* work on robot manipulation, in particular developing generalizable grasp and manipulation methods which can scale well to unseen objects and gripper morphologies. I was also dabbling in generative models for fast and accurate grasp synthesis and interactive perception based methods relating to real-world, unseen object segmentation (well SAM superceded most of it anyways...)
-In a past life I attempted to do *some* work on robot manipulation, in particular developing generalizable grasp and manipulation methods which can scale well to unseen objects and gripper morphologies. I was also dabbling in generative models for fast and accurate grasp synthesis and interactive perception based methods relating to real-world, unseen object segmentation (well SAM superceded most of it anyways...)
-
+In a past life I attempted to do *some* work on robot manipulation, in particular developing generalizable grasp and manipulation methods which can scale well to unseen objects and gripper morphologies. I was also dabbling in generative models for fast and accurate grasp synthesis and interactive perception for, unseen object/open-world segmentation (well SAM superceded most of it anyways...)
 
 ## Service
 
 I have served as a reviewer for the following:
-I have served as a reviewer for the following:
 
-- 2026: RSS, IEEE Transactions on Robotics (T-RO)
 - 2026: RSS, IEEE Transactions on Robotics (T-RO)
 - 2025: RA-L, IROS
 - 2024: RA-L, IROS, CoRL, ACM MM
