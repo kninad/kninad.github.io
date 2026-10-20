@@ -1,24 +1,21 @@
 ---
 pagetitle: Notes
-title: Notes
+title: Tipanni
 navbar_notes: true
 ---
 
-A miscellaneous collection of *personal* notes. I am not a blogger yet but I 
-hope to post some interesting things here. Of course, interest is very 
-subjective and someone who is already a wise person, programmer, researcher 
-might find such notes trivial! When growing up, the internet was a fun place to 
-explore with folks putting out interesting blog notes on life, travel and 
-technical topics. 
+Collection of *tipaniyan*, attempted to gather original insights but may result in rehashing of interesting concepts I come across. How to pronounce: Tipp-Anne-Yeah, Tip-Paa-Knee-Yea, Tee-Ppp-Knee-Yaa? When growing up, the internet was a fun place to  explore with folks putting out interesting blog notes on life, travel and technical topics.
 
 I usually write about stuff that I want to document for myself. It may
 include some useful bits of information that may help me or you. When not
-working to provide food, clothing and shelter I think I would like to dabble in
-some cool projects, similar to the style of `onelonecoder, micheal penn` 
-youtube channels and put out some interesting expositions (to do...) 
+working to provide food, clothing and shelter, I think I would like to dabble in
+some cool projects or expsitions, similar to the style of `onelonecoder, micheal penn` 
+youtube channels (yet to do...waiting for some original insights to load). 
 
 
 ## Posts
+
+- 2026-10-19 [Severance](./2026-10-19_severance.md)
 
 - 2026-05-08 [Ubuntu Mods](./2026-05-08_ubuntu_mods.md)
 

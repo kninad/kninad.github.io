@@ -6,7 +6,7 @@ make clean
 # Generate the html files
 make all
 
-# Git commit and push
-git add .
-git commit -m "website update"
-git push
+# # Git commit and push
+# git add .
+# git commit -m "website update"
+# git push

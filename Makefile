@@ -14,7 +14,7 @@ all: $(HTMLs)
 %.html: %.md
 	@cat $< > $(TEMPFILE)
 	@echo "\n <hr / id="hr_footer">*<span class="footer">$(STRING1) `stat -c %Y Makefile | date +'%b %d, %Y'`. $(STRING2)*</span>" >> $(TEMPFILE)
-	@pandoc --template=./static/html/template.html --lua-filter=./static/links-to-html.lua -c ./static/css/pandoc.css -B ./static/html/navbar_L1.html --mathjax -f markdown -t html5 --standalone -i $(TEMPFILE) -o $@
+	@pandoc --template=./static/html/template.html --lua-filter=./static/links-to-html.lua -c ./static/css/pandoc.css -B ./static/html/navbar_L1.html --math-method=mathjax -f markdown -t html5 --standalone -i $(TEMPFILE) -o $@
 	@rm -f $(TEMPFILE)
 
 .PHONY : clean

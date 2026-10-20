@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="dcterms.date" content="2026-10-19" />
+  <title>Severance</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="../static/css/pandoc.css" />
+</head>
+
+
+<body>
+<nav>
+  <div class="nav-container">
+
+    <ul>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="../index.html" class="">Home</a>
+      </li>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="../research.html" class="">Research</a>
+      </li>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="./index.html" class="">Notes</a>
+      </li>
+
+      <li class="nav_item ${if(navbar_home)}nav_item_active${endif}">
+        <a href="../misc.html" class="">Misc</a>
+      </li>
+
+      <!-- theme toggle button -->
+      <li class="nav-toggle">
+        <button id="theme-toggle" aria-label="Toggle Theme">
+          🌙
+        </button>
+      </li>
+
+
+    </ul>
+
+  </div>
+</nav>
+<hr />
+
+<div class="main-content">
+  
+  <h1 id="severance">Severance</h1>
+  <p>Date: 2026-10-19</p>
+  <p>I recently watched a tv show called <em>Severance</em>. The central
+  plot of the show revolves about a split in memory induced by a brain
+  implant which allows office workers to have a clean separation about
+  work and life (funny how that’s meant to be disjoint). The separation
+  at memory level means that the during office hours, a person has no
+  recollection about their working hours when outside the office, and
+  vice versa. This effectively leads to a split personality where the
+  same person can take on a different outlook or perspective as their
+  interactions differ. I thought the central theme was quite differnt
+  from what I had watched before. It also felt close to home as I have
+  recently started working in industry and transitioning from a graduate
+  school lifestyle. This means maintaining a stable routine, and
+  learning new things about “office life”. Many a times I have waddled
+  back home on the bus still deep in thought about the day’s office
+  events, or some problem I am working on. It has been a rough learning
+  experience to actually dissociate from the day’s events and
+  <em>sever</em> back into my personal life.</p>
+  <p>What’s funny is that quite often, regular working days do end up
+  feeling like you have to lock in and just empty out your brain’s
+  scratchpad for the office work. With the use of ai tooling there is
+  nuance to how much productive you can really be unless you are willing
+  to offload and mange the surge in context. But on the other hand, the
+  more distant you are to the work being done (in terms of truly
+  understanding it or writing about it), the more longing you get to
+  truly understand it and the unease that accompanies it stays back even
+  after you leave office. The rapid iteration and self-induced tinkering
+  expectation then means that the severance switch is only effective
+  1-way! We are living in interesting times with the progress in large
+  language models surpassing even the wildest of expectations. For this
+  new normal to even remotely feel normal I guess a mental shift in our
+  attitude towards the value that we derive from our work is in
+  oder.</p>
+  <p>I do not have a satisfactory solution for myself yet and no, the
+  analogy to compilers and assembly code do not translate here 1-1 in my
+  uninformed, and reactionary opinion. At some level we are indeed
+  severing ourselves from the end product of our labour and that feels
+  discomforting, even if software and research were already many levels
+  of separation away from real-world observable output unlike nurses or
+  teachers. Perhaps there is a middle ground that indeed gives the
+  productivity boost in tinkering without the baggage of feeling like a
+  severed person prompting things into a black box! As with any
+  boom-bust cycle, it will be a quite amusing to see what new standards
+  in terms of work-life this era will bring in. I guess we all wanted to
+  live in interesting times, well we have it now! Maybe over the next
+  decade we as a collective figure out better ways or maybe the stock
+  market decides for all us what the equlibrium should be. The journey
+  towards exploring and navigating this paradigm shift continues…</p>
+  <hr />
+  <p><span class="footer"><em>Last updated on Oct 19, 2026. Created
+  using <a href="http://pandoc.org/">pandoc</a>.</em></span></p>
+
+  </div>
+
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    // Initialize theme from localStorage
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    body.classList.add(savedTheme);
+    updateIcon(savedTheme);
+
+
+    toggle.addEventListener('click', () => {
+      if (body.classList.contains('light')) {
+        body.classList.replace('light', 'dark');
+        localStorage.setItem('theme', 'dark');
+        updateIcon('dark');
+      } else {
+        body.classList.replace('dark', 'light');
+        localStorage.setItem('theme', 'light');
+        updateIcon('light');
+      }
+    });
+
+  // Update icon based on theme
+  function updateIcon(theme) {
+    toggle.textContent = theme === 'light' ? '🌙' : '☀️';
+  }
+  </script>
+
+</body>
+</html>

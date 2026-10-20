@@ -22,6 +22,25 @@ Check out `blog/buidling-this-website` for more info!
 
 Cascading calling of `Makefile`: https://stackoverflow.com/a/31639190/9579260
 
+How to add a Note
+-----------------
+
+1. Make a markdown entry `yyyy-mm-dd_<TITLE>.md` under `blog/`
+2. Make an entry for it under `blog/index.md` using relative links
+   1. See existing examples.
+3. The publishing via pandoc automatically takes cares of internal links via a lua function which substitutes markdown extension with html. 
+4. Read for your own fun from the static website host (currently its github pages).
+5. Add this yaml snippet at the top of notes markdown:
+
+```
+---
+pagetitle: NoteTitle
+date: 2099-12-31
+navbar_blog: true
+---
+```
+
+
 TODO Overview
 -------------
 
