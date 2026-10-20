@@ -30,7 +30,3 @@ youtube channels and put out some interesting expositions (to do...)
 
 - 2015-05-05 [Linux setup](./2015-05-05_linux_setup.md)
 
-
-
-
-

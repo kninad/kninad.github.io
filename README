@@ -14,7 +14,7 @@ How to Publish
 --------------
 
 - Edit the markdown files
-- Run the `compile.sh` script
+- Run the `compile_fresh.sh` script which is just a series of `make` commands
 - Push the changes to github
 - See the Makefile workflow for a better understanding
 
@@ -73,10 +73,6 @@ Also acts as a way to organize your papers! Need not include all your pubs. Add 
 - Can use the MENU file to link notes directly! (see jemdoc homepage)
 
 - Finally, there will be a Useful Links + Footy pic section in Misc
-
-- Can add undergrad and other side projects too!
-
-- Can add some research projects too (CV / NLP / DL stuff under projects done)
 
 - Add in Misc: Prime numbers, mathy stuff, linux/foss ubuntu mate stuff
 
