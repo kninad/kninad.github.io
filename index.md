@@ -16,7 +16,7 @@ Links: [GitHub](https://github.com/kninad/) |
 C.V: [[pdf]](./static/docs/resume/CV_Ninad_Khargonkar.pdf) / [[html]](./static/docs/resume/CV_Ninad_Khargonkar.html) \
 
 
-Hello there, welcome to my personal webpage. Something personal bits about me: I enjoyed tinkering with different font families for quite a while but have come to the conclusion that `Jetbrains Mono` is the best. Please recommend something better if you think that can be overriden in terms of legibility and distraction free writing (does anybody "code" nowadays?).
+Hello there, welcome to my personal webpage. Some personal bit about me: I enjoyed tinkering with different font families for quite a while but have come to the conclusion that `Jetbrains Mono` is the best default. Please recommend something better if you think that can be overriden in terms of legibility and distraction free writing (does anybody "code" nowadays?).
 
 Work-related background: I am an Applied Scientist at Amazon Robotics in Seattle focusing on perception and planning for robot manipulation. I was a PhD student in the Computer Science department at the University of Texas at Dallas and worked on CV/ML research with applications in robot perception & manipulation. I was associated with the [Intelligent Robotics and Vision Lab](https://labs.utdallas.edu/irvl/) and advised by [Dr. Yu Xiang](https://yuxng.github.io/). I spent four memorable years at IIT Kanpur from where I graduated with a bachelors degree in Mathematics and Scientific Computing from the department of  Mathematics and Statistics. My current research work revolves around data driven robot manipulation. 
 

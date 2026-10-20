@@ -203,7 +203,7 @@ hr {
 pre, code, kbd, samp {
   color: var(--code-text);
   background-color: var(--code-bg);
-  font-family: "Fira Mono", Consolas, "Liberation Mono", monospace;
+  font-family: "Jetbrains Mono", Consolas, "Liberation Mono", monospace;
   font-size: 0.85em;
   border-radius: 4px;
   overflow: auto;
